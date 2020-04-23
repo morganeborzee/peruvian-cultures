@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Your Map</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/Turf.js/5.1.5/turf.min.js'></script>
+	<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.css' rel='stylesheet' />
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+
+<body>
+
+	<!-- MAP, TITLE, DROPDOWN and POPUP HERE -->
+
+
+	<div id='map'>
+		<div id='title'> Culturas Peruanas Pre-Incaicas</div>
+		<div id="dropdown">
+			<select id="select-menu">
+				<option value="">All Groups</option>
+			</select>
+		</div>
+		<div id='headPlace'> Rollover to get info</div>
+	</div>
+
+
+	<!-- BOTTOM MODULE WITH CULTURES BOXES INITIAL SCREEN -->
+
+	<div class= 'bottom-module' id='bottomInitial'> 
+		<div id='culture0' class='cultures'> <h3 id='cultTitle0'>Caral</h3> <p class="box-dates" id='boxDates0'>100 a.c. - 200a.c  </p> 
+		<img src="images/huaca_prieta.jpg" width=200px>
+		</div>
+		<div id='culture1' class='cultures'> <h3 id='cultTitle1'>Chavin</h3> <p class="box-dates" id='boxDates1'>100 a.c. - 200a.c </p> 
+		<img src="images/sechin.jpg" width=200px>
+		</div>
+		<div id='culture2' class='cultures'> <h3 id='cultTitle2'>Recuay</h3> <p class="box-dates" id='boxDates2'>100 a.c. - 200a.c </p> 
+		<img src="images/aldas.png" width=200px>
+		</div>
+		<div id='culture3' class='cultures'> <h3 id='cultTitle3'>Paracas</h3> <p class="box-dates" id='boxDates3'>100 a.c. - 200a.c </p> 
+		<img src="images/el_paraiso.jpg" width=200px>
+		</div>
+		<div id='culture4' class='cultures'> <h3 id='cultTitle4'>Moche</h3> <p class="box-dates" id='boxDates4'>100 a.c. - 200a.c </p> 
+		<img src="images/badurria.jpg" width=200px>
+		</div>
+		<div id='culture5' class='cultures'> <h3 id='cultTitle5'>Chimu</h3> <p class="box-dates" id='boxDates5'>100 a.c. - 200a.c </p> 
+		<img src="images/kotosh.jpg" width=200px>
+		</div>
+		<div id='culture6' class='cultures'> <h3 id='cultTitle6'>Paracas</h3> <p class="box-dates" id='boxDates6'>100 a.c. - 200a.c </p> 
+		<img src="images/el_paraiso.jpg" width=200px>
+		</div>
+		<div id='culture7' class='cultures'> <h3 id='cultTitle7'>Moche</h3> <p class="box-dates" id='boxDates7'>100 a.c. - 200a.c </p> 
+		<img src="images/badurria.jpg" width=200px>
+		</div>
+		<div id='culture8' class='cultures'> <h3 id='cultTitle8'>Chimu</h3> <p class="box-dates" id='boxDates8'>100 a.c. - 200a.c </p> 
+		<img src="images/kotosh.jpg" width=200px>
+		</div>
+		<div id='culture9' class='cultures'> <h3 id='cultTitle9'>Paracas</h3> <p class="box-dates" id='boxDates9'>100 a.c. - 200a.c </p> 
+		<img src="images/el_paraiso.jpg" width=200px>
+		</div>
+		<div id='culture10' class='cultures'> <h3 id='cultTitle10'>Moche</h3> <p class="box-dates" id='boxDates10'>100 a.c. - 200a.c </p> 
+		<img src="images/badurria.jpg" width=200px>
+		</div>
+		<div id='culture11' class='cultures'> <h3 id='cultTitle11'>Chimu</h3> <p class="box-dates" id='boxDates11'>100 a.c. - 200a.c </p> 
+		<img src="images/kotosh.jpg" width=200px>
+		</div>
+		<div id='culture12' class='cultures'> <h3 id='cultTitle12'>Paracas</h3> <p class="box-dates" id='boxDates12'>100 a.c. - 200a.c </p> 
+		<img src="images/el_paraiso.jpg" width=200px>
+		</div>
+		<div id='culture13' class='cultures'> <h3 id='cultTitle13'>Moche</h3> <p class="box-dates" id='boxDates13'>100 a.c. - 200a.c </p> 
+		<img src="images/badurria.jpg" width=200px>
+		</div>
+
+	</div> 
+
+	<!-- BOTTOM MODULE WITH SPECIFIC CULTURE ONCE SELECTED -->
+
+	<div class= 'bottom-module hidden' id='bottomCulture'> 
+		<div class="first-box">
+			<h1 id="culture-title">
+			Here title
+			</h1>
+			<p class="info-culture" id="culture-dates">
+			Here dates 
+			</p>
+			<p class="info-culture" id="culture-period">
+			Historical Period
+			</p>
+		</div>
+		<div class="second-box">
+			<p id="culture-description">Description goes here</p>
+			<a id="culture-link" href="https://en.wikipedia.org/wiki/Huaca_Prieta" target="_blank">Learn more
+			</a>
+		</div>
+		<div class="third-box">
+			<img id="culture-photo" src="images/huaca_prieta.jpg" width=auto>
+		</div>
+
+	</div>
+
+
+	
+	<script type="text/javascript" src="culture-sites.js"></script>
+	<script type="text/javascript" src="culture-general.js"></script>
+	<script type="text/javascript">
+
+
+// but note that way down below this is a method that auto centers and zooms:
+// map.fitBounds(turf.bbox(infoData), { padding: 120, linear: true })
+//If you want to control the centering and zoom yourself, comment out that line.
+
+		mapboxgl.accessToken = 'pk.eyJ1IjoiYWxlb3JhMjk2IiwiYSI6ImNrMmttaDlzMDIzeHAzaHE4NnMyamp0eHkifQ.ufBrm_31R6oudOYvQfwgjQ';
+
+		var map = new mapboxgl.Map({
+			container: 'map', 
+			style: 'mapbox://styles/aleora296/ck8t1mzkq038n1io13n9727rg', 
+			center: [-7.924008, -89.306949],
+			zoom: 20
+		});
+		map.addControl(new mapboxgl.NavigationControl(), 'bottom-left');
+
+// all of this JavaScript manages what's displayed on hover and click
+		var popup = new mapboxgl.Popup({ closeButton: false, closeOnClick: false });
+
+
+
+// QUE ES ESTO?
+		let hoverCurrentId = null
+		var datalayer;
+
+		function updateStory(e) {
+			let feature = e.features[0]
+		    var cultureName = feature.properties.name;
+		   	var cultureStart = feature.properties.startDate;
+		    var cultureEnd = feature.properties.endDate;
+		    var culturePeriod = feature.properties.period;
+		    var cultureText = feature.properties.description;
+
+		    document.getElementById('culture-title').textContent = cultureName;
+		    document.getElementById('culture-dates').textContent = cultureStart + " - " + cultureEnd;
+		    document.getElementById('culture-period').textContent = culturePeriod;
+		    document.getElementById('culture-description').textContent = cultureText;
+		    
+
+		}
+		function updateHead(e) {
+			let feature = e.features[0]
+			map.getCanvas().style.cursor = 'pointer';
+			document.getElementById("headPlace").innerHTML = feature.properties.name
+
+		}
+		function removeHead(e) {
+			document.getElementById("headPlace").innerHTML = "&nbsp;"
+			map.getCanvas().style.cursor = '';
+
+		}
+
+		function startHover(e) {
+			let feature = e.features[0]
+
+			if (hoverCurrentId) {
+				map.setFeatureState({ source: 'datalayer', id: hoverCurrentId }, { hover: false });
+			}
+			hoverCurrentId = feature.id
+			map.setFeatureState({ source: 'datalayer', id: hoverCurrentId }, { hover: true });
+		}
+
+		function stopHover(e) {
+			if (hoverCurrentId) {
+				map.setFeatureState({ source: 'datalayer', id: hoverCurrentId }, { hover: false });
+			}
+			hoverCurrentId = null;
+		}
+
+
+
+		function drawPopup(e) {
+			let feature = e.features[0]
+			map.getCanvas().style.cursor = 'pointer';
+
+			var coordinates = feature.geometry.coordinates.slice();
+			var placeName = feature.properties.name;
+
+			while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+				coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+			}
+
+			popup.setLngLat(coordinates)
+				.setHTML(`<h4>${placeName}</h4>`)
+				.addTo(map);
+		}
+
+		function removePopup(e) {
+			map.getCanvas().style.cursor = '';
+			popup.remove();
+		}
+
+		map.on('load', function () {
+			for (let i = 0; i < cultureSites.features.length; i++) {
+				cultureSites.features[i]['id'] = i + 1
+			}
+// the JavaScript below sets up the styles of the colors based on your properties
+// color, radius
+
+			datalayer = map.addLayer({
+				id: "datalayer",
+				type: "circle",
+				source: {
+					type: "geojson",
+					data: cultureSites,
+				},
+				paint: {
+					'circle-radius': ['to-number', ['get', 'radius']],
+					'circle-stroke-color': 'white',
+					'circle-stroke-width': 2,
+					'circle-color': [
+						'case',
+						['boolean', ['feature-state', 'hover'], false],
+						'#666',
+						['get', 'color'],
+					],
+					'circle-opacity': [
+						'case',
+						['boolean', ['feature-state', 'hover'], false],
+						1,
+						0.5
+					]
+				}
+			});
+// these functions control Mouse actions
+// they make the pop-up placeName or update the story text
+			// When we move the mouse over, draw the popup and change the hover style
+			map.on('mouseenter', 'datalayer', function (e) {
+				startHover(e)
+// uncomment this line to get pop-ups
+// 				drawPopup(e)
+				updateHead(e)
+			});
+
+			// When we move the mouse away from a point, turn off the hovering and popup
+			map.on('mouseleave', 'datalayer', function (e) {
+				stopHover(e)
+// uncomment this line to get pop-ups
+// 				removePopup(e)
+				removeHead(e)
+			});
+
+			// When we click, update the story (the right-hand side)
+			map.on('click', 'datalayer', function (e) {
+				document.getElementById('bottomCulture').classList.remove('hidden');
+				document.getElementById('bottomInitial').classList.add('hidden');
+				updateStory(e)
+
+				
+			});
+
+/*			map.fitBounds([
+			[32.958984, -5.353521],
+			[43.50585, 5.615985]
+			]);*/
+
+// centers the map and zooms it
+
+			map.fitBounds(turf.bbox(cultureSites), { padding: 120, linear: true })
+		});
+
+//HERE I CHANGE THE DATA OF INITIAL AND CULTURE SCREENS
+
+		for (var i = 0; i < infoData.features.length; i++){
+
+			  var activeCulture = i;
+		      var cultName = Object.values(infoData.features[i].properties.name); // initial screen
+
+		      var cultureName = Object.values(infoData.features[i].properties.name); // culture screen
+		      var cultureStart = Object.values(infoData.features[i].properties.startDate);
+		      var cultureEnd = Object.values(infoData.features[i].properties.endDate);
+		      var culturePeriod = Object.values(infoData.features[i].properties.period);
+		      var cultureText = Object.values(infoData.features[i].properties.description);
+
+			// changing data on culture screen
+		      document.getElementById('culture-title').textContent = cultureName;
+		      document.getElementById('culture-dates').textContent = cultureStart + " - " + cultureEnd;
+		      document.getElementById('culture-period').textContent = culturePeriod;
+		      document.getElementById('culture-description').textContent = cultureText;
+
+		    // changing data on initial screen
+		      document.getElementById('cultTitle'+ activeCulture).textContent = cultName;
+		      document.getElementById('boxDates'+ activeCulture).textContent = cultureStart + " - " + cultureEnd;
+		    }
+
+
+
+	</script>
+<script>
+	// this part is J query / with some mapbox JavaScript
+	// it changes what is displayed based on the pulldown menu
+		var groupsObj = {};
+
+		$(document).ready(function () {
+			cultureSites.features.forEach(function (feature) {
+				groupsObj[feature.properties.group_id] = feature.properties.name;
+			})
+
+			$.each(groupsObj, function (key, value) {
+				$('#select-menu')
+					.append($("<option></option>")
+						.attr("value", value)
+						.text(value));
+			});
+
+			$('#select-menu').change(function () {
+				var selectedGroup = $('#select-menu').val();
+
+				if (!selectedGroup) {
+					map.setFilter('datalayer', null);
+				} else {
+					map.setFilter('datalayer', ['==', ['get', 'name'], selectedGroup]);
+				}
+			});
+		});
+	</script>
+
+
+</body>
+
+</html>
