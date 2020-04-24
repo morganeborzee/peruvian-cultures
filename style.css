@@ -111,15 +111,6 @@
 
 /* OTHER STYLES */
 
-		#headPlace {
-			position: absolute;
-			right: 0px;
-			top: 0px;
-			z-index: 10;
-			padding: 10px;
-			width: 200px;
-			background-color: #DDDDDD;
-		}
 
 		#map{
 			height: calc(70vh - 15px);
