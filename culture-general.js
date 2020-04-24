@@ -1,6 +1,6 @@
 
 
-infoData = {
+cultureGeneral = {
    "type": "FeatureCollection",
   "features": [
     {
