@@ -291,13 +291,13 @@
 		for (var i = 0; i < cultureGeneral.features.length; i++){
 
 			  var activeCulture = i;
-		      var cultName = Object.values(cultureGeneral.features[i].properties.name); // initial screen
+		      var cultName = cultureGeneral.features[i].properties.name; // initial screen
 
-		      var cultureName = Object.values(cultureGeneral.features[i].properties.name); // culture screen
-		      var cultureStart = Object.values(cultureGeneral.features[i].properties.startDate);
-		      var cultureEnd = Object.values(cultureGeneral.features[i].properties.endDate);
-		      var culturePeriod = Object.values(cultureGeneral.features[i].properties.period);
-		      var cultureText = Object.values(cultureGeneral.features[i].properties.description);
+		      var cultureName = cultureGeneral.features[i].properties.name; // culture screen
+		      var cultureStart = cultureGeneral.features[i].properties.startDate;
+		      var cultureEnd = cultureGeneral.features[i].properties.endDate;
+		      var culturePeriod = cultureGeneral.features[i].properties.period;
+		      var cultureText = cultureGeneral.features[i].properties.description;
 
 			// changing data on culture screen
 		      document.getElementById('culture-title').textContent = cultureName;
