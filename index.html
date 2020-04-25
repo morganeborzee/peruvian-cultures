@@ -6,6 +6,7 @@
 	<title>Culturas Peruanas Pre-Incaicas</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="data:;base64,=">
 	<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.js'></script>
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/Turf.js/5.1.5/turf.min.js'></script>
 	<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.css' rel='stylesheet' />
@@ -13,6 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script type="text/javascript" src="culture-general.js"></script>
 	<script type="text/javascript" src="culture-sites.js"></script>
+
 
 </head>
 
@@ -151,16 +153,15 @@
 		});
 
 
-//ADD NAVIGATION BAR
-		map.addControl(new mapboxgl.NavigationControl(), 'bottom-left');
-
-
 //LOADS THE DATA
 		map.on('load', function () {
 			for (let i = 0; i < cultureGeneral.features.length; i++) {
 				cultureGeneral.features[i]['id'] = i + 1
 			}
 
+			for (let i = 0; i < cultureSites.features.length; i++) {
+				cultureSites.features[i]['id'] = i + 1
+			}
 
 
 //STYLE FOR LAYER			
@@ -171,6 +172,8 @@
 					type: "geojson",
 					data: cultureGeneral,
 				},
+				minzoom:3,
+				maxzoom:5,
 				paint: {
 					'circle-radius': ['to-number', ['get', 'radius']],
 					'circle-stroke-color': 'white',
@@ -191,6 +194,48 @@
 		
 			});
 
+			datalayer1 = map.addLayer({
+				id: "datalayer1",
+				type: "circle",
+				source: {
+					type: "geojson",
+					data: cultureSites,
+				},
+				minzoom:5,
+				maxzoom:20,
+				//layout: {
+				//	'visibility' : 'none',
+				//},
+				paint: {
+					'circle-radius': ['to-number', ['get', 'radius']],
+					'circle-stroke-color': 'white',
+					'circle-stroke-width': 2,
+					'circle-color': [
+						'case',
+						['boolean', ['feature-state', 'hover'], false],
+						'#666',
+						['get', 'color'],
+					],
+					'circle-opacity': [
+						'case',
+						['boolean', ['feature-state', 'hover'], false],
+						1,
+						0.5
+					]
+				}
+		
+			});
+
+/*
+map.on('zoomstart', 'datalayer1', function(e) {
+  if (map.getZoom() > 4) {
+    map.setLayoutProperty('datalayer1', 'visibility', 'visible');
+  }
+})
+*/
+
+//ADD NAVIGATION BAR
+		map.addControl(new mapboxgl.NavigationControl(), 'bottom-left');
 
 // CONTROLS THE POPUP
 		var popup = new mapboxgl.Popup({ 
@@ -332,9 +377,9 @@
 				var selectedGroup = $('#select-menu').val();
 
 				if (!selectedGroup) {
-					map.setFilter('datalayer', null);
+					map.setFilter('datalayer1', null);
 				} else {
-					map.setFilter('datalayer', ['==', ['get', 'group_name'], selectedGroup]);
+					map.setFilter('datalayer1', ['==', ['get', 'name'], selectedGroup]);
 				}
 			});
 		});
