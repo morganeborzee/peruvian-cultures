@@ -36,7 +36,7 @@
 
 	<!-- BOTTOM MODULE v1 WITH CULTURES BOXES INITIAL SCREEN -->
 
-	<div class= 'bottom-module' id='bottomInitial'> 
+	<div class= 'bottom-module-initial' id='bottomInitial'> 
 		<div id='culture0' class='cultures'> 
 			<h3 id='cultTitle0'>Caral</h3> 
 			<p class="box-dates" id='boxDates0'>100 a.c. - 200a.c  </p> 
@@ -112,15 +112,15 @@
 
 	<!-- BOTTOM MODULE v2 WITH SPECIFIC CULTURE ONCE SELECTED -->
 
-	<div class= 'bottom-module hidden' id='bottomCulture'> 
+	<div id='bottomCulture' class= 'bottom-module hidden'> 
 		<div class="first-box">
 			<h1 id="culture-title">
 				Here title
 			</h1>
-			<p class="info-culture" id="culture-dates">
+			<p id="culture-dates" class="info-culture">
 				Here dates 
 			</p>
-			<p class="info-culture" id="culture-period">
+			<p id="culture-period" class="info-culture">
 				Historical Period
 			</p>
 		</div>
@@ -128,7 +128,7 @@
 			<p id="culture-description">
 				Description goes here
 			</p>
-			<a id="culture-link" href="https://en.wikipedia.org/wiki/Huaca_Prieta" target="_blank">		Learn more
+			<a id="culture-link" href="https://en.wikipedia.org/wiki/Huaca_Prieta" target="_blank">			Learn more
 			</a>
 		</div>
 		<div class="third-box">
@@ -137,9 +137,28 @@
 
 	</div>
 
+	<!-- RIGHT MODULE ARCHEO -->
+
+	<div class= 'right-module' id='archeo-sites'> 
+		<img id="archeo-photo" src="images/huaca_prieta.jpg" width=300px>
+		<button id="closeButton"> close 
+		</button>
+		<h2 id="archeo-name"> 
+			NAME HERE
+		</h2>
+		<p class="right-description" id="archeo-description">
+				Here a lot of text, text, text, text. 
+		</p>
+		<a id="archeo-link" href="https://en.wikipedia.org/wiki/Huaca_Prieta" target="_blank">				Learn more
+		</a>
+	</div>
+
+
 
 
 	<script type="text/javascript">
+
+
 
 
 //MAPBOX ACCESS	AND BASELINE MAP STYLE	
@@ -166,7 +185,7 @@
 
 //STYLE FOR LAYER			
 			datalayer = map.addLayer({
-				id: "datalayer",
+				id: "culturelayer",
 				type: "circle",
 				source: {
 					type: "geojson",
@@ -195,7 +214,7 @@
 			});
 
 			datalayer1 = map.addLayer({
-				id: "datalayer1",
+				id: "siteslayer",
 				type: "circle",
 				source: {
 					type: "geojson",
@@ -203,9 +222,6 @@
 				},
 				minzoom:5,
 				maxzoom:20,
-				//layout: {
-				//	'visibility' : 'none',
-				//},
 				paint: {
 					'circle-radius': ['to-number', ['get', 'radius']],
 					'circle-stroke-color': 'white',
@@ -226,13 +242,7 @@
 		
 			});
 
-/*
-map.on('zoomstart', 'datalayer1', function(e) {
-  if (map.getZoom() > 4) {
-    map.setLayoutProperty('datalayer1', 'visibility', 'visible');
-  }
-})
-*/
+
 
 //ADD NAVIGATION BAR
 		map.addControl(new mapboxgl.NavigationControl(), 'bottom-left');
@@ -250,20 +260,21 @@ map.on('zoomstart', 'datalayer1', function(e) {
 			let feature = e.features[0]
 
 			if (hoverCurrentId) {
-				map.setFeatureState({ source: 'datalayer', id: hoverCurrentId }, { hover: false });
+				map.setFeatureState({ source: 'culturelayer', id: hoverCurrentId }, { hover: false });
 			}
 			hoverCurrentId = feature.id
-			map.setFeatureState({ source: 'datalayer', id: hoverCurrentId }, { hover: true });
+			map.setFeatureState({ source: 'culturelayer', id: hoverCurrentId }, { hover: true });
 		}
 
 		function stopHover(e) {
 			if (hoverCurrentId) {
-				map.setFeatureState({ source: 'datalayer', id: hoverCurrentId }, { hover: false });
+				map.setFeatureState({ source: 'culturelayer', id: hoverCurrentId }, { hover: false });
 			}
 			hoverCurrentId = null;
 		}
 
-		function drawPopup(e) {
+// DECLARING FUNCTION POPUP FOR CULTURE GENERAL OBJECT
+		function drawPopupGeneral(e) {
 			let feature = e.features[0]
 			map.getCanvas().style.cursor = 'pointer';
 
@@ -279,24 +290,55 @@ map.on('zoomstart', 'datalayer1', function(e) {
 				.addTo(map);
 		}
 
+// DECLARING FUNCTION POPUP FOR CULTURE ARCHEO SITES OBJECT
+		function drawPopupSites(e) {
+			let feature = e.features[0]
+			map.getCanvas().style.cursor = 'pointer';
+
+			var coordinates = feature.geometry.coordinates.slice();
+			var placeName = feature.properties.site_name;
+
+			while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+				coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+			}
+
+			popup.setLngLat(coordinates)
+				.setHTML(placeName)
+				.addTo(map);
+		}
+
 		function removePopup(e) {
 			map.getCanvas().style.cursor = '';
 			popup.remove();
 		}
 
+
+// CALLING POP UP GENERAL CULTURE
 			// draws the popup and changes the hover style When moving the mouse over, 
-			map.on('mouseenter', 'datalayer', function (e) {
+			map.on('mouseenter', 'culturelayer', function (e) {
 				startHover(e)
-				drawPopup(e)
+				drawPopupGeneral(e)
 			});
 
 			// Turns off the hovering and popup when moving the mouse away from a point, 
-			map.on('mouseleave', 'datalayer', function (e) {
+			map.on('mouseleave', 'culturelayer', function (e) {
 				stopHover(e)
  				removePopup(e)
 			});
 
 
+// CALLING POP UP ARCHEO SITES
+			// draws the popup and changes the hover style When moving the mouse over, 
+			map.on('mouseenter', 'siteslayer', function (e) {
+				startHover(e)
+				drawPopupSites(e)
+			});
+
+			// Turns off the hovering and popup when moving the mouse away from a point, 
+			map.on('mouseleave', 'siteslayer', function (e) {
+				stopHover(e)
+ 				removePopup(e)
+			});
 
 // UPDATE BOTTOM MODULE BASED ON CULTURE SELECTED
 
@@ -314,8 +356,21 @@ map.on('zoomstart', 'datalayer1', function(e) {
 		    document.getElementById('culture-description').textContent = cultureText;		    
 		}
 
+
+		function updateModule(e) {
+			let feature = e.features[0]
+			var siteName = feature.properties.site_name;
+			var siteDescrip = feature.properties.type;
+			var siteLink = feature.properties.link;
+
+			$('#archeo-name').html(siteName)
+			$('#archeo-description').html(siteDescrip)
+			$('#archeo-link').html(siteLink)
+	    
+		}
+
 			// This updates the bottom module on click
-			map.on('click', 'datalayer', function (e) {
+			map.on('click', 'culturelayer', function (e) {
 				document.getElementById('bottomCulture').classList.remove('hidden');
 				document.getElementById('bottomInitial').classList.add('hidden');
 				updateStory(e)
@@ -323,14 +378,115 @@ map.on('zoomstart', 'datalayer1', function(e) {
 				
 			});
 
+			map.on('click', 'siteslayer', function (e) {
+				updateModule(e)
+				$('#archeo-sites').show(200);
+				updateStory(cultureGeneral)
+				
+			});
+
+// NEED HELP HERE	
+// NEED HELP HERE
+// NEED HELP HERE
+// NEED HELP HERE
+// NEED HELP HERE	
+
 
 // CENTERS THE MAP BASED ON LAYER DATA
 
 			map.fitBounds(turf.bbox(cultureGeneral), { 
-				padding: 0, 
+				padding: 90, 
 				linear: true 
 			})
 		});
+
+
+$(document).ready(function () {
+	$('#title').on('click',function() {
+
+		map.fitBounds(turf.bbox(cultureGeneral), { 
+				padding: 90, 
+				linear: true 
+			})
+
+		$('#bottomCulture').addClass( "hidden" );
+		$('#bottomInitial').removeClass( "hidden" );
+
+		$('#archeo-sites').hide(200);
+
+
+	});
+
+
+		});
+
+
+// INITIAL MODULE BOXES DISPLAY ON MAP DATA FROM SPECIFIC CULTURE
+	for (var i = 0; i < cultureGeneral.features.length; i++){
+
+		let activeCulture = i;
+
+			$(document).ready(function () {
+	
+				$('#culture'+activeCulture).on('click',function() {
+
+					var selectedGroup = $('#cultTitle'+activeCulture).text();
+						
+						if (!selectedGroup) {
+							map.setFilter('siteslayer', null);
+						} else {
+							map.setFilter('siteslayer', ['==', ['get', 'name'], selectedGroup]);
+						}
+
+
+					$('#bottomCulture').removeClass( "hidden" );
+					$('#bottomInitial').addClass( "hidden" );
+					
+
+		// INITIAL MODULE BOXES ZOOM IN BASED ON SPECIFIC CULTURE
+					var bounds = new mapboxgl.LngLatBounds();
+
+// NEED HELP HERE	
+// NEED HELP HERE
+// NEED HELP HERE
+// NEED HELP HERE
+// NEED HELP HERE				
+					cultureSites.features.forEach(function(feature) {
+					    bounds.extend(feature.geometry.coordinates);
+					});
+
+					map.fitBounds(bounds, {padding: 100});
+
+
+							map.fitBounds(turf.bbox(cultureGeneral), { 
+				padding: -30, 
+				linear: true 
+			})
+
+		// LOADING DATA OF SPECIFIC CULTURE FOR BOTTOM MODULE
+			  		var cultureName = cultureGeneral.features[activeCulture].properties.name;
+		      		var cultureStart = cultureGeneral.features[activeCulture].properties.startDate;
+		      		var cultureEnd = cultureGeneral.features[activeCulture].properties.endDate;
+		     		var culturePeriod = cultureGeneral.features[activeCulture].properties.period;
+		      		var cultureText = cultureGeneral.features[activeCulture].properties.description;
+		      		var cultureLink = cultureGeneral.features[activeCulture].properties.link;
+
+					$('#culture-title').html(cultureName);
+					$('#culture-dates').html(cultureStart + " - " + cultureEnd);
+					$('#culture-period').html(culturePeriod);
+					$('#culture-description').html(cultureText);
+					$('#culture-link').html(cultureLink);
+
+				});
+
+			});
+
+		}
+
+
+/*
+
+*/
 
 //CHANGES THE DATA OF INITIAL AND CULTURE SCREENS
 
@@ -344,17 +500,33 @@ map.on('zoomstart', 'datalayer1', function(e) {
 		      var cultureEnd = cultureGeneral.features[i].properties.endDate;
 		      var culturePeriod = cultureGeneral.features[i].properties.period;
 		      var cultureText = cultureGeneral.features[i].properties.description;
+		      var cultureLink = cultureGeneral.features[i].properties.link;
 
-			// changing data on culture screen
-		      document.getElementById('culture-title').textContent = cultureName;
-		      document.getElementById('culture-dates').textContent = cultureStart + " - " + cultureEnd;
-		      document.getElementById('culture-period').textContent = culturePeriod;
-		      document.getElementById('culture-description').textContent = cultureText;
+					$('#culture-title').html(cultureName);
+					$('#culture-dates').html(cultureStart + " - " + cultureEnd);
+					$('#culture-period').html(culturePeriod);
+					$('#culture-description').html(cultureText);
+					$('#culture-link').html(cultureLink);
 
-		    // changing data on initial screen
-		      document.getElementById('cultTitle'+ activeCulture).textContent = cultName;
-		      document.getElementById('boxDates'+ activeCulture).textContent = cultureStart + " - " + cultureEnd;
-		    }
+					$('#cultTitle'+ activeCulture).html(cultName);
+					$('#boxDates'+ activeCulture).html(cultureStart + " - " + cultureEnd);
+}
+
+
+//JQUERY FOR RIGHT MODULE
+
+		$(document).ready(function () {
+
+			$('#archeo-sites').css({
+				display:'none'
+			});
+
+			$('#closeButton').on('click',function() {
+				$('#archeo-sites').hide(200);
+			});
+
+		});
+
 
 
 // JQUERY THAT CHANGES WHAT IS DATA IS DISPLAYED BASED ON DROPDOWN MENU
@@ -366,6 +538,7 @@ map.on('zoomstart', 'datalayer1', function(e) {
 				groupsObj[feature.properties.group_id] = feature.properties.name;
 			})
 
+//crea las etiquetas y se las añade al menu que antes no tenia opciones
 			$.each(groupsObj, function (key, value) {
 				$('#select-menu')
 					.append($("<option></option>")
@@ -377,13 +550,16 @@ map.on('zoomstart', 'datalayer1', function(e) {
 				var selectedGroup = $('#select-menu').val();
 
 				if (!selectedGroup) {
-					map.setFilter('datalayer1', null);
+					map.setFilter('siteslayer', null);
 				} else {
-					map.setFilter('datalayer1', ['==', ['get', 'name'], selectedGroup]);
+					map.setFilter('siteslayer', ['==', ['get', 'name'], selectedGroup]);
 				}
 			});
 		});
+
+
 	</script>
+
 
 
 

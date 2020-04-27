@@ -91,8 +91,8 @@ cultureGeneral = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -76.246790,
-          -13.869507
+          -78.329757,
+          -7.232845
         ]
       }
     },
