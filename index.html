@@ -176,8 +176,6 @@
 				cultureSites.features[i]['id'] = i + 1
 			}
 
-			let culturefeatures = cultureGeneral.features;
-			let sitesfeatures =  cultureSites.features;
 
 //STYLE FOR LAYER			
 			culturelayer = map.addLayer({
@@ -231,7 +229,7 @@
 						'case',
 						['boolean', ['feature-state', 'hover'], false],
 						1,
-						0.5
+						0.8
 					]
 				}
 			});
@@ -313,7 +311,9 @@
 			// draws the popup and changes the hover style When moving the mouse over, 
 			map.on('mouseenter', 'siteslayer', function (e) {
 				let feature = e.features[0]
-				var popName = feature.properties.site_name;
+				var popName1 = feature.properties.name;
+				var popName2 = feature.properties.site_name;
+				var popName = popName1 + ':\n' + popName2
 
 				startHover(e)
 				drawPopup(e,popName)
@@ -409,6 +409,19 @@ HELP						map.setFilter('siteslayer', ['==', ['get', 'name'], selectedGroup]);
 				$('#archeo-sites').show(200);
 				$('#bottomCulture').removeClass( "hidden" );
 				$('#bottomInitial').addClass( "hidden" );
+
+								for (var i = 0; i < cultureGeneral.features.length; i++){
+
+					let activeCulture = i;
+					let feature = e.features[0]
+					let selectedGroup = feature.properties.name;
+
+						if (!selectedGroup) {
+							map.setFilter('siteslayer', null);
+						} else {
+							map.setFilter('siteslayer', ['==', ['get', 'name'], selectedGroup]);
+						}	
+				}
 
 				let feature = e.features[0]
 				let idGroup = feature.properties.group_id;

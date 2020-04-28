@@ -9,13 +9,14 @@ cultureSites = {
             "name":"Caral",
             "group_id":"0",
             "site_name":"Huaca Pucllana",
+            "alternate_name":" ",
             "type":"Archeological Site",
             "date":"100, 315",
             "longitude":"-77.033539",
             "latitude":"-12.110026",
             "link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
             "photo":"images/badurria.jpg",
-            "color":"#660000",
+            "color":"#949494",
             "radius":"5"
          },
          "geometry":{
@@ -38,7 +39,7 @@ cultureSites = {
             "latitude":"-12.259386",
             "link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
             "photo":"images/el_paraiso.jpg",
-            "color":"#660000",
+            "color":"#949494",
             "radius":"5"
          },
          "geometry":{
@@ -64,7 +65,7 @@ cultureSites = {
             "province":"La Libertad",
             "link":"https://es.wikipedia.org/wiki/Huaca_Prieta",
             "photo":"images/huaca_prieta.jpg",
-            "color":"#660000",
+            "color":"#998B30",
             "radius":"5"
          },
          "geometry":{
@@ -90,7 +91,7 @@ cultureSites = {
             "province":"La Libertad",
             "link":"https://es.wikipedia.org/wiki/Kotosh",
             "photo":"images/kotosh.jpg",
-            "color":"#660000",
+            "color":"#998B30",
             "radius":"5"
          },
          "geometry":{
@@ -116,7 +117,7 @@ cultureSites = {
             "province":"La Libertad",
             "link":"https://es.wikipedia.org/wiki/Las_Haldas",
             "photo":"images/aldas.png",
-            "color":"#660000",
+            "color":"#998B30",
             "radius":"5"
          },
          "geometry":{
@@ -142,7 +143,7 @@ cultureSites = {
             "province":"La Libertad",
             "link":"https://es.wikipedia.org/wiki/Bandurria_(sitio_arqueol%C3%B3gico)",
             "photo":"images/badurria.jpg",
-            "color":"#660000",
+            "color":"#998B30",
             "radius":"5"
          },
          "geometry":{
@@ -168,7 +169,7 @@ cultureSites = {
             "province":"La Libertad",
             "link":"https://es.wikipedia.org/wiki/Huaca_El_Para%C3%ADso",
             "photo":"images/el_paraiso.jpg",
-            "color":"#660000",
+            "color":"#998B30",
             "radius":"5"
          },
          "geometry":{
@@ -194,7 +195,7 @@ cultureSites = {
             "province":"Ica",
             "link":"https://es.wikipedia.org/wiki/Huaca_El_Para%C3%ADso",
             "photo":"images/huaca_prieta.jpg",
-            "color":"#660000",
+            "color":"#8C4B4B",
             "radius":"5"
          },
          "geometry":{
@@ -220,7 +221,7 @@ cultureSites = {
             "province":"Ica",
             "link":"https://es.wikipedia.org/wiki/Huaca_El_Para%C3%ADso",
             "photo":"images/huaca_prieta.jpg",
-            "color":"#660000",
+            "color":"#51517A",
             "radius":"5"
          },
          "geometry":{
@@ -246,7 +247,7 @@ cultureSites = {
             "province":"Ica",
             "link":"https://es.wikipedia.org/wiki/Huaca_El_Para%C3%ADso",
             "photo":"images/kotosh.jpg",
-            "color":"#660000",
+            "color":"#51517A",
             "radius":"5"
          },
          "geometry":{
@@ -272,7 +273,7 @@ cultureSites = {
             "province":"Ica",
             "link":"https://es.wikipedia.org/wiki/Huaca_El_Para%C3%ADso",
             "photo":"images/aldas.png",
-            "color":"#660000",
+            "color":"#51517A",
             "radius":"5"
          },
          "geometry":{
@@ -298,7 +299,7 @@ cultureSites = {
             "province":"Ica",
             "link":"https://es.wikipedia.org/wiki/Huaca_El_Para%C3%ADso",
             "photo":"images/badurria.jpg",
-            "color":"#660000",
+            "color":"#51517A",
             "radius":"5"
          },
          "geometry":{
@@ -324,7 +325,7 @@ cultureSites = {
             "province":"Ica",
             "link":"https://es.wikipedia.org/wiki/Huaca_El_Para%C3%ADso",
             "photo":"images/el_paraiso.jpg",
-            "color":"#660000",
+            "color":"#51517A",
             "radius":"5"
          },
          "geometry":{
@@ -350,7 +351,7 @@ cultureSites = {
             "province":"Ica",
             "link":"https://es.wikipedia.org/wiki/Huaca_El_Para%C3%ADso",
             "photo":"images/huaca_prieta.jpg",
-            "color":"#660000",
+            "color":"#51517A",
             "radius":"5"
          },
          "geometry":{
@@ -374,7 +375,7 @@ cultureSites = {
             "latitude":"-9.483099",
             "link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
             "photo":"images/aldas.png",
-            "color":"#660000",
+            "color":"#8A6148",
             "radius":"5"
          },
          "geometry":{
@@ -397,7 +398,7 @@ cultureSites = {
             "latitude":"-8.885541",
             "link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
             "photo":"images/badurria.jpg",
-            "color":"#660000",
+            "color":"#8A6148",
             "radius":"5"
          },
          "geometry":{
@@ -420,7 +421,7 @@ cultureSites = {
             "latitude":"-8.945565",
             "link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
             "photo":"images/el_paraiso.jpg",
-            "color":"#660000",
+            "color":"#8A6148",
             "radius":"5"
          },
          "geometry":{
@@ -445,7 +446,7 @@ cultureSites = {
             "province":"La Libertad",
             "link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
             "photo":"images/kotosh.jpg",
-            "color":"#660000",
+            "color":"#6078C0",
             "radius":"5"
          },
          "geometry":{
@@ -470,7 +471,7 @@ cultureSites = {
             "province":"La Libertad",
             "link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
             "photo":"images/aldas.png",
-            "color":"#660000",
+            "color":"#6078C0",
             "radius":"5"
          },
          "geometry":{
@@ -495,7 +496,7 @@ cultureSites = {
             "province":"La Libertad",
             "link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
             "photo":"images/badurria.jpg",
-            "color":"#660000",
+            "color":"#6078C0",
             "radius":"5"
          },
          "geometry":{
@@ -520,7 +521,7 @@ cultureSites = {
             "province":"La Libertad",
             "link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
             "photo":"images/el_paraiso.jpg",
-            "color":"#660000",
+            "color":"#6078C0",
             "radius":"5"
          },
          "geometry":{
@@ -545,7 +546,7 @@ cultureSites = {
             "province":"La Libertad",
             "link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
             "photo":"images/huaca_prieta.jpg",
-            "color":"#660000",
+            "color":"#6078C0",
             "radius":"5"
          },
          "geometry":{
@@ -570,7 +571,7 @@ cultureSites = {
             "province":"La Libertad",
             "link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
             "photo":"images/kotosh.jpg",
-            "color":"#660000",
+            "color":"#6078C0",
             "radius":"5"
          },
          "geometry":{
@@ -595,7 +596,7 @@ cultureSites = {
             "province":"La Libertad",
             "link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
             "photo":"images/aldas.png",
-            "color":"#660000",
+            "color":"#6078C0",
             "radius":"5"
          },
          "geometry":{
@@ -618,7 +619,7 @@ cultureSites = {
             "latitude":"-7.232845",
             "link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
             "photo":"images/kotosh.jpg",
-            "color":"#660000",
+            "color":"#5F8242",
             "radius":"5"
          },
          "geometry":{
@@ -641,7 +642,7 @@ cultureSites = {
             "latitude":"-7.125648",
             "link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
             "photo":"images/aldas.png",
-            "color":"#660000",
+            "color":"#5F8242",
             "radius":"5"
          },
          "geometry":{
@@ -665,7 +666,7 @@ cultureSites = {
             "latitude":"-16.55535",
             "link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
             "photo":"images/kotosh.jpg",
-            "color":"#660000",
+            "color":"#5D5D5D",
             "radius":"5"
          },
          "geometry":{
@@ -688,7 +689,7 @@ cultureSites = {
             "latitude":"-6.162543",
             "link":"https://es.wikipedia.org/wiki/Huaca_El_Para%C3%ADso",
             "photo":"images/huaca_prieta.jpg",
-            "color":"#660000",
+            "color":"#18684C",
             "radius":"5"
          },
          "geometry":{
@@ -712,7 +713,7 @@ cultureSites = {
             "latitude":"-6.293966",
             "link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
             "photo":"images/kotosh.jpg",
-            "color":"#660000",
+            "color":"#18684C",
             "radius":"5"
          },
          "geometry":{
@@ -735,7 +736,7 @@ cultureSites = {
             "latitude":"-6.416864",
             "link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
             "photo":"images/aldas.png",
-            "color":"#660000",
+            "color":"#18684C",
             "radius":"5"
          },
          "geometry":{
@@ -758,7 +759,7 @@ cultureSites = {
             "latitude":"-6.540595",
             "link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
             "photo":"images/badurria.jpg",
-            "color":"#660000",
+            "color":"#18684C",
             "radius":"5"
          },
          "geometry":{
@@ -781,7 +782,7 @@ cultureSites = {
             "latitude":"-6.365329",
             "link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
             "photo":"images/el_paraiso.jpg",
-            "color":"#660000",
+            "color":"#18684C",
             "radius":"5"
          },
          "geometry":{
@@ -804,7 +805,7 @@ cultureSites = {
             "latitude":"-7.648195",
             "link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
             "photo":"images/huaca_prieta.jpg",
-            "color":"#660000",
+            "color":"#18684C",
             "radius":"5"
          },
          "geometry":{
@@ -828,7 +829,7 @@ cultureSites = {
             "latitude":"-6.847821",
             "link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
             "photo":"images/kotosh.jpg",
-            "color":"#660000",
+            "color":"#18684C",
             "radius":"5"
          },
          "geometry":{
@@ -851,7 +852,7 @@ cultureSites = {
             "latitude":"-6.469807",
             "link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
             "photo":"images/badurria.jpg",
-            "color":"#660000",
+            "color":"#2D837F",
             "radius":"5"
          },
          "geometry":{
@@ -874,7 +875,7 @@ cultureSites = {
             "latitude":"-6.472203",
             "link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
             "photo":"images/el_paraiso.jpg",
-            "color":"#660000",
+            "color":"#2D837F",
             "radius":"5"
          },
          "geometry":{
@@ -897,7 +898,7 @@ cultureSites = {
             "latitude":"-7.914043",
             "link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
             "photo":"images/badurria.jpg",
-            "color":"#660000",
+            "color":"#2D837F",
             "radius":"5"
          },
          "geometry":{
@@ -920,7 +921,7 @@ cultureSites = {
             "latitude":"-8.105191",
             "link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
             "photo":"images/huaca_prieta.jpg",
-            "color":"#660000",
+            "color":"#AD7F93",
             "radius":"5"
          },
          "geometry":{
@@ -943,7 +944,7 @@ cultureSites = {
             "latitude":"-6.5163",
             "link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
             "photo":"images/kotosh.jpg",
-            "color":"#660000",
+            "color":"#AD7F93",
             "radius":"5"
          },
          "geometry":{
@@ -966,7 +967,7 @@ cultureSites = {
             "latitude":"-10.653038",
             "link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
             "photo":"images/aldas.png",
-            "color":"#660000",
+            "color":"#AD7F93",
             "radius":"5"
          },
          "geometry":{
