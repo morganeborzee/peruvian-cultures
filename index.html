@@ -26,11 +26,6 @@
 
 	<div id='map'>
 		<div id='title'> Culturas Peruanas Pre-Incaicas</div>
-		<div id="dropdown">
-			<select id="select-menu">
-				<option value="">All Groups</option>
-			</select>
-		</div>
 	</div>
 
 
@@ -154,11 +149,7 @@
 	</div>
 
 
-
-
 	<script type="text/javascript">
-
-
 
 
 //MAPBOX ACCESS	AND BASELINE MAP STYLE	
@@ -173,6 +164,9 @@
 
 
 //LOADS THE DATA
+		
+
+
 		map.on('load', function () {
 			for (let i = 0; i < cultureGeneral.features.length; i++) {
 				cultureGeneral.features[i]['id'] = i + 1
@@ -182,10 +176,12 @@
 				cultureSites.features[i]['id'] = i + 1
 			}
 
+			let culturefeatures = cultureGeneral.features;
+			let sitesfeatures =  cultureSites.features;
 
 //STYLE FOR LAYER			
-			datalayer = map.addLayer({
-				id: "datalayer",
+			culturelayer = map.addLayer({
+				id: "culturelayer",
 				type: "circle",
 				source: {
 					type: "geojson",
@@ -210,11 +206,10 @@
 						0.5
 					]
 				}
-		
 			});
 
-			datalayer1 = map.addLayer({
-				id: "datalayer1",
+			siteslayer = map.addLayer({
+				id: "siteslayer",
 				type: "circle",
 				source: {
 					type: "geojson",
@@ -222,9 +217,6 @@
 				},
 				minzoom:5,
 				maxzoom:20,
-				//layout: {
-				//	'visibility' : 'none',
-				//},
 				paint: {
 					'circle-radius': ['to-number', ['get', 'radius']],
 					'circle-stroke-color': 'white',
@@ -242,7 +234,6 @@
 						0.5
 					]
 				}
-		
 			});
 
 
@@ -253,36 +244,38 @@
 // CONTROLS THE POPUP
 		var popup = new mapboxgl.Popup({ 
 			closeButton: false, 
-			closeOnClick: false });
+			closeOnClick: false 
+		});
 
 
 		let hoverCurrentId = null 
-		var datalayer;
 
 		function startHover(e) {
 			let feature = e.features[0]
 
 			if (hoverCurrentId) {
-				map.setFeatureState({ source: 'datalayer', id: hoverCurrentId }, { hover: false });
+				map.setFeatureState({ source: 'culturelayer', id: hoverCurrentId }, { hover: false });
 			}
 			hoverCurrentId = feature.id
-			map.setFeatureState({ source: 'datalayer', id: hoverCurrentId }, { hover: true });
+			map.setFeatureState({ source: 'culturelayer', id: hoverCurrentId }, { hover: true });
 		}
 
 		function stopHover(e) {
 			if (hoverCurrentId) {
-				map.setFeatureState({ source: 'datalayer', id: hoverCurrentId }, { hover: false });
+				map.setFeatureState({ source: 'culturelayer', id: hoverCurrentId }, { hover: false });
 			}
 			hoverCurrentId = null;
 		}
 
-// DECLARING FUNCTION POPUP FOR CULTURE GENERAL OBJECT
-		function drawPopupGeneral(e) {
+
+// DECLARING FUNCTION POPUP 
+
+		function drawPopup(e,n) {
 			let feature = e.features[0]
 			map.getCanvas().style.cursor = 'pointer';
 
 			var coordinates = feature.geometry.coordinates.slice();
-			var placeName = feature.properties.name;
+			var placeName = n;
 
 			while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
 				coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
@@ -292,23 +285,7 @@
 				.setHTML(placeName)
 				.addTo(map);
 		}
-
-// DECLARING FUNCTION POPUP FOR CULTURE ARCHEO SITES OBJECT
-		function drawPopupSites(e) {
-			let feature = e.features[0]
-			map.getCanvas().style.cursor = 'pointer';
-
-			var coordinates = feature.geometry.coordinates.slice();
-			var placeName = feature.properties.site_name;
-
-			while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-				coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-			}
-
-			popup.setLngLat(coordinates)
-				.setHTML(placeName)
-				.addTo(map);
-		}
+	
 
 		function removePopup(e) {
 			map.getCanvas().style.cursor = '';
@@ -318,27 +295,32 @@
 
 // CALLING POP UP GENERAL CULTURE
 			// draws the popup and changes the hover style When moving the mouse over, 
-			map.on('mouseenter', 'datalayer', function (e) {
+			map.on('mouseenter', 'culturelayer', function (e) {
+				let feature = e.features[0]
+				var popName = feature.properties.name;
+
 				startHover(e)
-				drawPopupGeneral(e)
+				drawPopup(e,popName)
 			});
 
 			// Turns off the hovering and popup when moving the mouse away from a point, 
-			map.on('mouseleave', 'datalayer', function (e) {
+			map.on('mouseleave', 'culturelayer', function (e) {
 				stopHover(e)
  				removePopup(e)
 			});
 
-
 // CALLING POP UP ARCHEO SITES
 			// draws the popup and changes the hover style When moving the mouse over, 
-			map.on('mouseenter', 'datalayer1', function (e) {
+			map.on('mouseenter', 'siteslayer', function (e) {
+				let feature = e.features[0]
+				var popName = feature.properties.site_name;
+
 				startHover(e)
-				drawPopupSites(e)
+				drawPopup(e,popName)
 			});
 
 			// Turns off the hovering and popup when moving the mouse away from a point, 
-			map.on('mouseleave', 'datalayer1', function (e) {
+			map.on('mouseleave', 'siteslayer', function (e) {
 				stopHover(e)
  				removePopup(e)
 			});
@@ -346,19 +328,34 @@
 // UPDATE BOTTOM MODULE BASED ON CULTURE SELECTED
 
 		function updateStory(e) {
-			let feature = e.features[0]
-		    var cultureName = feature.properties.name;
-		   	var cultureStart = feature.properties.startDate;
-		    var cultureEnd = feature.properties.endDate;
-		    var culturePeriod = feature.properties.period;
-		    var cultureText = feature.properties.description;
+		    var cultureName = e.features[0].properties.name;
+		   	var cultureStart = e.features[0].properties.startDate;
+		    var cultureEnd = e.features[0].properties.endDate;
+		    var culturePeriod = e.features[0].properties.period;
+		    var cultureText = e.features[0].properties.description;
+		    var cultureLink = e.features[0].properties.link;
 
-		    document.getElementById('culture-title').textContent = cultureName;
-		    document.getElementById('culture-dates').textContent = cultureStart + " - " + cultureEnd;
-		    document.getElementById('culture-period').textContent = culturePeriod;
-		    document.getElementById('culture-description').textContent = cultureText;		    
+		    $('#culture-title').html(cultureName);
+		    $('#culture-dates').html(cultureStart + " - " + cultureEnd);
+		    $('#culture-period').html(culturePeriod);
+		    $('#culture-description').html(cultureText);
+		    $('#culture-link').html(cultureLink);		    
 		}
 
+		function settingContent(a) {
+			  		var cultureName = cultureGeneral.features[a].properties.name;
+		      		var cultureStart = cultureGeneral.features[a].properties.startDate;
+		      		var cultureEnd = cultureGeneral.features[a].properties.endDate;
+		     		var culturePeriod = cultureGeneral.features[a].properties.period;
+		      		var cultureText = cultureGeneral.features[a].properties.description;
+		      		var cultureLink = cultureGeneral.features[a].properties.link;
+
+					$('#culture-title').html(cultureName);
+					$('#culture-dates').html(cultureStart + " - " + cultureEnd);
+					$('#culture-period').html(culturePeriod);
+					$('#culture-description').html(cultureText);
+					$('#culture-link').html(cultureLink);		    
+		}
 
 		function updateModule(e) {
 			let feature = e.features[0]
@@ -373,112 +370,98 @@
 		}
 
 			// This updates the bottom module on click
-			map.on('click', 'datalayer', function (e) {
+			map.on('click', 'culturelayer', function (e) {
 				document.getElementById('bottomCulture').classList.remove('hidden');
 				document.getElementById('bottomInitial').classList.add('hidden');
 				updateStory(e)
 
+						// NOT WORKING PROPERLY Should Zoom to filtered data
+					var bounds = new mapboxgl.LngLatBounds();
 				
+						cultureSites.features.forEach(function(feature) {
+
+/*							only use features where 'name' = selectedGroup 
+HELP						map.setFilter('siteslayer', ['==', ['get', 'name'], selectedGroup]);
+*/
+						    bounds.extend(feature.geometry.coordinates);
+						});
+
+					map.fitBounds(bounds, {padding: -30}); 
+
+				
+				for (var i = 0; i < cultureGeneral.features.length; i++){
+
+					let activeCulture = i;
+					let feature = e.features[0]
+					let selectedGroup = feature.properties.name;
+
+						if (!selectedGroup) {
+							map.setFilter('siteslayer', null);
+						} else {
+							map.setFilter('siteslayer', ['==', ['get', 'name'], selectedGroup]);
+						}	
+				}
 			});
 
-			map.on('click', 'datalayer1', function (e) {
+
+			map.on('click', 'siteslayer', function (e) {
 				updateModule(e)
 				$('#archeo-sites').show(200);
-				updateStory(cultureGeneral)
+				$('#bottomCulture').removeClass( "hidden" );
+				$('#bottomInitial').addClass( "hidden" );
+
+				let feature = e.features[0]
+				let idGroup = feature.properties.group_id;
+				settingContent(idGroup);
 				
 			});
 
-// NEED HELP HERE	
-// NEED HELP HERE
-// NEED HELP HERE
-// NEED HELP HERE
-// NEED HELP HERE	
 
 
-// CENTERS THE MAP BASED ON LAYER DATA
-
-			map.fitBounds(turf.bbox(cultureGeneral), { 
-				padding: 90, 
-				linear: true 
-			})
-		});
 
 
-$(document).ready(function () {
-	$('#title').on('click',function() {
-
-		map.fitBounds(turf.bbox(cultureGeneral), { 
-				padding: 90, 
-				linear: true 
-			})
-
-		$('#bottomCulture').addClass( "hidden" );
-		$('#bottomInitial').removeClass( "hidden" );
-
-		$('#archeo-sites').hide(200);
-
-
-	});
-
-
-		});
-
-
-// INITIAL MODULE BOXES DISPLAY ON MAP DATA FROM SPECIFIC CULTURE
+// THIS HAPPENS WHEN USER CLICKS INITIAL BOTTOM MODULE BOXES FROM A SPECIFIC CULTURE
 	for (var i = 0; i < cultureGeneral.features.length; i++){
 
 		let activeCulture = i;
 
 			$(document).ready(function () {
 	
+				//Filters data on map by selected culture
 				$('#culture'+activeCulture).on('click',function() {
-
 					var selectedGroup = $('#cultTitle'+activeCulture).text();
 						
 						if (!selectedGroup) {
-							map.setFilter('datalayer1', null);
+							map.setFilter('siteslayer', null);
 						} else {
-							map.setFilter('datalayer1', ['==', ['get', 'name'], selectedGroup]);
+							map.setFilter('siteslayer', ['==', ['get', 'name'], selectedGroup]);
 						}
 
+		// NOT WORKING PROPERLY Should Zoom to filtered data
+					var bounds = new mapboxgl.LngLatBounds();
+				
+						cultureSites.features.forEach(function(feature) {
 
+/*							only use features where 'name' = selectedGroup 
+HELP						map.setFilter('siteslayer', ['==', ['get', 'name'], selectedGroup]);
+*/
+						    bounds.extend(feature.geometry.coordinates);
+						});
+
+					map.fitBounds(bounds, {padding: -30}); 
+
+					//Remove Initial bottom module and replace by bottom module with specific culture
 					$('#bottomCulture').removeClass( "hidden" );
 					$('#bottomInitial').addClass( "hidden" );
-					
 
-		// INITIAL MODULE BOXES ZOOM IN BASED ON SPECIFIC CULTURE
-					var bounds = new mapboxgl.LngLatBounds();
-
-// NEED HELP HERE	
-// NEED HELP HERE
-// NEED HELP HERE
-// NEED HELP HERE
-// NEED HELP HERE				
-					cultureSites.features.forEach(function(feature) {
-					    bounds.extend(feature.geometry.coordinates);
-					});
-
-					map.fitBounds(bounds);
-
-		// LOADING DATA OF SPECIFIC CULTURE FOR BOTTOM MODULE
-			  		var cultureName = cultureGeneral.features[activeCulture].properties.name;
-		      		var cultureStart = cultureGeneral.features[activeCulture].properties.startDate;
-		      		var cultureEnd = cultureGeneral.features[activeCulture].properties.endDate;
-		     		var culturePeriod = cultureGeneral.features[activeCulture].properties.period;
-		      		var cultureText = cultureGeneral.features[activeCulture].properties.description;
-		      		var cultureLink = cultureGeneral.features[activeCulture].properties.link;
-
-					$('#culture-title').html(cultureName);
-					$('#culture-dates').html(cultureStart + " - " + cultureEnd);
-					$('#culture-period').html(culturePeriod);
-					$('#culture-description').html(cultureText);
-					$('#culture-link').html(cultureLink);
+					// Loads data for bottom module depending on selected culture
+			  		settingContent(activeCulture);
 
 				});
 
 			});
 
-		}
+	}
 
 
 /*
@@ -495,16 +478,6 @@ $(document).ready(function () {
 		      var cultureName = cultureGeneral.features[i].properties.name; // culture screen
 		      var cultureStart = cultureGeneral.features[i].properties.startDate;
 		      var cultureEnd = cultureGeneral.features[i].properties.endDate;
-		      var culturePeriod = cultureGeneral.features[i].properties.period;
-		      var cultureText = cultureGeneral.features[i].properties.description;
-		      var cultureLink = cultureGeneral.features[i].properties.link;
-
-					$('#culture-title').html(cultureName);
-					$('#culture-dates').html(cultureStart + " - " + cultureEnd);
-					$('#culture-period').html(culturePeriod);
-					$('#culture-description').html(cultureText);
-					$('#culture-link').html(cultureLink);
-
 					$('#cultTitle'+ activeCulture).html(cultName);
 					$('#boxDates'+ activeCulture).html(cultureStart + " - " + cultureEnd);
 }
@@ -526,32 +499,31 @@ $(document).ready(function () {
 
 
 
-// JQUERY THAT CHANGES WHAT IS DATA IS DISPLAYED BASED ON DROPDOWN MENU
+// TITLE ELEMENT AS HOME BUTTON
+	$(document).ready(function () {
+		$('#title').on('click',function() {
 
-		var groupsObj = {};
+			
+			map.setFilter('siteslayer', null);
 
-		$(document).ready(function () {
-			cultureSites.features.forEach(function (feature) {
-				groupsObj[feature.properties.group_id] = feature.properties.name;
+				map.fitBounds(turf.bbox(cultureGeneral), { 
+					padding: 90, 
+					linear: true 
+				})
+
+			$('#bottomCulture').addClass( "hidden" );
+			$('#bottomInitial').removeClass( "hidden" );
+			$('#archeo-sites').hide(200);
+		});
+	});
+
+
+// CENTERS THE MAP BASED ON LAYER DATA
+
+			map.fitBounds(turf.bbox(cultureGeneral), { 
+				padding: 90, 
+				linear: true 
 			})
-
-//crea las etiquetas y se las añade al menu que antes no tenia opciones
-			$.each(groupsObj, function (key, value) {
-				$('#select-menu')
-					.append($("<option></option>")
-						.attr("value", value)
-						.text(value));
-			});
-
-			$('#select-menu').change(function () {
-				var selectedGroup = $('#select-menu').val();
-
-				if (!selectedGroup) {
-					map.setFilter('datalayer1', null);
-				} else {
-					map.setFilter('datalayer1', ['==', ['get', 'name'], selectedGroup]);
-				}
-			});
 		});
 
 
