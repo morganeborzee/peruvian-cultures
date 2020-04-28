@@ -185,7 +185,7 @@
 
 //STYLE FOR LAYER			
 			datalayer = map.addLayer({
-				id: "culturelayer",
+				id: "datalayer",
 				type: "circle",
 				source: {
 					type: "geojson",
@@ -214,7 +214,7 @@
 			});
 
 			datalayer1 = map.addLayer({
-				id: "siteslayer",
+				id: "datalayer1",
 				type: "circle",
 				source: {
 					type: "geojson",
@@ -222,6 +222,9 @@
 				},
 				minzoom:5,
 				maxzoom:20,
+				//layout: {
+				//	'visibility' : 'none',
+				//},
 				paint: {
 					'circle-radius': ['to-number', ['get', 'radius']],
 					'circle-stroke-color': 'white',
@@ -260,15 +263,15 @@
 			let feature = e.features[0]
 
 			if (hoverCurrentId) {
-				map.setFeatureState({ source: 'culturelayer', id: hoverCurrentId }, { hover: false });
+				map.setFeatureState({ source: 'datalayer', id: hoverCurrentId }, { hover: false });
 			}
 			hoverCurrentId = feature.id
-			map.setFeatureState({ source: 'culturelayer', id: hoverCurrentId }, { hover: true });
+			map.setFeatureState({ source: 'datalayer', id: hoverCurrentId }, { hover: true });
 		}
 
 		function stopHover(e) {
 			if (hoverCurrentId) {
-				map.setFeatureState({ source: 'culturelayer', id: hoverCurrentId }, { hover: false });
+				map.setFeatureState({ source: 'datalayer', id: hoverCurrentId }, { hover: false });
 			}
 			hoverCurrentId = null;
 		}
@@ -315,13 +318,13 @@
 
 // CALLING POP UP GENERAL CULTURE
 			// draws the popup and changes the hover style When moving the mouse over, 
-			map.on('mouseenter', 'culturelayer', function (e) {
+			map.on('mouseenter', 'datalayer', function (e) {
 				startHover(e)
 				drawPopupGeneral(e)
 			});
 
 			// Turns off the hovering and popup when moving the mouse away from a point, 
-			map.on('mouseleave', 'culturelayer', function (e) {
+			map.on('mouseleave', 'datalayer', function (e) {
 				stopHover(e)
  				removePopup(e)
 			});
@@ -329,13 +332,13 @@
 
 // CALLING POP UP ARCHEO SITES
 			// draws the popup and changes the hover style When moving the mouse over, 
-			map.on('mouseenter', 'siteslayer', function (e) {
+			map.on('mouseenter', 'datalayer1', function (e) {
 				startHover(e)
 				drawPopupSites(e)
 			});
 
 			// Turns off the hovering and popup when moving the mouse away from a point, 
-			map.on('mouseleave', 'siteslayer', function (e) {
+			map.on('mouseleave', 'datalayer1', function (e) {
 				stopHover(e)
  				removePopup(e)
 			});
@@ -370,7 +373,7 @@
 		}
 
 			// This updates the bottom module on click
-			map.on('click', 'culturelayer', function (e) {
+			map.on('click', 'datalayer', function (e) {
 				document.getElementById('bottomCulture').classList.remove('hidden');
 				document.getElementById('bottomInitial').classList.add('hidden');
 				updateStory(e)
@@ -378,7 +381,7 @@
 				
 			});
 
-			map.on('click', 'siteslayer', function (e) {
+			map.on('click', 'datalayer1', function (e) {
 				updateModule(e)
 				$('#archeo-sites').show(200);
 				updateStory(cultureGeneral)
@@ -433,9 +436,9 @@ $(document).ready(function () {
 					var selectedGroup = $('#cultTitle'+activeCulture).text();
 						
 						if (!selectedGroup) {
-							map.setFilter('siteslayer', null);
+							map.setFilter('datalayer1', null);
 						} else {
-							map.setFilter('siteslayer', ['==', ['get', 'name'], selectedGroup]);
+							map.setFilter('datalayer1', ['==', ['get', 'name'], selectedGroup]);
 						}
 
 
@@ -455,13 +458,7 @@ $(document).ready(function () {
 					    bounds.extend(feature.geometry.coordinates);
 					});
 
-					map.fitBounds(bounds, {padding: 100});
-
-
-							map.fitBounds(turf.bbox(cultureGeneral), { 
-				padding: -30, 
-				linear: true 
-			})
+					map.fitBounds(bounds);
 
 		// LOADING DATA OF SPECIFIC CULTURE FOR BOTTOM MODULE
 			  		var cultureName = cultureGeneral.features[activeCulture].properties.name;
@@ -550,9 +547,9 @@ $(document).ready(function () {
 				var selectedGroup = $('#select-menu').val();
 
 				if (!selectedGroup) {
-					map.setFilter('siteslayer', null);
+					map.setFilter('datalayer1', null);
 				} else {
-					map.setFilter('siteslayer', ['==', ['get', 'name'], selectedGroup]);
+					map.setFilter('datalayer1', ['==', ['get', 'name'], selectedGroup]);
 				}
 			});
 		});
