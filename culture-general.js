@@ -23,8 +23,8 @@ cultureGeneral = {
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -77.523793,
-               -10.883654
+               -77.523208,
+               -10.892386
             ]
          }
       },
@@ -73,8 +73,8 @@ cultureGeneral = {
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -76.24679,
-               -13.869507
+               -76.168138,
+               -13.837799
             ]
          }
       },
@@ -98,8 +98,8 @@ cultureGeneral = {
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -74.912825,
-               -14.912146
+               -74.937991,
+               -14.802611
             ]
          }
       },
@@ -123,8 +123,8 @@ cultureGeneral = {
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -77.455043,
-               -9.720347
+               -77.388854,
+               -9.018439
             ]
          }
       },
@@ -148,8 +148,8 @@ cultureGeneral = {
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -78.661581,
-               -8.670093
+               -79.304007,
+               -7.911842
             ]
          }
       },
@@ -173,8 +173,8 @@ cultureGeneral = {
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -76.901489,
-               -12.250774
+               -77.033539,
+               -12.110026
             ]
          }
       },
@@ -198,8 +198,8 @@ cultureGeneral = {
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -78.329757,
-               -7.232845
+               -78.35475,
+               -6.606122
             ]
          }
       },
@@ -248,8 +248,8 @@ cultureGeneral = {
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -77.87118,
-               -6.224903
+               -76.86327,
+               -6.415229
             ]
          }
       },
@@ -273,8 +273,8 @@ cultureGeneral = {
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -77.172889,
-               -9.342283
+               -74.077635,
+               -13.134149
             ]
          }
       },
@@ -298,8 +298,8 @@ cultureGeneral = {
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -79.503292,
-               -6.101731
+               -79.786921,
+               -6.668444
             ]
          }
       },
@@ -323,8 +323,8 @@ cultureGeneral = {
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -79.073849,
-               -8.104936
+               -79.074581,
+               -8.105191
             ]
          }
       },
@@ -348,8 +348,8 @@ cultureGeneral = {
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -77.268423,
-               -11.549724
+               -77.367804,
+               -11.45214
             ]
          }
       }

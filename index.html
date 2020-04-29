@@ -419,26 +419,23 @@
 	    
 		}
 
+		function flyToCultureMap(e) {
+			map.flyTo({ center: e.features[0].geometry.coordinates, zoom: 6 });
+		}
+
+		function flyToCulture(a) {
+			map.flyTo({ center: cultureGeneral.features[a].geometry.coordinates, zoom: 6 });
+		}
+
 			// This updates the bottom module on click
 			map.on('click', 'culturelayer', function (e) {
-				document.getElementById('bottomCulture').classList.remove('hidden');
-				document.getElementById('bottomInitial').classList.add('hidden');
+
+				$('#bottomCulture').removeClass( "hidden" );
+				$('#bottomInitial').addClass( "hidden" );
 				updateStory(e)
+				removePopup(e)
 
-						// NOT WORKING PROPERLY Should Zoom to filtered data
-					var bounds = new mapboxgl.LngLatBounds();
-				
-						cultureSites.features.forEach(function(feature) {
 
-/*							only use features where 'name' = selectedGroup 
-HELP						map.setFilter('siteslayer', ['==', ['get', 'name'], selectedGroup]);
-*/
-						    bounds.extend(feature.geometry.coordinates);
-						});
-
-					map.fitBounds(bounds, {padding: -30}); 
-
-				
 				for (var i = 0; i < cultureGeneral.features.length; i++){
 
 					let activeCulture = i;
@@ -451,6 +448,8 @@ HELP						map.setFilter('siteslayer', ['==', ['get', 'name'], selectedGroup]);
 							map.setFilter('siteslayer', ['==', ['get', 'name'], selectedGroup]);
 						}	
 				}
+				
+				flyToCultureMap(e)
 			});
 
 
@@ -472,6 +471,8 @@ HELP						map.setFilter('siteslayer', ['==', ['get', 'name'], selectedGroup]);
 							map.setFilter('siteslayer', ['==', ['get', 'name'], selectedGroup]);
 						}	
 				}
+
+				flyToCultureMap(e)
 
 				let feature = e.features[0]
 				let idGroup = feature.properties.group_id;
@@ -500,18 +501,8 @@ HELP						map.setFilter('siteslayer', ['==', ['get', 'name'], selectedGroup]);
 							map.setFilter('siteslayer', ['==', ['get', 'name'], selectedGroup]);
 						}
 
-		// NOT WORKING PROPERLY Should Zoom to filtered data
-					var bounds = new mapboxgl.LngLatBounds();
+					flyToCulture(activeCulture)
 				
-						cultureSites.features.forEach(function(feature) {
-
-/*							only use features where 'name' = selectedGroup 
-HELP						map.setFilter('siteslayer', ['==', ['get', 'name'], selectedGroup]);
-*/
-						    bounds.extend(feature.geometry.coordinates);
-						});
-
-					map.fitBounds(bounds, {padding: -30}); 
 
 					//Remove Initial bottom module and replace by bottom module with specific culture
 					$('#bottomCulture').removeClass( "hidden" );
