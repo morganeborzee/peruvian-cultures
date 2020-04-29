@@ -75,6 +75,36 @@ html, body
 			font-weight: 700;
 		}
 
+
+
+		.info-culture {
+			color: #939DA8;
+			font: 14px;
+		}
+
+		.boximage {
+			width: 190px;
+			border-radius: 0 0 10px 10px;
+		}
+
+		.cultures {
+			background-color: #FFFFFF;
+			font: 14px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			margin: 20px 10px 20px 20px;
+			border-radius: 10px;
+			display: flex;
+			align-items: flex-end;
+			flex-wrap: wrap;
+		}
+
+		.box-dates {
+			margin: 0px;
+			font-size: 13px;
+			margin: 5px 0px 20px 10px;
+			color: #939DA8;
+		}
+
 /* THIS STYLES THE BOTTOM MODULE */
 		.first-box {
 			float: left;
@@ -96,27 +126,6 @@ html, body
 			width: 20%;
 		}
 
-		.info-culture {
-			color: #939DA8;
-			font: 14px;
-		}
-
-		.cultures {
-			background-color: #FFFFFF;
-			font: 14px;
-			float:left;
-			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-			margin: 20px 10px 20px 20px;
-			border-radius: 10px;
-		}
-
-		.box-dates {
-			margin: 0px;
-			font-size: 13px;
-			margin: 5px 0px 20px 10px;
-			color: #939DA8;
-		}
-
 /* OTHER STYLES */
 
 
@@ -128,26 +137,19 @@ html, body
 			padding: 0px;
 		}
 
-		#select-menu {
-			position: absolute;
-			left: 30px;
-			top: 60px;
-			z-index: 10;
-		}
-
 
 		.bottom-module-initial {
 			position: absolute;
 			left: 0px;
 			bottom: 0px;
 			z-index: 10;
-			width: auto;
+			width: 100%;
 			height:33%;
+			display: flex;
+			flex-direction: row;
 			background-color: #F7F7F7;
 			overflow: scroll;
-		/*	overflow-y: hidden;
-			overflow-x: scroll;
-    		white-space: nowrap;*/
+			align-items: stretch;
 		}
 
 		.bottom-module {
