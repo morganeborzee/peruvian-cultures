@@ -11,7 +11,9 @@ cultureSites = {
             "latitude":"-10.892386",
             "province":"Lima",
             "type":"Archeological Site",
-            "color":"#51517A",
+            "wiki_link":"https://es.wikipedia.org/wiki/Cultura_paracas",
+            "photo":"images/caral.png",
+            "color":"#C6658A",
             "radius":"5"
          },
          "geometry":{
@@ -31,7 +33,9 @@ cultureSites = {
             "longitude":"-77.177324",
             "latitude":"-9.592795",
             "type":"Archeological Site",
-            "color":"#998B30",
+            "wiki_link":"https://es.wikipedia.org/wiki/Cultura_paracas",
+            "photo":"images/chavin.png",
+            "color":"#86511F",
             "radius":"5"
          },
          "geometry":{
@@ -51,9 +55,9 @@ cultureSites = {
             "longitude":"-79.306949",
             "latitude":"-7.924008",
             "type":"Archeological Site",
-            "wiki_link":"https://es.wikipedia.org/wiki/Huaca_Prieta",
-            "photo":"images/huaca_prieta.jpg",
-            "color":"#998B30",
+            "wiki_link":"https://es.wikipedia.org/wiki/Cultura_paracas",
+            "photo":"images/chavin.png",
+            "color":"#86511F",
             "radius":"5"
          },
          "geometry":{
@@ -73,9 +77,9 @@ cultureSites = {
             "longitude":"-76.279443",
             "latitude":"-9.930747",
             "type":"Archeological Site",
-            "wiki_link":"https://es.wikipedia.org/wiki/Kotosh",
-            "photo":"images/kotosh.jpg",
-            "color":"#998B30",
+            "wiki_link":"https://es.wikipedia.org/wiki/Cultura_paracas",
+            "photo":"images/chavin.png",
+            "color":"#86511F",
             "radius":"5"
          },
          "geometry":{
@@ -96,8 +100,8 @@ cultureSites = {
             "latitude":"-9.701645",
             "type":"Archeological Site",
             "wiki_link":"https://es.wikipedia.org/wiki/Las_Haldas",
-            "photo":"images/aldas.png",
-            "color":"#998B30",
+            "photo":"images/chavin.png",
+            "color":"#86511F",
             "radius":"5"
          },
          "geometry":{
@@ -118,8 +122,8 @@ cultureSites = {
             "latitude":"-11.186705",
             "type":"Archeological Site",
             "wiki_link":"https://es.wikipedia.org/wiki/Bandurria_(sitio_arqueol%C3%B3gico)",
-            "photo":"images/badurria.jpg",
-            "color":"#998B30",
+            "photo":"images/chavin.png",
+            "color":"#86511F",
             "radius":"5"
          },
          "geometry":{
@@ -140,8 +144,8 @@ cultureSites = {
             "latitude":"-11.953733",
             "type":"Archeological Site",
             "wiki_link":"https://es.wikipedia.org/wiki/Huaca_El_Para%C3%ADso",
-            "photo":"images/el_paraiso.jpg",
-            "color":"#998B30",
+            "photo":"images/chavin.png",
+            "color":"#86511F",
             "radius":"5"
          },
          "geometry":{
@@ -165,7 +169,8 @@ cultureSites = {
             "department":"Ica",
             "type":"Sitio Arqueológico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "color":"#8C4B4B",
+            "photo":"images/paracas.png",
+            "color":"#863589",
             "radius":"5"
          },
          "geometry":{
@@ -189,7 +194,8 @@ cultureSites = {
             "department":"Ica",
             "type":"Sitio Arqueológico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "color":"#8C4B4B",
+            "photo":"images/paracas.png",
+            "color":"#863589",
             "radius":"5"
          },
          "geometry":{
@@ -214,7 +220,8 @@ cultureSites = {
             "department":"Arequipa",
             "type":"Sitio Arqueológico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "color":"#8C4B4B",
+            "photo":"images/paracas.png",
+            "color":"#863589",
             "radius":"5"
          },
          "geometry":{
@@ -239,7 +246,8 @@ cultureSites = {
             "department":"Ica",
             "type":"Monumento Arqueológico Prehispánico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "color":"#8C4B4B",
+            "photo":"images/paracas.png",
+            "color":"#863589",
             "radius":"5"
          },
          "geometry":{
@@ -263,7 +271,8 @@ cultureSites = {
             "department":"Ica",
             "type":"Zona Arqueológica Monumental",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "color":"#8C4B4B",
+            "photo":"images/paracas.png",
+            "color":"#863589",
             "radius":"5"
          },
          "geometry":{
@@ -287,7 +296,8 @@ cultureSites = {
             "department":"Ica",
             "type":"Sitio Arqueológico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "color":"#8C4B4B",
+            "photo":"images/paracas.png",
+            "color":"#863589",
             "radius":"5"
          },
          "geometry":{
@@ -311,7 +321,8 @@ cultureSites = {
             "department":"Ica",
             "type":"Sitio Arqueológico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "color":"#8C4B4B",
+            "photo":"images/paracas.png",
+            "color":"#863589",
             "radius":"5"
          },
          "geometry":{
@@ -335,7 +346,8 @@ cultureSites = {
             "department":"Ica",
             "type":"\tZona Arqueológica Monumental",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "color":"#8C4B4B",
+            "photo":"images/paracas.png",
+            "color":"#863589",
             "radius":"5"
          },
          "geometry":{
@@ -359,7 +371,8 @@ cultureSites = {
             "department":"Ica",
             "type":"Sitio Arqueológico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "color":"#8C4B4B",
+            "photo":"images/paracas.png",
+            "color":"#863589",
             "radius":"5"
          },
          "geometry":{
@@ -384,7 +397,8 @@ cultureSites = {
             "department":"Ica",
             "type":"Sitio Arqueológico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "color":"#8C4B4B",
+            "photo":"images/paracas.png",
+            "color":"#863589",
             "radius":"5"
          },
          "geometry":{
@@ -408,7 +422,8 @@ cultureSites = {
             "department":"Ica",
             "type":"Sitio Arqueológico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "color":"#8C4B4B",
+            "photo":"images/paracas.png",
+            "color":"#863589",
             "radius":"5"
          },
          "geometry":{
@@ -432,7 +447,8 @@ cultureSites = {
             "department":"Ica",
             "type":"Paisaje Arqueológico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "color":"#8C4B4B",
+            "photo":"images/paracas.png",
+            "color":"#863589",
             "radius":"5"
          },
          "geometry":{
@@ -457,7 +473,8 @@ cultureSites = {
             "department":"Ica",
             "type":"Paisaje Arqueológico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "color":"#8C4B4B",
+            "photo":"images/paracas.png",
+            "color":"#863589",
             "radius":"5"
          },
          "geometry":{
@@ -482,7 +499,8 @@ cultureSites = {
             "department":"Ica",
             "type":"Paisaje Arqueológico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "color":"#8C4B4B",
+            "photo":"images/paracas.png",
+            "color":"#863589",
             "radius":"5"
          },
          "geometry":{
@@ -504,7 +522,8 @@ cultureSites = {
             "latitude":"-14.318824",
             "type":"Sitio Arqueológico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "color":"#8C4B4B",
+            "photo":"images/paracas.png",
+            "color":"#863589",
             "radius":"5"
          },
          "geometry":{
@@ -528,7 +547,8 @@ cultureSites = {
             "department":"Ica",
             "type":"Paisaje Arqueológico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "color":"#8C4B4B",
+            "photo":"images/paracas.png",
+            "color":"#863589",
             "radius":"5"
          },
          "geometry":{
@@ -552,7 +572,8 @@ cultureSites = {
             "department":"Ica",
             "type":"Paisaje Arqueológico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "color":"#8C4B4B",
+            "photo":"images/paracas.png",
+            "color":"#863589",
             "radius":"5"
          },
          "geometry":{
@@ -577,7 +598,8 @@ cultureSites = {
             "department":"Ica",
             "type":"Sitio Arqueológico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "color":"#8C4B4B",
+            "photo":"images/paracas.png",
+            "color":"#863589",
             "radius":"5"
          },
          "geometry":{
@@ -602,7 +624,8 @@ cultureSites = {
             "department":"Ica",
             "type":"Paisaje Arqueológico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_nazca",
-            "color":"#51517A",
+            "photo":"images/nazca.png",
+            "color":"#BA95AA",
             "radius":"5"
          },
          "geometry":{
@@ -627,7 +650,8 @@ cultureSites = {
             "department":"Ica",
             "type":"Zona Arqueológica Monumental",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_nazca",
-            "color":"#51517A",
+            "photo":"images/nazca.png",
+            "color":"#BA95AA",
             "radius":"5"
          },
          "geometry":{
@@ -651,7 +675,8 @@ cultureSites = {
             "department":"Ica",
             "type":"Paisaje Arqueológico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_nazca",
-            "color":"#51517A",
+            "photo":"images/nazca.png",
+            "color":"#BA95AA",
             "radius":"5"
          },
          "geometry":{
@@ -673,7 +698,8 @@ cultureSites = {
             "latitude":"-14.411932",
             "type":"Sitio Arqueologico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_nazca",
-            "color":"#51517A",
+            "photo":"images/nazca.png",
+            "color":"#BA95AA",
             "radius":"5"
          },
          "geometry":{
@@ -698,7 +724,8 @@ cultureSites = {
             "department":"Ica",
             "type":"Zona Arqueológica Monumental",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_nazca",
-            "color":"#51517A",
+            "photo":"images/nazca.png",
+            "color":"#BA95AA",
             "radius":"5"
          },
          "geometry":{
@@ -723,7 +750,8 @@ cultureSites = {
             "department":"Ica",
             "type":"Zona Arqueológica",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_nazca",
-            "color":"#51517A",
+            "photo":"images/nazca.png",
+            "color":"#BA95AA",
             "radius":"5"
          },
          "geometry":{
@@ -748,7 +776,8 @@ cultureSites = {
             "department":"Ica",
             "type":"Sitio Arqueologico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_nazca",
-            "color":"#51517A",
+            "photo":"images/nazca.png",
+            "color":"#BA95AA",
             "radius":"5"
          },
          "geometry":{
@@ -772,7 +801,8 @@ cultureSites = {
             "province":"Nazca",
             "department":"Ica",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_nazca",
-            "color":"#51517A",
+            "photo":"images/nazca.png",
+            "color":"#BA95AA",
             "radius":"5"
          },
          "geometry":{
@@ -796,7 +826,8 @@ cultureSites = {
             "department":"Arequipa",
             "type":"Sitio Arqueológico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_nazca",
-            "color":"#51517A",
+            "photo":"images/nazca.png",
+            "color":"#BA95AA",
             "radius":"5"
          },
          "geometry":{
@@ -817,8 +848,8 @@ cultureSites = {
             "latitude":"-14.705824",
             "type":"Archeological Site",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_nazca",
-            "photo":"images/el_paraiso.jpg",
-            "color":"#51517A",
+            "photo":"images/nazca.png",
+            "color":"#BA95AA",
             "radius":"5"
          },
          "geometry":{
@@ -840,8 +871,8 @@ cultureSites = {
             "latitude":"-9.483099",
             "type":"Archeological Site",
             "wiki_link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "photo":"images/aldas.png",
-            "color":"#8A6148",
+            "photo":"images/recuay.png",
+            "color":"#B4A178",
             "radius":"5"
          },
          "geometry":{
@@ -862,8 +893,8 @@ cultureSites = {
             "latitude":"-8.885541",
             "type":"Archeological Site",
             "wiki_link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "photo":"images/badurria.jpg",
-            "color":"#8A6148",
+            "photo":"images/recuay.png",
+            "color":"#B4A178",
             "radius":"5"
          },
          "geometry":{
@@ -884,8 +915,8 @@ cultureSites = {
             "latitude":"-8.945565",
             "type":"Archeological Site",
             "wiki_link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "photo":"images/el_paraiso.jpg",
-            "color":"#8A6148",
+            "photo":"images/recuay.png",
+            "color":"#B4A178",
             "radius":"5"
          },
          "geometry":{
@@ -907,8 +938,8 @@ cultureSites = {
             "province":"La Libertad",
             "type":"Archeological Site",
             "wiki_link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "photo":"images/kotosh.jpg",
-            "color":"#6078C0",
+            "photo":"images/mochica.png",
+            "color":"#4F428D",
             "radius":"5"
          },
          "geometry":{
@@ -930,8 +961,8 @@ cultureSites = {
             "province":"La Libertad",
             "type":"Archeological Site",
             "wiki_link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "photo":"images/aldas.png",
-            "color":"#6078C0",
+            "photo":"images/mochica.png",
+            "color":"#4F428D",
             "radius":"5"
          },
          "geometry":{
@@ -953,8 +984,8 @@ cultureSites = {
             "province":"La Libertad",
             "type":"Archeological Site",
             "wiki_link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "photo":"images/badurria.jpg",
-            "color":"#6078C0",
+            "photo":"images/mochica.png",
+            "color":"#4F428D",
             "radius":"5"
          },
          "geometry":{
@@ -976,8 +1007,8 @@ cultureSites = {
             "province":"La Libertad",
             "type":"Archeological Site",
             "wiki_link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "photo":"images/el_paraiso.jpg",
-            "color":"#6078C0",
+            "photo":"images/mochica.png",
+            "color":"#4F428D",
             "radius":"5"
          },
          "geometry":{
@@ -999,8 +1030,8 @@ cultureSites = {
             "province":"La Libertad",
             "type":"Archeological Site",
             "wiki_link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "photo":"images/huaca_prieta.jpg",
-            "color":"#6078C0",
+            "photo":"images/mochica.png",
+            "color":"#4F428D",
             "radius":"5"
          },
          "geometry":{
@@ -1022,8 +1053,8 @@ cultureSites = {
             "province":"La Libertad",
             "type":"Archeological Site",
             "wiki_link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "photo":"images/kotosh.jpg",
-            "color":"#6078C0",
+            "photo":"images/mochica.png",
+            "color":"#4F428D",
             "radius":"5"
          },
          "geometry":{
@@ -1045,8 +1076,8 @@ cultureSites = {
             "province":"La Libertad",
             "type":"Archeological Site",
             "wiki_link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "photo":"images/aldas.png",
-            "color":"#6078C0",
+            "photo":"images/mochica.png",
+            "color":"#4F428D",
             "radius":"5"
          },
          "geometry":{
@@ -1068,8 +1099,8 @@ cultureSites = {
             "latitude":"-12.110026",
             "type":"Archeological Site",
             "wiki_link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "photo":"images/badurria.jpg",
-            "color":"#949494",
+            "photo":"images/lima.png",
+            "color":"#C9AA31",
             "radius":"5"
          },
          "geometry":{
@@ -1090,8 +1121,8 @@ cultureSites = {
             "latitude":"-12.259386",
             "type":"Archeological Site",
             "wiki_link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "photo":"images/el_paraiso.jpg",
-            "color":"#949494",
+            "photo":"images/lima.png",
+            "color":"#C9AA31",
             "radius":"5"
          },
          "geometry":{
@@ -1112,8 +1143,8 @@ cultureSites = {
             "latitude":"-7.232845",
             "type":"Archeological Site",
             "wiki_link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "photo":"images/kotosh.jpg",
-            "color":"#5F8242",
+            "photo":"images/cajamarca.png",
+            "color":"#89B22E",
             "radius":"5"
          },
          "geometry":{
@@ -1134,8 +1165,8 @@ cultureSites = {
             "latitude":"-7.125648",
             "type":"Archeological Site",
             "wiki_link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "photo":"images/aldas.png",
-            "color":"#5F8242",
+            "photo":"images/cajamarca.png",
+            "color":"#89B22E",
             "radius":"5"
          },
          "geometry":{
@@ -1157,8 +1188,8 @@ cultureSites = {
             "latitude":"-16.55535",
             "type":"Archeological Site",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_tiahuanaco",
-            "photo":"images/huaca_prieta.jpg",
-            "color":"#5D5D5D",
+            "photo":"images/tiahuanaco.png",
+            "color":"#8F1313",
             "radius":"5"
          },
          "geometry":{
@@ -1182,8 +1213,8 @@ cultureSites = {
             "department":"Puno",
             "type":"Zona Arqueológica Monumental",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_tiahuanaco",
-            "photo":"images/huaca_prieta.jpg",
-            "color":"#5D5D5D",
+            "photo":"images/tiahuanaco.png",
+            "color":"#8F1313",
             "radius":"5"
          },
          "geometry":{
@@ -1207,8 +1238,8 @@ cultureSites = {
             "department":"Moquegua",
             "type":"Zona Arqueológica",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_tiahuanaco",
-            "photo":"images/kotosh.jpg",
-            "color":"#5D5D5D",
+            "photo":"images/tiahuanaco.png",
+            "color":"#8F1313",
             "radius":"5"
          },
          "geometry":{
@@ -1233,8 +1264,8 @@ cultureSites = {
             "department":"Moquegua",
             "type":"Zona Arqueológica",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_tiahuanaco",
-            "photo":"images/aldas.png",
-            "color":"#5D5D5D",
+            "photo":"images/tiahuanaco.png",
+            "color":"#8F1313",
             "radius":"5"
          },
          "geometry":{
@@ -1255,8 +1286,8 @@ cultureSites = {
             "latitude":"-6.162543",
             "type":"Archeological Site",
             "wiki_link":"https://es.wikipedia.org/wiki/Huaca_El_Para%C3%ADso",
-            "photo":"images/huaca_prieta.jpg",
-            "color":"#18684C",
+            "photo":"images/chachapoyas.png",
+            "color":"#205D1B",
             "radius":"5"
          },
          "geometry":{
@@ -1278,8 +1309,8 @@ cultureSites = {
             "latitude":"-6.293966",
             "type":"Archeological Site",
             "wiki_link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "photo":"images/kotosh.jpg",
-            "color":"#18684C",
+            "photo":"images/chachapoyas.png",
+            "color":"#205D1B",
             "radius":"5"
          },
          "geometry":{
@@ -1300,8 +1331,8 @@ cultureSites = {
             "latitude":"-6.416864",
             "type":"Archeological Site",
             "wiki_link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "photo":"images/aldas.png",
-            "color":"#18684C",
+            "photo":"images/chachapoyas.png",
+            "color":"#205D1B",
             "radius":"5"
          },
          "geometry":{
@@ -1322,8 +1353,8 @@ cultureSites = {
             "latitude":"-6.540595",
             "type":"Archeological Site",
             "wiki_link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "photo":"images/badurria.jpg",
-            "color":"#18684C",
+            "photo":"images/chachapoyas.png",
+            "color":"#205D1B",
             "radius":"5"
          },
          "geometry":{
@@ -1344,8 +1375,8 @@ cultureSites = {
             "latitude":"-6.365329",
             "type":"Archeological Site",
             "wiki_link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "photo":"images/el_paraiso.jpg",
-            "color":"#18684C",
+            "photo":"images/chachapoyas.png",
+            "color":"#205D1B",
             "radius":"5"
          },
          "geometry":{
@@ -1366,8 +1397,8 @@ cultureSites = {
             "latitude":"-7.648195",
             "type":"Archeological Site",
             "wiki_link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "photo":"images/huaca_prieta.jpg",
-            "color":"#18684C",
+            "photo":"images/chachapoyas.png",
+            "color":"#205D1B",
             "radius":"5"
          },
          "geometry":{
@@ -1389,8 +1420,8 @@ cultureSites = {
             "latitude":"-6.847821",
             "type":"Archeological Site",
             "wiki_link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "photo":"images/kotosh.jpg",
-            "color":"#18684C",
+            "photo":"images/chachapoyas.png",
+            "color":"#205D1B",
             "radius":"5"
          },
          "geometry":{
@@ -1414,7 +1445,8 @@ cultureSites = {
             "department":"La Libertad",
             "type":"Sitio Arqueológico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_wari",
-            "color":"#18684C",
+            "photo":"images/wari.png",
+            "color":"#A3A4C7",
             "radius":"5"
          },
          "geometry":{
@@ -1438,7 +1470,8 @@ cultureSites = {
             "department":"Cajamarca",
             "type":"Sitio Arqueológico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_wari",
-            "color":"#18684C",
+            "photo":"images/wari.png",
+            "color":"#A3A4C7",
             "radius":"5"
          },
          "geometry":{
@@ -1460,7 +1493,8 @@ cultureSites = {
             "latitude":"-7.017559",
             "type":"Sitio Arqueológico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_wari",
-            "color":"#18684C",
+            "photo":"images/wari.png",
+            "color":"#A3A4C7",
             "radius":"5"
          },
          "geometry":{
@@ -1484,7 +1518,8 @@ cultureSites = {
             "department":"Ica",
             "type":"Sitio Arqueológico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_wari",
-            "color":"#18684C",
+            "photo":"images/wari.png",
+            "color":"#A3A4C7",
             "radius":"5"
          },
          "geometry":{
@@ -1508,7 +1543,8 @@ cultureSites = {
             "department":"Ica",
             "type":"Sitio Arqueológico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_wari",
-            "color":"#18684C",
+            "photo":"images/wari.png",
+            "color":"#A3A4C7",
             "radius":"5"
          },
          "geometry":{
@@ -1532,7 +1568,8 @@ cultureSites = {
             "department":"Lima",
             "type":"Zona Arqueológica Monumental",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_wari",
-            "color":"#18684C",
+            "photo":"images/wari.png",
+            "color":"#A3A4C7",
             "radius":"5"
          },
          "geometry":{
@@ -1556,7 +1593,8 @@ cultureSites = {
             "department":"Lima",
             "type":"Monumento Arqueológico Prehispánico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_wari",
-            "color":"#18684C",
+            "photo":"images/wari.png",
+            "color":"#A3A4C7",
             "radius":"5"
          },
          "geometry":{
@@ -1581,7 +1619,8 @@ cultureSites = {
             "department":"Lima",
             "type":"Sitio Arqueológico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_wari",
-            "color":"#18684C",
+            "photo":"images/wari.png",
+            "color":"#A3A4C7",
             "radius":"5"
          },
          "geometry":{
@@ -1605,7 +1644,8 @@ cultureSites = {
             "department":"Lima",
             "type":"Sitio Arqueológico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_wari",
-            "color":"#18684C",
+            "photo":"images/wari.png",
+            "color":"#A3A4C7",
             "radius":"5"
          },
          "geometry":{
@@ -1629,7 +1669,8 @@ cultureSites = {
             "department":"Ayacucho",
             "type":"Sitio Arqueológico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_wari",
-            "color":"#18684C",
+            "photo":"images/wari.png",
+            "color":"#A3A4C7",
             "radius":"5"
          },
          "geometry":{
@@ -1654,7 +1695,8 @@ cultureSites = {
             "department":"Ayacucho",
             "type":"Zona Arqueológica Monumental",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_wari",
-            "color":"#18684C",
+            "photo":"images/wari.png",
+            "color":"#A3A4C7",
             "radius":"5"
          },
          "geometry":{
@@ -1676,7 +1718,8 @@ cultureSites = {
             "latitude":"-13.702989",
             "type":"Sitio Arqueológico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_wari",
-            "color":"#18684C",
+            "photo":"images/wari.png",
+            "color":"#A3A4C7",
             "radius":"5"
          },
          "geometry":{
@@ -1697,7 +1740,8 @@ cultureSites = {
             "latitude":"-13.748939",
             "type":"Sitio Arqueológico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_wari",
-            "color":"#18684C",
+            "photo":"images/wari.png",
+            "color":"#A3A4C7",
             "radius":"5"
          },
          "geometry":{
@@ -1722,7 +1766,8 @@ cultureSites = {
             "department":"Junin",
             "type":"Sitio Arqueológico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_wari",
-            "color":"#18684C",
+            "photo":"images/wari.png",
+            "color":"#A3A4C7",
             "radius":"5"
          },
          "geometry":{
@@ -1744,7 +1789,8 @@ cultureSites = {
             "latitude":"-13.813268",
             "type":"Sitio Arqueológico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_wari",
-            "color":"#18684C",
+            "photo":"images/wari.png",
+            "color":"#A3A4C7",
             "radius":"5"
          },
          "geometry":{
@@ -1769,7 +1815,8 @@ cultureSites = {
             "department":"Ancash",
             "type":"Sitio Arqueológico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_wari",
-            "color":"#18684C",
+            "photo":"images/wari.png",
+            "color":"#A3A4C7",
             "radius":"5"
          },
          "geometry":{
@@ -1790,8 +1837,8 @@ cultureSites = {
             "latitude":"-6.469807",
             "type":"Archeological Site",
             "wiki_link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "photo":"images/badurria.jpg",
-            "color":"#2D837F",
+            "photo":"images/lambayeque.png",
+            "color":"#4CC8CC",
             "radius":"5"
          },
          "geometry":{
@@ -1812,8 +1859,8 @@ cultureSites = {
             "latitude":"-6.472203",
             "type":"Archeological Site",
             "wiki_link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "photo":"images/el_paraiso.jpg",
-            "color":"#2D837F",
+            "photo":"images/lambayeque.png",
+            "color":"#4CC8CC",
             "radius":"5"
          },
          "geometry":{
@@ -1834,8 +1881,8 @@ cultureSites = {
             "latitude":"-7.914043",
             "type":"Archeological Site",
             "wiki_link":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "photo":"images/badurria.jpg",
-            "color":"#2D837F",
+            "photo":"images/lambayeque.png",
+            "color":"#4CC8CC",
             "radius":"5"
          },
          "geometry":{
@@ -1859,9 +1906,10 @@ cultureSites = {
             "province":"Trujillo",
             "department":"La Libertad",
             "type":"\tZona Arqueológica",
-            "wiki_link":"https://es.wikipedia.org/wiki/Chan_Chan",
+            "wiki_link":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
             "trip_link":"https://www.google.com/maps/place/Chan+Chan/@-8.1055519,-79.0768015,17z/data=!3m1!4b1!4m5!3m4!1s0x91ad3c5aac618ac5:0xcb9b94821b72a829!8m2!3d-8.1055519!4d-79.0746128",
-            "color":"#AD7F93",
+            "photo":"images/chimu.png",
+            "color":"#248199",
             "radius":"5"
          },
          "geometry":{
@@ -1885,9 +1933,10 @@ cultureSites = {
             "province":"Lambayeque",
             "department":"Lambayeque",
             "type":"Zona Arqueológica Monumental",
-            "wiki_link":"https://es.wikipedia.org/wiki/T%C3%BAcume",
+            "wiki_link":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
             "trip_link":"https://www.google.com/maps/place/Tucume+pyramids/@-6.5168756,-79.8473087,16z/data=!4m12!1m6!3m5!1s0x904c90d85e461465:0xaec41fd3d563a6b!2sTucume+pyramids!8m2!3d-6.5168756!4d-79.8429313!3m4!1s0x904c90d85e461465:0xaec41fd3d563a6b!8m2!3d-6.5168756!4d-79.8429313",
-            "color":"#AD7F93",
+            "photo":"images/chimu.png",
+            "color":"#248199",
             "radius":"5"
          },
          "geometry":{
@@ -1910,7 +1959,9 @@ cultureSites = {
             "province":"Barranca",
             "department":"Lima",
             "type":"Zona Arqueológica Monumental",
-            "color":"#AD7F93",
+            "wiki_link":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
+            "photo":"images/chimu.png",
+            "color":"#248199",
             "radius":"5"
          },
          "geometry":{
@@ -1933,8 +1984,10 @@ cultureSites = {
             "province":"Barranca",
             "department":"Lima",
             "type":"Sitio Arqueologico",
+            "wiki_link":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
             "trip_link":"https://www.google.com/maps/place/Fortress+Paramonga/@-10.6533333,-77.8435776,17z/data=!3m1!4b1!4m8!1m2!2m1!1sParamonga+archeological!3m4!1s0x0:0xf5d936a00563bec1!8m2!3d-10.6533333!4d-77.8413889",
-            "color":"#AD7F93",
+            "photo":"images/chimu.png",
+            "color":"#248199",
             "radius":"5"
          },
          "geometry":{
@@ -1958,7 +2011,9 @@ cultureSites = {
             "province":"Chiclayo",
             "department":"Lambayeque",
             "type":"Zona Arqueológica Monumental",
-            "color":"#AD7F93",
+            "wiki_link":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
+            "photo":"images/chimu.png",
+            "color":"#248199",
             "radius":"5"
          },
          "geometry":{
@@ -1981,7 +2036,9 @@ cultureSites = {
             "province":"Pacasmayo",
             "department":"La Libertad\t",
             "type":"Sitio Arqueológico",
-            "color":"#AD7F93",
+            "wiki_link":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
+            "photo":"images/chimu.png",
+            "color":"#248199",
             "radius":"5"
          },
          "geometry":{
@@ -2005,7 +2062,9 @@ cultureSites = {
             "province":"Pacasmayo",
             "department":"La Libertad        ",
             "type":"Zona Arqueológica",
-            "color":"#AD7F93",
+            "wiki_link":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
+            "photo":"images/chimu.png",
+            "color":"#248199",
             "radius":"5"
          },
          "geometry":{
@@ -2029,7 +2088,9 @@ cultureSites = {
             "province":"Casma",
             "department":"Ancash",
             "type":"\tSitio Arqueológico",
-            "color":"#AD7F93",
+            "wiki_link":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
+            "photo":"images/chimu.png",
+            "color":"#248199",
             "radius":"5"
          },
          "geometry":{
@@ -2049,7 +2110,9 @@ cultureSites = {
             "longitude":"-78.51085",
             "latitude":"-6.436968",
             "type":"\tSitio Arqueológico",
-            "color":"#AD7F93",
+            "wiki_link":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
+            "photo":"images/chimu.png",
+            "color":"#248199",
             "radius":"5"
          },
          "geometry":{
@@ -2069,7 +2132,9 @@ cultureSites = {
             "longitude":"-79.382804",
             "latitude":"-7.805888",
             "type":"\tSitio Arqueológico",
-            "color":"#AD7F93",
+            "wiki_link":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
+            "photo":"images/chimu.png",
+            "color":"#248199",
             "radius":"5"
          },
          "geometry":{
@@ -2092,7 +2157,9 @@ cultureSites = {
             "province":"Ascope",
             "department":"La Libertad",
             "type":"Zona Arqueológica Monumental",
-            "color":"#AD7F93",
+            "wiki_link":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
+            "photo":"images/chimu.png",
+            "color":"#248199",
             "radius":"5"
          },
          "geometry":{
@@ -2113,7 +2180,9 @@ cultureSites = {
             "longitude":"-79.254134",
             "latitude":"-7.842001",
             "type":"Sitio Arqueologico",
-            "color":"#AD7F93",
+            "wiki_link":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
+            "photo":"images/chimu.png",
+            "color":"#248199",
             "radius":"5"
          },
          "geometry":{
@@ -2136,8 +2205,10 @@ cultureSites = {
             "province":"Ascope",
             "department":"La Libertad",
             "type":"Sitio Arqueologico",
-            "wiki_link":"Varios",
-            "color":"#AD7F93",
+            "comments":"Varios",
+            "wiki_link":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
+            "photo":"images/chimu.png",
+            "color":"#248199",
             "radius":"5"
          },
          "geometry":{
@@ -2156,7 +2227,9 @@ cultureSites = {
             "site_name":"Talambo",
             "longitude":"-79.370545",
             "latitude":"-7.311015",
-            "color":"#AD7F93",
+            "wiki_link":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
+            "photo":"images/chimu.png",
+            "color":"#248199",
             "radius":"5"
          },
          "geometry":{
@@ -2179,8 +2252,10 @@ cultureSites = {
             "province":"Chepen",
             "department":"La Libertad\t",
             "type":"Sitio Arqueologico",
-            "wiki_link":"Varios",
-            "color":"#AD7F93",
+            "comments":"Varios",
+            "wiki_link":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
+            "photo":"images/chimu.png",
+            "color":"#248199",
             "radius":"5"
          },
          "geometry":{
@@ -2204,7 +2279,9 @@ cultureSites = {
             "province":"Nazca",
             "department":"Ica",
             "type":"Sitio Arqueológico",
-            "color":"#AD7F93",
+            "wiki_link":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
+            "photo":"images/chimu.png",
+            "color":"#248199",
             "radius":"5"
          },
          "geometry":{
@@ -2225,7 +2302,9 @@ cultureSites = {
             "longitude":"-79.614902",
             "latitude":"-6.508522",
             "type":"Sitio Arqueológico",
-            "color":"#AD7F93",
+            "wiki_link":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
+            "photo":"images/chimu.png",
+            "color":"#248199",
             "radius":"5"
          },
          "geometry":{
@@ -2245,7 +2324,9 @@ cultureSites = {
             "alt_name":"Mesones Muro",
             "longitude":"-78.785807",
             "latitude":"-5.872751",
-            "color":"#AD7F93",
+            "wiki_link":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
+            "photo":"images/chimu.png",
+            "color":"#248199",
             "radius":"5"
          },
          "geometry":{
@@ -2268,7 +2349,9 @@ cultureSites = {
             "province":"Chiclayo",
             "department":"Lambayeque",
             "type":"Sin Clasificación",
-            "color":"#AD7F93",
+            "wiki_link":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
+            "photo":"images/chimu.png",
+            "color":"#248199",
             "radius":"5"
          },
          "geometry":{
@@ -2292,7 +2375,9 @@ cultureSites = {
             "province":"Lambayeque",
             "department":"Lambayeque",
             "type":"Zona de Reserva Arqueológica",
-            "color":"#AD7F93",
+            "wiki_link":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
+            "photo":"images/chimu.png",
+            "color":"#248199",
             "radius":"5"
          },
          "geometry":{
@@ -2315,7 +2400,9 @@ cultureSites = {
             "province":"Tumbes",
             "department":"Tumbes",
             "type":"Zona Arqueológica",
-            "color":"#AD7F93",
+            "wiki_link":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
+            "photo":"images/chimu.png",
+            "color":"#248199",
             "radius":"5"
          },
          "geometry":{
@@ -2339,7 +2426,8 @@ cultureSites = {
             "department":"Lima",
             "type":"Sitio Arqueológico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_Chancay",
-            "color":"#5D5D5D",
+            "photo":"images/chancay.png",
+            "color":"#D08A40",
             "radius":"5"
          },
          "geometry":{
@@ -2364,7 +2452,8 @@ cultureSites = {
             "type":"Paisaje Arqueológico",
             "comments":"Camino Prehispánico Huallay-Huaral, Tramo: Acos-Lumbra, Sección Totoral",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_Chancay",
-            "color":"#5D5D5D",
+            "photo":"images/chancay.png",
+            "color":"#D08A40",
             "radius":"5"
          },
          "geometry":{
@@ -2389,7 +2478,8 @@ cultureSites = {
             "type":"Paisaje Arqueológico",
             "comments":"Camino Prehispanico Huayllay - Huaral Tramo: Acos - Lumbra Sección Huataya",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_Chancay",
-            "color":"#5D5D5D",
+            "photo":"images/chancay.png",
+            "color":"#D08A40",
             "radius":"5"
          },
          "geometry":{
@@ -2413,7 +2503,8 @@ cultureSites = {
             "department":"Lima",
             "type":"Sitio Arqueológico",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_Chancay",
-            "color":"#5D5D5D",
+            "photo":"images/chancay.png",
+            "color":"#D08A40",
             "radius":"5"
          },
          "geometry":{
@@ -2437,7 +2528,8 @@ cultureSites = {
             "department":"Lima",
             "type":"Zona Arqueológica Monumental",
             "wiki_link":"https://es.wikipedia.org/wiki/Cultura_Chancay",
-            "color":"#5D5D5D",
+            "photo":"images/chancay.png",
+            "color":"#D08A40",
             "radius":"5"
          },
          "geometry":{

@@ -17,7 +17,7 @@ cultureGeneral = {
             "thumbImage":"images/caral.png",
             "image":"images/caral.png",
             "link":"https://es.wikipedia.org/wiki/Caral",
-            "color":"#8C4B4B",
+            "color":"#C6658A",
             "radius":"10"
          },
          "geometry":{
@@ -42,7 +42,7 @@ cultureGeneral = {
             "thumbImage":"images/chavin.png",
             "image":"images/chavin.png",
             "link":"https://es.wikipedia.org/wiki/Cultura_chav%C3%ADn",
-            "color":"#8C4B4B",
+            "color":"#86511F",
             "radius":"10"
          },
          "geometry":{
@@ -67,7 +67,7 @@ cultureGeneral = {
             "thumbImage":"images/paracas.png",
             "image":"images/paracas.png",
             "link":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "color":"#8C4B4B",
+            "color":"#863589",
             "radius":"10"
          },
          "geometry":{
@@ -92,7 +92,7 @@ cultureGeneral = {
             "thumbImage":"images/nazca.png",
             "image":"images/nazca.png",
             "link":"https://es.wikipedia.org/wiki/Cultura_nazca",
-            "color":"#8C4B4B",
+            "color":"#BA95AA",
             "radius":"10"
          },
          "geometry":{
@@ -117,7 +117,7 @@ cultureGeneral = {
             "thumbImage":"images/recuay.png",
             "image":"images/recuay.png",
             "link":"https://es.wikipedia.org/wiki/Cultura_Recuay",
-            "color":"#8C4B4B",
+            "color":"#B4A178",
             "radius":"10"
          },
          "geometry":{
@@ -142,7 +142,7 @@ cultureGeneral = {
             "thumbImage":"images/mochica.png",
             "image":"images/mochica.png",
             "link":"https://es.wikipedia.org/wiki/Cultura_moche",
-            "color":"#8C4B4B",
+            "color":"#4F428D",
             "radius":"10"
          },
          "geometry":{
@@ -167,7 +167,7 @@ cultureGeneral = {
             "thumbImage":"images/lima.png",
             "image":"images/lima.png",
             "link":"https://es.wikipedia.org/wiki/Cultura_Lima",
-            "color":"#8C4B4B",
+            "color":"#C9AA31",
             "radius":"10"
          },
          "geometry":{
@@ -192,7 +192,7 @@ cultureGeneral = {
             "thumbImage":"images/cajamarca.png",
             "image":"images/cajamarca.png",
             "link":"https://es.wikipedia.org/wiki/Cultura_Cajamarca",
-            "color":"#8C4B4B",
+            "color":"#89B22E",
             "radius":"10"
          },
          "geometry":{
@@ -217,7 +217,7 @@ cultureGeneral = {
             "thumbImage":"images/tiahuanaco.png",
             "image":"images/tiahuanaco.png",
             "link":"https://es.wikipedia.org/wiki/Cultura_tiahuanaco",
-            "color":"#8C4B4B",
+            "color":"#8F1313",
             "radius":"10"
          },
          "geometry":{
@@ -242,7 +242,7 @@ cultureGeneral = {
             "thumbImage":"images/chachapoyas.png",
             "image":"images/chachapoyas.png",
             "link":"https://es.wikipedia.org/wiki/Cultura_chachapoyas",
-            "color":"#8C4B4B",
+            "color":"#205D1B",
             "radius":"10"
          },
          "geometry":{
@@ -267,7 +267,7 @@ cultureGeneral = {
             "thumbImage":"images/wari.png",
             "image":"images/wari.png",
             "link":"https://es.wikipedia.org/wiki/Cultura_wari",
-            "color":"#8C4B4B",
+            "color":"#A3A4C7",
             "radius":"10"
          },
          "geometry":{
@@ -292,7 +292,7 @@ cultureGeneral = {
             "thumbImage":"images/lambayeque.png",
             "image":"images/lambayeque.png",
             "link":"https://es.wikipedia.org/wiki/Cultura_lambayeque",
-            "color":"#8C4B4B",
+            "color":"#4CC8CC",
             "radius":"10"
          },
          "geometry":{
@@ -317,7 +317,7 @@ cultureGeneral = {
             "thumbImage":"images/chimu.png",
             "image":"images/chimu.png",
             "link":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
-            "color":"#8C4B4B",
+            "color":"#248199",
             "radius":"10"
          },
          "geometry":{
@@ -342,7 +342,7 @@ cultureGeneral = {
             "thumbImage":"images/chancay.png",
             "image":"images/chancay.png",
             "link":"https://es.wikipedia.org/wiki/Cultura_Chancay",
-            "color":"#8C4B4B",
+            "color":"#D08A40",
             "radius":"10"
          },
          "geometry":{

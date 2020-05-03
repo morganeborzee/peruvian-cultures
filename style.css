@@ -35,14 +35,20 @@
   		}
 
 
+  		html, body {
+			  padding: 0;
+			  margin: 0;
+
+			}
+
 		body {
 			font-family: 'Whitney HTF';
 			font-weight: 400;
-			color: #3E4956;
+			color: #48525D;
 		}
 
 		h1{
-			margin:0px;
+			margin: 0px;
 			font-size: 35px;
 			font-weight: 700;
 		}
@@ -53,15 +59,13 @@
 			font-weight: 700;
 		}
 
+		p {
+			font-size: 14px;
+			color: #3E4956;
+		}
 
-/* THIS STYLES THE TOP LEFT TITLE */
 
-
-html, body
-{
-  padding: 0;
-  margin: 0;
-}
+/* TOP TITLE */
 
 		#title {
 			position: absolute;
@@ -70,8 +74,8 @@ html, body
 			z-index: 10;
 			margin: 25px 0px 0px 30px;
 			width: auto;
-			font-family: 'Whitney HTF';
 			font-size: 20px;
+			font-family: 'Whitney HTF';
 			font-weight: 700;
 			cursor: pointer;
 		}
@@ -83,69 +87,151 @@ html, body
 			z-index: 10;
 			margin: 45px 0px 0px 30px;
 			width: auto;
-			font-family: 'Whitney HTF';
 			font-size: 16px;
+			font-family: 'Whitney HTF';
 			font-weight: 300;
 			cursor: pointer;
 		}
 
-
-		.info-culture {
-			color: #939DA8;
-			font: 14px;
-		}
-
-		.boximage {
-			width: 190px;
-			border-radius: 0 0 10px 10px;
-		}
+/* BOTTOM MODULE */
 
 		.cultures {
 			background-color: #FFFFFF;
+			z-index: 1;
+			display: flex;
+			width: 180px;
+			height: 160px;
 			font: 14px;
 			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-			margin: 20px 10px 20px 20px;
+			margin: 25px 10px 25px 25px;
 			border-radius: 10px;
+	/*			position: relative;
+
+		display:block;
 			display: flex;
 			align-items: flex-end;
-			flex-wrap: wrap;
+			flex-wrap: wrap; */
 			cursor: pointer;
 		}
 
+		.box-title {
+			margin: 10px 0px 5px 20px;
+		}
+
 		.box-dates {
-			margin: 0px;
 			font-size: 13px;
-			margin: 5px 0px 20px 10px;
+			margin: 5px 0px 15px 20px;
 			color: #939DA8;
 		}
 
-/* THIS STYLES THE BOTTOM MODULE */
-		.first-box {
-			float: left;
-			margin: 15px 20px 0px 15px;
-			width: 15%;
-			font-size: 17px;
+		.box-image {
+			width: 180px;
+			display: inline-block;
+  			align-self: flex-end;
+			border-radius: 0 0 10px 10px;
 		}
 
-		.second-box {
-			float: left;
-			margin: 15px 50px 0px 15px;
-			width: 45%;
-			font-size: 15px;
+		.boxline {
+  			border-left: 6px solid green;
+  			height: 17%;
 		}
 
-		.third-box {
-			margin: 10px;
-			float: left;
-			width: 20%;
+
+
+/* RIGHT MODULE */
+
+
+		.innerbox {
+			padding: 10px 22px 10px 16px;
+			border-left: 6px solid green;
+  			height: 4%;
 		}
+
+		.module-title{
+			margin: 10px 0px 7px 0px;
+			font-size: 26px;
+
+		}
+
+		.module-mintitle{
+			margin: 10px 0px -10px 0px;
+			font-size: 16px;
+			font-weight: 600;
+			cursor: pointer;
+
+		}
+
+		.module-text {
+			margin: 20px 0px 20px 0px;
+			color: #939DA8;
+		}
+
+		.curlylegend {
+			font-size: 13px;
+			margin: 5px 0px 10px 0px;
+			color: #939DA8;
+			font-style: italic;
+		}
+
+		.legend {
+			font-size: 14px;
+			margin: 8px 0px 5px 0px;
+			color: #939DA8;
+		}
+
+		hr {
+	        height: 1px;
+	        background-color: #DEDEDE;
+	        border: none;
+	        margin-bottom: 20px;
+    	}
+
+    	.module-button{
+    		border: 2px solid #4CAF50;
+    		border-radius: 5px;
+    		margin: 8px 10px 0 0;
+    		color: #4CAF50;
+    		padding: 5px 10px 5px 10px;
+  			text-align: center;
+  			text-decoration: none;
+  			display:inline;
+    	}
+
+    	.svgstyle{
+    		position:absolute;
+    		left:10px;
+    		top: 12px;
+    	}
+
+    	.home-button {
+    		font-weight: 600;
+    		font-size: 14px;
+    		width: 400px;
+			height: 27px;
+			text-align: center;
+			padding-top: 10px;
+			cursor: pointer;
+
+    	}
+
+    	.button-link {
+  			text-decoration: none;
+  			color: #4CAF50;
+    	}
+
+
+		.boldy {
+			font-weight: 600;
+			color: #939DA8;
+		}
+
 
 /* OTHER STYLES */
 
 
 		#map{
 			/*	height: calc(70vh - 15px);*/
-		height: 70vh;
+			height: 70vh;
 			overflow: scroll;
 			margin: 0px;
 			padding: 0px;
@@ -156,35 +242,48 @@ html, body
 			position: absolute;
 			left: 0px;
 			bottom: 0px;
-			z-index: 10;
+			z-index: 2;
 			width: 100%;
 			height:33%;
 			display: flex;
 			flex-direction: row;
 			background-color: #F7F7F7;
 			overflow: scroll;
-			align-items: stretch;
 		}
 
-		.bottom-module {
+
+		.overlay1 {
+			z-index: 20;
 			position: absolute;
-			left: 0px;
-			bottom: 0px;
+  			bottom: 0; 
 			z-index: 10;
 			width: 100%;
 			height:33%;
-			background-color: #F7F7F7;
+			transition: .5s ease;
+			background:rgba(0,0,0,0.2);
+}
+
+/* RIGHT MODULE */
+		.bottom-module {
+			position: absolute;
+			right: 0px;
+			top: 0px;
+			z-index: 10;
+			width: 400px;
+			height:100%;
+			background-color: #FFFFFF;
 			overflow: scroll;
+			margin: 0px;
 		}
+
 
 		.right-module {
 			position: absolute;
 			right: 0px;
 			top: 0px;
 			z-index: 10;
-			padding: 10px;
-			width: 26%;
-			height:65%;
+			width: 400px;
+			height:100%;
 			background-color: #FFFFFF;
 			overflow: scroll;
 			margin: 0px;
