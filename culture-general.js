@@ -98,8 +98,8 @@ cultureGeneral = {
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -74.937991,
-               -14.802611
+               -75.037991,
+               -14.602611
             ]
          }
       },
@@ -149,7 +149,7 @@ cultureGeneral = {
             "type":"Point",
             "coordinates":[
                -79.304007,
-               -7.911842
+               -7.411842
             ]
          }
       },
@@ -199,7 +199,7 @@ cultureGeneral = {
             "type":"Point",
             "coordinates":[
                -78.35475,
-               -6.606122
+               -7.206122
             ]
          }
       },
@@ -248,8 +248,8 @@ cultureGeneral = {
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -76.86327,
-               -6.415229
+               -77.76327,
+               -6.515229
             ]
          }
       },
