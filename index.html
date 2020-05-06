@@ -45,7 +45,7 @@
 			Volver al Home
 		</div>
 
-		<img id="culture-photo" src=" " width=430px>
+		<img id="culture-photo" src=" " width=480px>
 
 		<div class="innerbox" id="innerboxculture">
 
@@ -80,7 +80,7 @@
 		</div>
 
 		<div class="content-accordion">
-			<img id="pattern-photo" src="images/patterns.png" width=400px>
+			<img id="pattern-photo" src="images/patterns.png" width=480px>
 			<button class="module-button"><a class="button-link" href="https://marvelapp.com/6353g00" target="_blank">Ver más patrones
 			</a></button>
 		</div>
@@ -98,7 +98,7 @@
 			Volver a Cultura
 		</div>
 
-		<img id="archeo-photo" src=" " width=430px>
+		<img id="archeo-photo" src=" " width=480px>
 
 		<div class="innerbox" id="innerboxsite">
 
@@ -373,6 +373,9 @@
 			$('.button-link').css("color", activeColor);
 		    $('#innerboxculture').css("border-left-color", activeColor);
 
+
+    	if(document.getElementById("inner-id") == null) {
+    
 			for (i = 0; i < filteredSites.length; i++) {
 
 				var siteName = filteredSites[i].properties.site_name;
@@ -380,10 +383,9 @@
 				var compImage = filteredSites[i].properties.small_image;
 
 
-		 		$('#sites-accordion').append('<div class=inner-component><img class=component-image src='+compImage+'> <div class=component-wrap><p class=component-title>'+siteName+'</p><p class=component-text>'+siteType+'</p></div></div>');	
+		 		$('#sites-accordion').append('<div class=inner-component id=inner-id><img class=component-image src='+compImage+'> <div class=component-wrap><p class=component-title>'+siteName+'</p><p class=component-text>'+siteType+'</p></div></div>');	
 			}
-   
-		    
+  		 }
 		}
 
 
@@ -432,11 +434,17 @@
 		}
 
 		function flyToCultureMap(e) {
-			map.flyTo({ center: e.features[0].geometry.coordinates, zoom: 6 });
+			map.flyTo({ 
+				center: e.features[0].geometry.coordinates, 
+				zoom: 6 
+			});
 		}
 
 		function flyToCulture(a) {
-			map.flyTo({ center: cultureGeneral.features[a].geometry.coordinates, zoom: 6 });
+			map.flyTo({ 
+				center: cultureGeneral.features[a].geometry.coordinates, 
+				zoom: 6 
+			});
 		}
 
 		function filterDatalayer(selectedGroup) {
