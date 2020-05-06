@@ -24,157 +24,72 @@
 
 
 	<div id='map'>
-		<div id='title'> Culturas Peruanas Pre-Incaicas</div>
-		<div id='subtitle'> mapa interactivo</div>
+		<div class="title" id='maintitle'> Culturas Peruanas Pre-Incaicas</div>
+		<div class="title" id='subtitle'> mapa interactivo</div>
+		<div class="title" id='about'>Proyecto</div>
 	</div>
 
 
-	<!-- BOTTOM MODULE v1 WITH CULTURES BOXES INITIAL SCREEN -->
+	<!-- BOTTOM INITIAL BOXES SCREEN -->
 
-	<div class= 'bottom-module-initial' id='bottomInitial'> 
-
-		<div id='culture0' class='cultures'>
-			<div id='line0' class='boxline'>
-				<h3 class="box-title" id='cultTitle0'> </h3> 
-				<p class="box-dates" id='boxDates0'> </p>
-				<img class="box-image" id="boxImage0" src=" ">
-			</div>
-		</div>
-
-		<div id='culture1' class='cultures'>
-			<div id='line1' class='boxline'>
-				<h3 class="box-title" id='cultTitle1'> </h3> 
-				<p class="box-dates" id='boxDates1'> </p> 
-				<img class="box-image" id="boxImage1" src=" ">
-			</div>
-		</div>
-
-		<div id='culture2' class='cultures'>
-			<div id='line2' class='boxline'>
-				<h3 class="box-title" id='cultTitle2'> </h3> 
-				<p class="box-dates" id='boxDates2'> </p> 
-				<img class="box-image" id="boxImage2" src=" ">
-			</div>
-		</div>
+	<div id='bottom-initial'> 
+	</div>
 
 
-		<div id='culture3' class='cultures'>
-			<div id='line3' class='boxline'>
-				<h3 class="box-title" id='cultTitle3'> </h3> 
-				<p class="box-dates" id='boxDates3'> </p> 
-				<img class="box-image" id="boxImage3" src=" ">
-			</div>
-		</div>
+	<!-- RIGHT MODULE: CULTURES -->
 
-		<div id='culture4' class='cultures'>
-			<div id='line4' class='boxline'>
-				<h3 class="box-title" id='cultTitle4'> </h3> 
-				<p class="box-dates" id='boxDates4'> </p> 
-				<img class="box-image" id="boxImage4" src=" ">
-			</div>
-		</div>
-
-		<div id='culture5' class='cultures'>
-			<div id='line5' class='boxline'>
-				<h3 class="box-title" id='cultTitle5'> </h3> 
-				<p class="box-dates" id='boxDates5'> </p> 
-				<img class="box-image" id="boxImage5" src=" ">
-			</div>
-		</div>
-
-		<div id='culture6' class='cultures'>
-			<div id='line6' class='boxline'>
-				<h3 class="box-title" id='cultTitle6'> </h3> 
-				<p class="box-dates" id='boxDates6'> </p> 
-				<img class="box-image" id="boxImage6" src=" ">
-			</div>
-		</div>
-
-		<div id='culture7' class='cultures'>
-			<div id='line7' class='boxline'>
-				<h3 class="box-title" id='cultTitle7'> </h3> 
-				<p class="box-dates" id='boxDates7'> </p> 
-				<img class="box-image" id="boxImage7" src=" ">
-			</div>
-		</div>
-
-		<div id='culture8' class='cultures'>
-			<div id='line8' class='boxline'>
-				<h3 class="box-title" id='cultTitle8'> </h3> 
-				<p class="box-dates" id='boxDates8'> </p> 
-				<img class="box-image" id="boxImage8" src=" ">
-			</div>
-		</div>
-
-		<div id='culture9' class='cultures'>
-			<div id='line9' class='boxline'>
-				<h3 class="box-title" id='cultTitle9'> </h3> 
-				<p class="box-dates" id='boxDates9'> </p> 
-				<img class="box-image" id="boxImage9" src=" ">
-			</div>
-		</div>
-
-		<div id='culture10' class='cultures'>
-			<div id='line10' class='boxline'>
-				<h3 class="box-title" id='cultTitle10'> </h3> 
-				<p class="box-dates" id='boxDates10'> </p> 
-				<img class="box-image" id="boxImage10" src=" ">
-			</div>
-		</div>
-
-		<div id='culture11' class='cultures'>
-			<div id='line11' class='boxline'>
-				<h3 class="box-title" id='cultTitle11'> </h3> 
-				<p class="box-dates" id='boxDates11'> </p> 
-				<img class="box-image" id="boxImage11" src=" ">
-			</div>
-		</div>
-
-		<div id='culture12' class='cultures'>
-			<div id='line12' class='boxline'>
-				<h3 class="box-title" id='cultTitle12'> </h3> 
-				<p class="box-dates" id='boxDates12'> </p> 
-				<img class="box-image" id="boxImage12" src=" ">
-			</div>
-		</div>
-
-		<div id='culture13' class='cultures'>
-			<div id='line13' class='boxline'>
-				<h3 class="box-title" id='cultTitle13'> </h3> 
-				<p class="box-dates" id='boxDates13'> </p> 
-				<img class="box-image" id="boxImage13" src=" ">
-			</div>
-		</div>
-
-	</div> 
-
-	<!-- BOTTOM MODULE v2 WITH SPECIFIC CULTURE ONCE SELECTED -->
-
-	<div id='bottomCulture' class= 'bottom-module hidden'> 
+	<div class= 'right-module hidden' id='culture-content'> 
 
 		<div id="homebutton" class="home-button"> 
 			<img class="svgstyle" src="images/arrow.svg" width=7px>
 			Volver al Home
 		</div>
 
-		<img id="culture-photo" src=" " width=400px>
+		<img id="culture-photo" src=" " width=430px>
 
 		<div class="innerbox" id="innerboxculture">
 
 			<h2 id="culture-title" class="module-title"> Cultura Lima </h2>
 			<p id="culture-dates" class="curlylegend"> here dates </p>
+			
+		</div>
+
+		<div class="innerboxtext">
 			<hr>
 			<p id="culture-period" class="legend"> Horizonte Tal</p> 
 			<p id="culture-capital" class="legend"> Cahuachi</p> 
 			<p id="culture-influence" class="legend"> Chavin</p>
 			<p id="culture-description" class="module-text"> Aqui toda la descripción correspondiente al sitio arqueológico. </p>
 			<p class="boldy legend"> Explora más en:</p>
-			<button id="culture-button" class="module-button"><a id="culture-link" class="button-link" href=" " target="_blank">Wikipedia
-			</a></button>
-
 		</div>
 
+			<button id="culture-button" class="module-button"><a id="culture-link" class="button-link" href=" " target="_blank">Wikipedia
+			</a></button> <br><br>
+
+		<div class="accordion-button">	
+			<img class="arrow" src="images/arrow.svg" width=7px>
+			<h3 class="accordion-title">Sitios Arqueológicos</h3>
+		</div>
+
+		<div class="content-accordion" id="sites-accordion">
+		</div>
+
+		<div class="accordion-button">	
+			<img class="arrow" src="images/arrow.svg" width=7px>
+			<h3 class="accordion-title">Patrones Andinos</h3>
+		</div>
+
+		<div class="content-accordion">
+			<img id="pattern-photo" src="images/patterns.png" width=400px>
+			<button class="module-button"><a class="button-link" href="https://marvelapp.com/6353g00" target="_blank">Ver más patrones
+			</a></button>
+		</div>
+
+		
 	</div>
+
+
+	<!-- RIGHT MODULE: ARCHEOLOGICAL SITES -->
 
 	<div class= 'right-module' id='archeo-sites'> 
 
@@ -183,21 +98,30 @@
 			Volver a Cultura
 		</div>
 
-		<img id="archeo-photo" src=" " width=400px>
+		<img id="archeo-photo" src=" " width=430px>
 
 		<div class="innerbox" id="innerboxsite">
 
 			<h4 id="archeo-culture" class="module-mintitle"> Cultura Lima </h4>
 			<h2 id="archeo-name" class="module-title"> Cultura Lima </h2>
 			<p id="archeo-type" class="curlylegend"> here dates </p>
+		</div>
+		<br>
+		
+		<div class="innerboxtext">
 			<hr>
 			<p id="archeo-altname" class="legend"> Horizonte Tal</p> 
 			<p id="archeo-address" class="legend"> Cahuachi</p> 
 			<p id="archeo-description" class="legend"> Aqui toda la descripción correspondiente al sitio arqueológico. </p> <br>
-			<p class="boldy legend"> Explora más en:</p>
-			<button id="archeo-button" class="module-button"><a id="archeo-wikilink"  class="button-link" href=" " target="_blank">Wikipedia
+		</div>
+
+
+			<iframe id="geogoogle" src="https://www.google.com/maps/embed?pb=!4v1588739568153!6m8!1m7!1sCAoSLEFGMVFpcFBiZjFkNEY5MzVNMThzbERhb3VWMVc4aXZvNjJIRmJaRk1DUEo4!2m2!1d-8.1069633!2d-79.07391059999999!3f2.186732364619388!4f-9.870532931935031!5f0.7820865974627469" class="frame" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+			<p class="boldy legend marg"> Explora más en:</p>
+			<button id="archeo-button" class="module-button"><a id="link-wiki"  class="button-link" href=" " target="_blank">Wikipedia
 			</a></button>
-			<button id="archeo-button-trip" class="module-button"><a id="archeo-link-trip" class="button-link" href=" " target="_blank">Tripadvisor
+			<button id="archeo-button-trip" class="module-button"><a id="link-trip" class="button-link" href=" " target="_blank">Tripadvisor
 			</a></button>
 
 		</div>
@@ -352,6 +276,26 @@
 		}
 
 
+// TITLE ELEMENT & BACK BUTTON AS HOME BUTTON
+
+		$(document).ready(function () {
+			$('#homebutton, #maintitle').on('click',function() {
+
+				map.setFilter('siteslayer', null);
+
+				map.fitBounds([
+				[-86.096764, -20.009484],
+				[-60.937729, 1.540818]
+				]); 
+
+				$('#culture-content').addClass( "hidden" );
+				$('#bottom-initial').removeClass( "hidden" );
+				$('#archeo-sites').hide(200);
+				$( "#sites-accordion" ).empty();
+			});
+		});
+
+
 // CALLING POP UP GENERAL CULTURE
 			// draws the popup and changes the hover style When moving the mouse over, 
 			map.on('mouseenter', 'culturelayer', function (e) {
@@ -384,9 +328,18 @@
  				removePopup(e)
 			});
 
-// UPDATE BOTTOM MODULE BASED ON CULTURE SELECTED
 
-//THIS WORKS WHEN YOU CLICK A POINT IN THE MAP
+// RIGHT MODULE CULTURE
+// RIGHT MODULE CULTURE
+// RIGHT MODULE CULTURE
+// RIGHT MODULE CULTURE
+// RIGHT MODULE CULTURE
+// RIGHT MODULE CULTURE
+
+
+
+// RIGHT MODULE CULTURE
+
 		function updateContent(e,feat) {
 		    var cultureName = feat.properties.name;
 		   	var cultureStart = feat.properties.startDate;
@@ -398,6 +351,14 @@
 		    var activeCulture = feat.properties.group_id;
 		    var activeColor = colors[activeCulture];
 
+
+		    var filteredSites =  cultureSites.features.filter(function(feature) {
+ 				return feature.properties.group_id === activeCulture;
+			});
+
+	//		console.log(filteredSites)
+
+
 			$('#culture-photo').attr("src", cultureImage);
 		    $('#culture-title').html("Cultura " + cultureName).css("color", activeColor);
 		    $('#culture-dates').html(cultureStart + " - " + cultureEnd);
@@ -407,28 +368,46 @@
 		    $('#culture-description').html(cultureText);
 		    $('#culture-link').attr("href", cultureLink);
 		    $('#culture-link').css("color", activeColor);	
-		    $("#culture-button").css("border-color", activeColor);
-		    $('#innerboxculture').css("border-left-color", activeColor);	    
+		  	$('.module-button').css("border-color", activeColor);
+			$('.button-link').css("color", activeColor);
+		    $('#innerboxculture').css("border-left-color", activeColor);
+
+			for (i = 0; i < filteredSites.length; i++) {
+
+				var siteName = filteredSites[i].properties.site_name;
+				var siteType = filteredSites[i].properties.type;
+				var compImage = filteredSites[i].properties.small_image;
+
+
+		 		$('#sites-accordion').append('<div class=inner-component><img class=component-image src='+compImage+'> <div class=component-wrap><p class=component-title>'+siteName+'</p><p class=component-text>'+siteType+'</p></div></div>');	
+			}
+   
+		    
 		}
 
 
-//DEFINING FUNCTION THAT WILL UPDATE THE RIGHT SIDE MODULE
+
+
+// RIGHT MODULE ARCHEOLOGICAL SITES
+
 		function updateModule(e) {
 			let feature = e.features[0]
 			var siteName = feature.properties.site_name;
 			var siteCulture = feature.properties.name;
 			var siteAltName = feature.properties.site_name;
-			var siteImage = feature.properties.photo;
+			var siteImage = feature.properties.big_image;
 			var siteType = feature.properties.type;
 
 			var siteDistrict = feature.properties.district;
 			var siteDProvince = feature.properties.province;
 			var siteDepartament = feature.properties.department;
-
 			var siteDescrip = feature.properties.type;
-			var siteLink = feature.properties.link;
+
 			var activeCulture = feature.properties.group_id;
 		    var activeColor = colors[activeCulture];
+		    var siteGoogle = feature.properties.link_google;
+		    var siteWiki = feature.properties.link_wiki;
+		    var siteTrip = feature.properties.link_trip;
 
 		    $('#archeo-photo').attr("src", siteImage);
 		    $('#archeo-culture').html("Cultura " + siteCulture).css("color", activeColor);
@@ -439,10 +418,12 @@
 			$('#archeo-address').html("<span class='boldy'>Ubicación: </span>" +"Distrito de " + siteDistrict + ", Provincia de " + siteDProvince + ", Departamento de " + siteDepartament);
 
 			$('#archeo-description').html("<span class='boldy'>Descripción: </span>" +siteDescrip);
-			$('#archeo-link').attr("href", siteLink).css("color", activeColor);
+			$('#link-wiki').attr("href", siteWiki).css("color", activeColor);
+			$('#link-trip').attr("href", siteTrip).css("color", activeColor);
 			$('.module-button').css("border-color", activeColor);
 			$('.button-link').css("color", activeColor);
 		    $('#innerboxsite').css("border-left-color", activeColor);
+		    $('#geogoogle').attr("src", siteGoogle);
 	    
 		}
 
@@ -454,11 +435,19 @@
 			map.flyTo({ center: cultureGeneral.features[a].geometry.coordinates, zoom: 6 });
 		}
 
+		function filterDatalayer(selectedGroup) {
+			if (!selectedGroup) {
+							map.setFilter('siteslayer', null);
+						} else {
+							map.setFilter('siteslayer', ['==', ['get', 'group_id'], selectedGroup]);
+						}	
+		}
+
 			// This updates the bottom module on click
 			map.on('click', 'culturelayer', function (e) {
 				
-				$('#bottomCulture').removeClass( "hidden" );
-				$('#bottomInitial').addClass( "overlay" );
+				$('#culture-content').removeClass( "hidden" );
+				$('#bottomInitial').addClass( "overlay" ); //NOT WORKING
 
 				let idGroup = e.features[0].properties.group_id;
 				let feat = cultureGeneral.features[idGroup];
@@ -466,16 +455,9 @@
 				removePopup(e)
 
 				for (var i = 0; i < cultureGeneral.features.length; i++){
-
-					let activeCulture = i;
-					
-					let selectedGroup = feat.properties.name;
-
-						if (!selectedGroup) {
-							map.setFilter('siteslayer', null);
-						} else {
-							map.setFilter('siteslayer', ['==', ['get', 'name'], selectedGroup]);
-						}	
+		
+					let selectedGroup = e.features[0].properties.group_id;
+					filterDatalayer(selectedGroup)
 				}
 				
 				flyToCultureMap(e)
@@ -485,19 +467,12 @@
 			map.on('click', 'siteslayer', function (e) {
 				updateModule(e)
 				$('#archeo-sites').show(200);
-				$('#bottomCulture').removeClass( "hidden" );
-	//			$('#bottomInitial').addClass( "hidden" );
+				$('#culture-content').removeClass( "hidden" );
 
 				for (var i = 0; i < cultureGeneral.features.length; i++){
 
-					let activeCulture = i;
-					let selectedGroup = e.features[0].properties.name;
-
-						if (!selectedGroup) {
-							map.setFilter('siteslayer', null);
-						} else {
-							map.setFilter('siteslayer', ['==', ['get', 'name'], selectedGroup]);
-						}	
+					let selectedGroup = e.features[0].properties.group_id;
+					filterDatalayer(selectedGroup);	
 				}
 
 				flyToCultureMap(e)
@@ -510,6 +485,50 @@
 
 
 
+// LITTLE INITIAL BOXES
+
+$(document).ready(function () {
+
+
+		for (i = 0; i < cultureGeneral.features.length; i++) {
+
+			var activeColor = colors[i];
+			var siteCulture = cultureGeneral.features[i].properties.name;
+			var cultureStart = cultureGeneral.features[i].properties.startDate;
+		    var cultureEnd = cultureGeneral.features[i].properties.endDate;
+		    var cultureImage = cultureGeneral.features[i].properties.thumbImage;
+
+
+			$('#bottom-initial').append('<div id=culture'+i+' class=cultures> <div id=line class=boxline style=border-left-color:'+activeColor+'> <h3 class=box-title id=cultTitle'+i+' style=color:'+activeColor+'>'+siteCulture+'</h3><p class=box-dates>'+cultureStart+' - '+cultureEnd+'</p><img class=box-image src=' +cultureImage+' ></div></div>');
+
+		}
+	});
+
+
+// ACCORDION
+
+var acc = document.getElementsByClassName("accordion-button");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+
+
+/*
+
+$('.accordion-button').on("click", function() {
+    $('.arrow').css({ transform: "scale(1,1)" });
+});
+*/
 
 
 // EVENT ON CLICK INITIAL CULTURES BOTTOM MODULE
@@ -521,13 +540,9 @@
 	
 				//Filters data on map by selected culture
 				$('#culture'+activeCulture).on('click',function() {
-					var selectedGroup = $('#cultTitle'+activeCulture).text();
-						
-						if (!selectedGroup) {
-							map.setFilter('siteslayer', null);
-						} else {
-							map.setFilter('siteslayer', ['==', ['get', 'name'], selectedGroup]);
-						}
+
+					let selectedGroup = cultureGeneral.features[activeCulture].properties.group_id;
+					filterDatalayer(selectedGroup);	
 
 					flyToCulture(activeCulture);
 
@@ -536,12 +551,14 @@
 
 
 					//Remove Initial bottom module and replace by bottom module with specific culture
-					$('#bottomCulture').removeClass( "hidden" );
+					$('#culture-content').removeClass( "hidden" );
 		//			$('#bottomInitial').addClass( "hidden" );
 
-					// Loads data for bottom module depending on selected culture
+					// Loads data for right module depending on selected culture
 			  		let feat = cultureGeneral.features[activeCulture];
 					updateContent(activeCulture,feat);
+
+
 
 				});
 
@@ -550,30 +567,7 @@
 	}
 
 
-/*
-
-*/
-
-//CHANGES THE DATA OF INITIAL AND CULTURE SCREENS
-
-		for (var i = 0; i < cultureGeneral.features.length; i++){
-
-			  var activeCulture = i;
-			  var activeColor = colors[activeCulture];
-		      var cultName = cultureGeneral.features[i].properties.name; // initial screen
-		      var cultureStart = cultureGeneral.features[i].properties.startDate;
-		      var cultureEnd = cultureGeneral.features[i].properties.endDate;
-		      var cultureImage = cultureGeneral.features[i].properties.thumbImage;
-
-					$('#cultTitle'+ activeCulture).html(cultName);
-					$("#cultTitle"+ activeCulture).css("color", activeColor);
-					$('#boxDates'+ activeCulture).html(cultureStart + " - " + cultureEnd);
-					$('#boxImage'+ activeCulture).attr("src", cultureImage);
-					$('#line'+ activeCulture).css("border-left-color", activeColor);
-}
-
-
-//JQUERY FOR RIGHT MODULE
+// RIGHT MODULE
 
 		$(document).ready(function () {
 
@@ -589,34 +583,15 @@
 
 
 
-// TITLE ELEMENT & BACK BUTTON AS HOME BUTTON
 
-
-	$(document).ready(function () {
-		$('#homebutton, #title').on('click',function() {
-
-			
-			map.setFilter('siteslayer', null);
-
-
-			map.fitBounds([
-			[-86.096764, -20.009484],
-			[-60.937729, 1.540818]
-			]); 
-
-			$('#bottomCulture').addClass( "hidden" );
-			$('#bottomInitial').removeClass( "hidden" );
-			$('#archeo-sites').hide(200);
-		});
-	});
 
 // BACK BUTTON TO CULTURE
 
-	$(document).ready(function () {
-		$('#backtoculture, #archeo-culture').on('click',function() {
-			$('#archeo-sites').hide(200);
+		$(document).ready(function () {
+			$('#backtoculture, #archeo-culture').on('click',function() {
+				$('#archeo-sites').hide(200);
+			});
 		});
-	});
 
 
 	</script>
