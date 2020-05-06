@@ -1448,8 +1448,8 @@ cultureSites = {
          "properties":{
             "name":"Chachapoyas",
             "group_id":"9",
-            "site_name":"Vilaya",
-            "alt_name":"Gran Vilaya",
+            "site_name":"Gran Vilaya",
+            "alt_name":"Vilaya",
             "longitude":"-78.094378",
             "latitude":"-6.293966",
             "district":"Ayacucho",
@@ -1457,7 +1457,9 @@ cultureSites = {
             "department":"Ayacucho",
             "access":"Muy accesible",
             "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
+            "link_wiki":"https://es.wikipedia.org/wiki/Gran_Vilaya",
+            "link_trip":"https://www.tripadvisor.com.pe/LocationPhotoDirectLink-g799618-d11672643-i227088104-Yalape_Adventure-Chachapoyas_Amazonas_Region.html",
+            "link_google":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.7661797813576!2d-78.09653978583367!3d-6.294429195444364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91b3f96a33b3fbd7%3A0xde8cebbbb8cdf67e!2sGran%20Vilaya%20-%20Ruta%20de%20trekking!5e0!3m2!1sen!2spe!4v1588800421988!5m2!1sen!2spe",
             "big_image":"images/vilaya.png",
             "small_image":"images/vilaya_small.png",
             "color":"#205D1B",
@@ -1486,7 +1488,7 @@ cultureSites = {
             "type":"Archeological Site",
             "link_wiki":"https://es.wikipedia.org/wiki/Mausoleos_de_Revash",
             "link_trip":"https://www.tripadvisor.com/Attraction_Review-g799618-d3239594-Reviews-Revash_Mausoleo_de_los_Chachapoyas-Chachapoyas_Amazonas_Region.html",
-            "link_google":"https://www.google.com/maps/embed?pb=!4v1588745520187!6m8!1m7!1sCAoSK0FGMVFpcFBLaGRxLW1WUkoxTTROMTVLaW1jQTM3OElLbDNoQXV1QXVzTUE.!2m2!1d-6.1576575!2d-78.0243418!3f179.7!4f17.72!5f0.7820865974627469",
+            "link_google":"https://www.google.com/maps/embed?pb=!4v1588801073203!6m8!1m7!1sCAoSLEFGMVFpcFAzcmVtdXhiUWxTRWtrZm1mZktlYTJKYlhKTkhWMHdxYmNKSEcw!2m2!1d-6.54074405!2d-77.85617263!3f281.79750926741326!4f6.559135230094057!5f0.7820865974627469",
             "big_image":"images/revash.png",
             "small_image":"images/revash_small.png",
             "color":"#205D1B",
@@ -1505,33 +1507,6 @@ cultureSites = {
          "properties":{
             "name":"Chachapoyas",
             "group_id":"9",
-            "site_name":"Macro",
-            "longitude":"-77.917158",
-            "latitude":"-6.365329",
-            "district":"Ayacucho",
-            "province":"Huamanga",
-            "department":"Ayacucho",
-            "access":"Muy accesible",
-            "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "big_image":"images/macro.png",
-            "small_image":"images/macro_small.png",
-            "color":"#205D1B",
-            "radius":"5"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -77.917158,
-               -6.365329
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
-            "name":"Chachapoyas",
-            "group_id":"9",
             "site_name":"Gran Pajatén",
             "longitude":"-77.418637",
             "latitude":"-7.648195",
@@ -1540,7 +1515,8 @@ cultureSites = {
             "department":"Ayacucho",
             "access":"Muy accesible",
             "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
+            "link_wiki":"https://es.wikipedia.org/wiki/Gran_Pajat%C3%A9n",
+            "link_google":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.3220934087426!2d-77.42086888582419!3d-7.648471894485642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ae2656ab6ce40d%3A0xa13e9db21bd79e5!2sGran%20Pajat%C3%A9n!5e0!3m2!1sen!2spe!4v1588800484082!5m2!1sen!2spe",
             "big_image":"images/gran_pajaten.png",
             "small_image":"images/gran_pajaten_small.png",
             "color":"#205D1B",
@@ -1551,34 +1527,6 @@ cultureSites = {
             "coordinates":[
                -77.418637,
                -7.648195
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
-            "name":"Chachapoyas",
-            "group_id":"9",
-            "site_name":"Llactacocha",
-            "alt_name":"Laguna de los Condores",
-            "longitude":"-77.698025",
-            "latitude":"-6.847821",
-            "district":"Ayacucho",
-            "province":"Huamanga",
-            "department":"Ayacucho",
-            "access":"Muy accesible",
-            "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "big_image":"images/chachapoyas.png",
-            "small_image":"images/chachapoyas_small.png",
-            "color":"#205D1B",
-            "radius":"5"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -77.698025,
-               -6.847821
             ]
          }
       },
