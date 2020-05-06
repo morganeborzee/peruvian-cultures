@@ -112,6 +112,7 @@
 			<hr>
 			<p id="archeo-altname" class="legend"> Horizonte Tal</p> 
 			<p id="archeo-address" class="legend"> Cahuachi</p> 
+			<p id="archeo-access" class="legend"> Cahuachi</p> 
 			<p id="archeo-description" class="legend"> Aqui toda la descripción correspondiente al sitio arqueológico. </p> <br>
 		</div>
 
@@ -394,13 +395,14 @@
 			let feature = e.features[0]
 			var siteName = feature.properties.site_name;
 			var siteCulture = feature.properties.name;
-			var siteAltName = feature.properties.site_name;
+			var siteAltName = feature.properties.alt_name;
 			var siteImage = feature.properties.big_image;
 			var siteType = feature.properties.type;
 
 			var siteDistrict = feature.properties.district;
 			var siteDProvince = feature.properties.province;
 			var siteDepartament = feature.properties.department;
+			var siteAccess = feature.properties.access;
 			var siteDescrip = feature.properties.type;
 
 			var activeCulture = feature.properties.group_id;
@@ -414,8 +416,10 @@
 			$('#archeo-name').html(siteName).css("color", activeColor);
 			$('#archeo-type').html(siteType);
 
-			$('#archeo-altname').html("<span class='boldy'>Otros Nombres: </span>" + siteName);
+			$('#archeo-altname').html("<span class='boldy'>Otros Nombres: </span>" + siteAltName);
 			$('#archeo-address').html("<span class='boldy'>Ubicación: </span>" +"Distrito de " + siteDistrict + ", Provincia de " + siteDProvince + ", Departamento de " + siteDepartament);
+
+			$('#archeo-access').html("<span class='boldy'>Accesibilidad Turística: </span>" + siteAccess);
 
 			$('#archeo-description').html("<span class='boldy'>Descripción: </span>" +siteDescrip);
 			$('#link-wiki').attr("href", siteWiki).css("color", activeColor);
