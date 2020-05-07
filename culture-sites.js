@@ -12,7 +12,6 @@ cultureSites = {
             "province":"Lima",
             "access":"Muy accesible",
             "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_paracas",
             "big_image":"images/caral.png",
             "small_image":"images/patterns.png",
             "color":"#C6658A",
