@@ -4,17 +4,19 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Caral",
             "group_id":"0",
+            "name":"Caral",
             "site_name":"Caral",
             "longitude":"-77.523208",
             "latitude":"-10.892386",
             "province":"Lima",
             "access":"Muy accesible",
             "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "big_image":"images/caral.png",
-            "small_image":"images/patterns.png",
+            "link_wiki":"https://es.wikipedia.org/wiki/Caral",
+            "link_trip":"https://www.tripadvisor.com/Attraction_Review-g294316-d506824-Reviews-Caral_Peru-Lima_Lima_Region.html",
+            "link_google":"https://www.google.com/maps/embed?pb=!4v1588831794301!6m8!1m7!1sCAoSLEFGMVFpcFB0eFhMVjF0eFQyRHFhempmZGFYUl9Qck5BNDJ4VFVmbE15UVJX!2m2!1d-10.8938018!2d-77.52248709999999!3f138.7936347534436!4f-14.884214970473238!5f0.7820865974627469",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#C6658A",
             "radius":"5"
          },
@@ -29,16 +31,18 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Chavin",
             "group_id":"1",
+            "name":"Chavin",
             "site_name":"Chavin de Huantar",
             "longitude":"-77.177324",
             "latitude":"-9.592795",
             "access":"Muy accesible",
             "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "big_image":"images/chavin.png",
-            "small_image":"images/patterns.png",
+            "link_wiki":"https://es.wikipedia.org/wiki/Chav%C3%ADn_de_Hu%C3%A1ntar",
+            "link_trip":"https://www.tripadvisor.com/Attraction_Review-g2336588-d318894-Reviews-Archaeological_Site_of_Chavin-Chavin_de_Huantar_Ancash_Region.html",
+            "link_google":"https://www.google.com/maps/embed?pb=!4v1588832092812!6m8!1m7!1sCAoSLEFGMVFpcE5XTm1lUXJGMTdKckRFMF9iZjlBdlFJd3ZoOXNtMVlxQzhSWmZf!2m2!1d-9.594168347108138!2d-77.17858459800482!3f62.143133406203276!4f13.284668818946116!5f0.7820865974627469",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#86511F",
             "radius":"5"
          },
@@ -53,16 +57,16 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Chavin",
             "group_id":"1",
+            "name":"Chavin",
             "site_name":"Huaca Prieta",
             "longitude":"-79.306949",
             "latitude":"-7.924008",
             "access":"Muy accesible",
             "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "big_image":"images/chavin.png",
-            "small_image":"images/patterns.png",
+            "link_wiki":"https://es.wikipedia.org/wiki/Huaca_Prieta",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#86511F",
             "radius":"5"
          },
@@ -77,16 +81,16 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Chavin",
             "group_id":"1",
+            "name":"Chavin",
             "site_name":"Kotosh",
             "longitude":"-76.279443",
             "latitude":"-9.930747",
             "access":"Muy accesible",
             "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "big_image":"images/chavin.png",
-            "small_image":"images/patterns.png",
+            "link_wiki":"https://es.wikipedia.org/wiki/Kotosh",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#86511F",
             "radius":"5"
          },
@@ -101,16 +105,16 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Chavin",
             "group_id":"1",
+            "name":"Chavin",
             "site_name":"Las Aldas",
             "longitude":"-78.296674",
             "latitude":"-9.701645",
             "access":"Muy accesible",
             "type":"Archeological Site",
             "link_wiki":"https://es.wikipedia.org/wiki/Las_Haldas",
-            "big_image":"images/chavin.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#86511F",
             "radius":"5"
          },
@@ -125,16 +129,16 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Chavin",
             "group_id":"1",
+            "name":"Chavin",
             "site_name":"Bandurria",
             "longitude":"-77.587886",
             "latitude":"-11.186705",
             "access":"Muy accesible",
             "type":"Archeological Site",
             "link_wiki":"https://es.wikipedia.org/wiki/Bandurria_(sitio_arqueol%C3%B3gico)",
-            "big_image":"images/chavin.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#86511F",
             "radius":"5"
          },
@@ -149,16 +153,16 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Chavin",
             "group_id":"1",
+            "name":"Chavin",
             "site_name":"El Paraiso",
             "longitude":"-77.118409",
             "latitude":"-11.953733",
             "access":"Muy accesible",
             "type":"Archeological Site",
             "link_wiki":"https://es.wikipedia.org/wiki/Huaca_El_Para%C3%ADso",
-            "big_image":"images/chavin.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#86511F",
             "radius":"5"
          },
@@ -173,8 +177,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Paracas",
             "group_id":"2",
+            "name":"Paracas",
             "site_name":"Cerro Colorado",
             "longitude":"-76.270716",
             "latitude":"-13.870515",
@@ -183,9 +187,8 @@ cultureSites = {
             "department":"Ica",
             "access":"Muy accesible",
             "type":"Sitio Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "big_image":"images/paracas.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#863589",
             "radius":"5"
          },
@@ -200,8 +203,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Paracas",
             "group_id":"2",
+            "name":"Paracas",
             "site_name":"Huaca Alvarado",
             "longitude":"-76.172858",
             "latitude":"-13.459066",
@@ -210,9 +213,8 @@ cultureSites = {
             "department":"Ica",
             "access":"Muy accesible",
             "type":"Sitio Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "big_image":"images/paracas.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#863589",
             "radius":"5"
          },
@@ -227,8 +229,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Paracas",
             "group_id":"2",
+            "name":"Paracas",
             "site_name":"Conjunto Cerro Soto",
             "alt_name":"Complejo Soto, CONJUNTO PAMPA SOTO CERRO SOTO O PAMPA SOTO",
             "longitude":"-72.639368",
@@ -238,9 +240,8 @@ cultureSites = {
             "department":"Arequipa",
             "access":"Muy accesible",
             "type":"Sitio Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "big_image":"images/paracas.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#863589",
             "radius":"5"
          },
@@ -255,8 +256,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Paracas",
             "group_id":"2",
+            "name":"Paracas",
             "site_name":"Karwa",
             "alt_name":"Carhua",
             "longitude":"-76.16214",
@@ -266,9 +267,8 @@ cultureSites = {
             "department":"Ica",
             "access":"Muy accesible",
             "type":"Monumento Arqueológico Prehispánico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "big_image":"images/paracas.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#863589",
             "radius":"5"
          },
@@ -283,8 +283,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Paracas",
             "group_id":"2",
+            "name":"Paracas",
             "site_name":"Ánimas Altas",
             "longitude":"-75.617458",
             "latitude":"-14.515769",
@@ -293,9 +293,8 @@ cultureSites = {
             "department":"Ica",
             "access":"Muy accesible",
             "type":"Zona Arqueológica Monumental",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "big_image":"images/paracas.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#863589",
             "radius":"5"
          },
@@ -310,8 +309,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Paracas",
             "group_id":"2",
+            "name":"Paracas",
             "site_name":"Cabezas Largas",
             "longitude":"-76.276552",
             "latitude":"-13.865182",
@@ -320,9 +319,9 @@ cultureSites = {
             "department":"Ica",
             "access":"Muy accesible",
             "type":"Sitio Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "big_image":"images/paracas.png",
-            "small_image":"images/patterns.png",
+            "link_wiki":"https://es.wikipedia.org/wiki/Cabeza_Larga",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#863589",
             "radius":"5"
          },
@@ -337,8 +336,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Paracas",
             "group_id":"2",
+            "name":"Paracas",
             "site_name":"Alto Molino",
             "longitude":"-76.183597",
             "latitude":"-13.709137",
@@ -347,9 +346,8 @@ cultureSites = {
             "department":"Ica",
             "access":"Muy accesible",
             "type":"Sitio Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "big_image":"images/paracas.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#863589",
             "radius":"5"
          },
@@ -364,8 +362,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Paracas",
             "group_id":"2",
+            "name":"Paracas",
             "site_name":"Chongos",
             "longitude":"-76.094076",
             "latitude":"-13.70651",
@@ -374,9 +372,8 @@ cultureSites = {
             "department":"Ica",
             "access":"Muy accesible",
             "type":"\tZona Arqueológica Monumental",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "big_image":"images/paracas.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#863589",
             "radius":"5"
          },
@@ -391,8 +388,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Paracas",
             "group_id":"2",
+            "name":"Paracas",
             "site_name":"Puerto Nuevo",
             "longitude":"-76.245653",
             "latitude":"-13.814762",
@@ -401,9 +398,8 @@ cultureSites = {
             "department":"Ica",
             "access":"Muy accesible",
             "type":"Sitio Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "big_image":"images/paracas.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#863589",
             "radius":"5"
          },
@@ -418,8 +414,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Paracas",
             "group_id":"2",
+            "name":"Paracas",
             "site_name":"Cerrillos",
             "alt_name":"Rinconada - Cerrillo",
             "longitude":"-75.687153",
@@ -429,9 +425,8 @@ cultureSites = {
             "department":"Ica",
             "access":"Muy accesible",
             "type":"Sitio Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "big_image":"images/paracas.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#863589",
             "radius":"5"
          },
@@ -446,8 +441,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Paracas",
             "group_id":"2",
+            "name":"Paracas",
             "site_name":"Santa Lucía",
             "longitude":"-75.718738",
             "latitude":"-14.237989",
@@ -456,9 +451,8 @@ cultureSites = {
             "department":"Ica",
             "access":"Muy accesible",
             "type":"Sitio Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "big_image":"images/paracas.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#863589",
             "radius":"5"
          },
@@ -473,8 +467,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Paracas",
             "group_id":"2",
+            "name":"Paracas",
             "site_name":"Pernil Alto",
             "longitude":"-75.203926",
             "latitude":"-14.47987",
@@ -483,9 +477,8 @@ cultureSites = {
             "department":"Ica",
             "access":"Muy accesible",
             "type":"Paisaje Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "big_image":"images/paracas.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#863589",
             "radius":"5"
          },
@@ -500,8 +493,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Paracas",
             "group_id":"2",
+            "name":"Paracas",
             "site_name":"Cerro Mollake",
             "alt_name":"Mollake Chico",
             "longitude":"-75.155174",
@@ -511,9 +504,8 @@ cultureSites = {
             "department":"Ica",
             "access":"Muy accesible",
             "type":"Paisaje Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "big_image":"images/paracas.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#863589",
             "radius":"5"
          },
@@ -528,8 +520,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Paracas",
             "group_id":"2",
+            "name":"Paracas",
             "site_name":"Chichictara",
             "alt_name":"Chichiktara, Petroglífos de Chichictara",
             "longitude":"-75.133545",
@@ -539,9 +531,8 @@ cultureSites = {
             "department":"Ica",
             "access":"Muy accesible",
             "type":"Paisaje Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "big_image":"images/paracas.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#863589",
             "radius":"5"
          },
@@ -556,17 +547,16 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Paracas",
             "group_id":"2",
+            "name":"Paracas",
             "site_name":"Cerro Cutamalla",
             "alt_name":"Cutamalla",
             "longitude":"-74.862275",
             "latitude":"-14.318824",
             "access":"Muy accesible",
             "type":"Sitio Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "big_image":"images/paracas.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#863589",
             "radius":"5"
          },
@@ -581,8 +571,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Paracas",
             "group_id":"2",
+            "name":"Paracas",
             "site_name":"Tajahuana",
             "longitude":"-75.745518",
             "latitude":"-14.177166",
@@ -591,9 +581,8 @@ cultureSites = {
             "department":"Ica",
             "access":"Muy accesible",
             "type":"Paisaje Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "big_image":"images/paracas.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#863589",
             "radius":"5"
          },
@@ -608,8 +597,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Paracas",
             "group_id":"2",
+            "name":"Paracas",
             "site_name":"Uchuchuma",
             "longitude":"-74.796875",
             "latitude":"-14.750711",
@@ -618,9 +607,8 @@ cultureSites = {
             "department":"Ica",
             "access":"Muy accesible",
             "type":"Paisaje Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "big_image":"images/paracas.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#863589",
             "radius":"5"
          },
@@ -635,8 +623,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Paracas",
             "group_id":"2",
+            "name":"Paracas",
             "site_name":"La Puntilla",
             "alt_name":"El Tigral O La Puntilla",
             "longitude":"-74.874013",
@@ -646,9 +634,8 @@ cultureSites = {
             "department":"Ica",
             "access":"Muy accesible",
             "type":"Sitio Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_paracas",
-            "big_image":"images/paracas.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#863589",
             "radius":"5"
          },
@@ -663,8 +650,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Nazca",
             "group_id":"3",
+            "name":"Nazca",
             "site_name":"Petroglífos de Chichictara",
             "alt_name":"Chichiktara",
             "longitude":"-75.133545",
@@ -674,9 +661,8 @@ cultureSites = {
             "department":"Ica",
             "access":"Muy accesible",
             "type":"Paisaje Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_nazca",
-            "big_image":"images/nazca.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#BA95AA",
             "radius":"5"
          },
@@ -691,172 +677,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Nazca",
             "group_id":"3",
-            "site_name":"Cahuachi",
-            "alt_name":"Centro Ceremonial Cahuachi",
-            "longitude":"-75.122273",
-            "latitude":"-14.818694",
-            "district":"Nazca",
-            "province":"Nazca",
-            "department":"Ica",
-            "access":"Muy accesible",
-            "type":"Zona Arqueológica Monumental",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_nazca",
-            "big_image":"images/nazca.png",
-            "small_image":"images/patterns.png",
-            "color":"#BA95AA",
-            "radius":"5"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -75.122273,
-               -14.818694
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
             "name":"Nazca",
-            "group_id":"3",
-            "site_name":"Pernil Alto",
-            "longitude":"-75.203926",
-            "latitude":"-14.47987",
-            "district":"Rio Grande",
-            "province":"Palpa",
-            "department":"Ica",
-            "access":"Muy accesible",
-            "type":"Paisaje Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_nazca",
-            "big_image":"images/nazca.png",
-            "small_image":"images/patterns.png",
-            "color":"#BA95AA",
-            "radius":"5"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -75.203926,
-               -14.47987
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
-            "name":"Nazca",
-            "group_id":"3",
-            "site_name":"Molino",
-            "alt_name":"Los Molinos",
-            "longitude":"-74.953176",
-            "latitude":"-14.411932",
-            "access":"Muy accesible",
-            "type":"Sitio Arqueologico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_nazca",
-            "big_image":"images/nazca.png",
-            "small_image":"images/patterns.png",
-            "color":"#BA95AA",
-            "radius":"5"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -74.953176,
-               -14.411932
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
-            "name":"Nazca",
-            "group_id":"3",
-            "site_name":"La Muña",
-            "alt_name":"Cerro Muña",
-            "longitude":"-75.226979",
-            "latitude":"-14.555982",
-            "district":"Rio Grande",
-            "province":"Palpa",
-            "department":"Ica",
-            "access":"Muy accesible",
-            "type":"Zona Arqueológica Monumental",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_nazca",
-            "big_image":"images/nazca.png",
-            "small_image":"images/patterns.png",
-            "color":"#BA95AA",
-            "radius":"5"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -75.226979,
-               -14.555982
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
-            "name":"Nazca",
-            "group_id":"3",
-            "site_name":"Ocucaje",
-            "alt_name":"Geoglifos Ocucaje",
-            "longitude":"-75.721485",
-            "latitude":"-14.365157",
-            "district":"Ocucaje",
-            "province":"Ica",
-            "department":"Ica",
-            "access":"Muy accesible",
-            "type":"Zona Arqueológica",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_nazca",
-            "big_image":"images/nazca.png",
-            "small_image":"images/patterns.png",
-            "color":"#BA95AA",
-            "radius":"5"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -75.721485,
-               -14.365157
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
-            "name":"Nazca",
-            "group_id":"3",
-            "site_name":"Huayuri",
-            "alt_name":"Ciudad Perdida de Huayurí",
-            "longitude":"-75.290675",
-            "latitude":"-14.542244",
-            "district":"Rio Grande",
-            "province":"Palpa",
-            "department":"Ica",
-            "access":"Muy accesible",
-            "type":"Sitio Arqueologico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_nazca",
-            "big_image":"images/nazca.png",
-            "small_image":"images/patterns.png",
-            "color":"#BA95AA",
-            "radius":"5"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -75.290675,
-               -14.542244
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
-            "name":"Nazca",
-            "group_id":"3",
             "site_name":"Cantalloc",
             "alt_name":"Acueductos de Cantalloc",
             "longitude":"-74.911276",
@@ -865,9 +687,10 @@ cultureSites = {
             "province":"Nazca",
             "department":"Ica",
             "access":"Muy accesible",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_nazca",
-            "big_image":"images/nazca.png",
-            "small_image":"images/patterns.png",
+            "link_wiki":"https://es.wikipedia.org/wiki/Acueductos_de_Cantalloc",
+            "link_google":"https://www.google.com/maps/embed?pb=!4v1588832265241!6m8!1m7!1sCAoSLEFGMVFpcFAwLTQwMWFaTWI3SldyUXctTURiNzdRS1c5a1FZYlc1ZkZqOTBC!2m2!1d-14.8264!2d-74.9096!3f108.98121883776197!4f-15.679193887924612!5f0.7820865974627469",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#BA95AA",
             "radius":"5"
          },
@@ -882,8 +705,166 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Nazca",
             "group_id":"3",
+            "name":"Nazca",
+            "site_name":"Cahuachi",
+            "alt_name":"Centro Ceremonial Cahuachi",
+            "longitude":"-75.122273",
+            "latitude":"-14.818694",
+            "district":"Nazca",
+            "province":"Nazca",
+            "department":"Ica",
+            "access":"Muy accesible",
+            "type":"Zona Arqueológica Monumental",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
+            "color":"#BA95AA",
+            "radius":"5"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -75.122273,
+               -14.818694
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "group_id":"3",
+            "name":"Nazca",
+            "site_name":"Pernil Alto",
+            "longitude":"-75.203926",
+            "latitude":"-14.47987",
+            "district":"Rio Grande",
+            "province":"Palpa",
+            "department":"Ica",
+            "access":"Muy accesible",
+            "type":"Paisaje Arqueológico",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
+            "color":"#BA95AA",
+            "radius":"5"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -75.203926,
+               -14.47987
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "group_id":"3",
+            "name":"Nazca",
+            "site_name":"Molino",
+            "alt_name":"Los Molinos",
+            "longitude":"-74.953176",
+            "latitude":"-14.411932",
+            "access":"Muy accesible",
+            "type":"Sitio Arqueologico",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
+            "color":"#BA95AA",
+            "radius":"5"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -74.953176,
+               -14.411932
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "group_id":"3",
+            "name":"Nazca",
+            "site_name":"La Muña",
+            "alt_name":"Cerro Muña",
+            "longitude":"-75.226979",
+            "latitude":"-14.555982",
+            "district":"Rio Grande",
+            "province":"Palpa",
+            "department":"Ica",
+            "access":"Muy accesible",
+            "type":"Zona Arqueológica Monumental",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
+            "color":"#BA95AA",
+            "radius":"5"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -75.226979,
+               -14.555982
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "group_id":"3",
+            "name":"Nazca",
+            "site_name":"Ocucaje",
+            "alt_name":"Geoglifos Ocucaje",
+            "longitude":"-75.721485",
+            "latitude":"-14.365157",
+            "district":"Ocucaje",
+            "province":"Ica",
+            "department":"Ica",
+            "access":"Muy accesible",
+            "type":"Zona Arqueológica",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
+            "color":"#BA95AA",
+            "radius":"5"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -75.721485,
+               -14.365157
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "group_id":"3",
+            "name":"Nazca",
+            "site_name":"Huayuri",
+            "alt_name":"Ciudad Perdida de Huayurí",
+            "longitude":"-75.290675",
+            "latitude":"-14.542244",
+            "district":"Rio Grande",
+            "province":"Palpa",
+            "department":"Ica",
+            "access":"Muy accesible",
+            "type":"Sitio Arqueologico",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
+            "color":"#BA95AA",
+            "radius":"5"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -75.290675,
+               -14.542244
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "group_id":"3",
+            "name":"Nazca",
             "site_name":"Tambo Viejo",
             "longitude":"-74.617091",
             "latitude":"-15.446578",
@@ -892,9 +873,8 @@ cultureSites = {
             "department":"Arequipa",
             "access":"Muy accesible",
             "type":"Sitio Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_nazca",
-            "big_image":"images/nazca.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#BA95AA",
             "radius":"5"
          },
@@ -909,16 +889,17 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Nazca",
             "group_id":"3",
+            "name":"Nazca",
             "site_name":"Lineas de Nasca",
             "longitude":"-75.134767",
             "latitude":"-14.705824",
             "access":"Muy accesible",
             "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_nazca",
-            "big_image":"images/nazca.png",
-            "small_image":"images/patterns.png",
+            "link_wiki":"https://es.wikipedia.org/wiki/L%C3%ADneas_de_Nazca",
+            "link_trip":"https://www.tripadvisor.es/ShowUserReviews-g304044-d311724-r188870816-Nasca_Lines-Nazca_Ica_Region.html",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#BA95AA",
             "radius":"5"
          },
@@ -933,17 +914,17 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Recuay",
             "group_id":"4",
+            "name":"Recuay",
             "site_name":"Huilcahuaín",
             "alt_name":"Wilkawain",
             "longitude":"-77.511507",
             "latitude":"-9.483099",
             "access":"Muy accesible",
             "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "big_image":"images/recuay.png",
-            "small_image":"images/patterns.png",
+            "link_google":"https://www.google.com/maps/embed?pb=!4v1588832365763!6m8!1m7!1sCAoSLEFGMVFpcE12ZGgxcjMxa2R6dHB5czhmT0JZUWxMVEVfWnY1QzFIOUV6eWpz!2m2!1d-9.4830551!2d-77.5111084!3f2.150802324647972!4f-17.839045305407495!5f0.7820865974627469",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#B4A178",
             "radius":"5"
          },
@@ -958,16 +939,15 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Recuay",
             "group_id":"4",
+            "name":"Recuay",
             "site_name":"Yayno",
             "longitude":"-77.4557",
             "latitude":"-8.885541",
             "access":"Muy accesible",
             "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "big_image":"images/recuay.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#B4A178",
             "radius":"5"
          },
@@ -982,16 +962,15 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Recuay",
             "group_id":"4",
+            "name":"Recuay",
             "site_name":"Tinyash",
             "longitude":"-77.000163",
             "latitude":"-8.945565",
             "access":"Muy accesible",
             "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "big_image":"images/recuay.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#B4A178",
             "radius":"5"
          },
@@ -1006,8 +985,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Mochica",
             "group_id":"5",
+            "name":"Mochica",
             "site_name":"Huaca Cao Viejo",
             "longitude":"-79.303447",
             "latitude":"-7.915156",
@@ -1015,8 +994,8 @@ cultureSites = {
             "access":"Muy accesible",
             "type":"Archeological Site",
             "link_wiki":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "big_image":"images/mochica.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#4F428D",
             "radius":"5"
          },
@@ -1031,17 +1010,18 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Mochica",
             "group_id":"5",
-            "site_name":"Sipán",
+            "name":"Mochica",
+            "site_name":"Huaca Rajada",
+            "alt_name":"Sipán",
             "longitude":"-79.600219",
             "latitude":"-6.798751",
             "province":"La Libertad",
             "access":"Muy accesible",
             "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "big_image":"images/mochica.png",
-            "small_image":"images/patterns.png",
+            "link_wiki":"https://es.wikipedia.org/wiki/Huaca_Rajada",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#4F428D",
             "radius":"5"
          },
@@ -1056,17 +1036,16 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Mochica",
             "group_id":"5",
+            "name":"Mochica",
             "site_name":"Pampa Grande",
             "longitude":"-79.474219",
             "latitude":"-6.762238",
             "province":"La Libertad",
             "access":"Muy accesible",
             "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "big_image":"images/mochica.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#4F428D",
             "radius":"5"
          },
@@ -1081,17 +1060,16 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Mochica",
             "group_id":"5",
+            "name":"Mochica",
             "site_name":"San José de Moro",
             "longitude":"-79.438684",
             "latitude":"-7.181054",
             "province":"La Libertad",
             "access":"Muy accesible",
             "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "big_image":"images/mochica.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#4F428D",
             "radius":"5"
          },
@@ -1106,17 +1084,16 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Mochica",
             "group_id":"5",
+            "name":"Mochica",
             "site_name":"Pacatnamú",
             "longitude":"-79.584324",
             "latitude":"-7.317887",
             "province":"La Libertad",
             "access":"Muy accesible",
             "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "big_image":"images/mochica.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#4F428D",
             "radius":"5"
          },
@@ -1131,17 +1108,16 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Mochica",
             "group_id":"5",
+            "name":"Mochica",
             "site_name":"Huaca el brujo",
             "longitude":"-79.304007",
             "latitude":"-7.911842",
             "province":"La Libertad",
             "access":"Muy accesible",
             "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "big_image":"images/mochica.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#4F428D",
             "radius":"5"
          },
@@ -1156,17 +1132,16 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Mochica",
             "group_id":"5",
+            "name":"Mochica",
             "site_name":"Pirámides de Moche",
             "longitude":"-78.998264",
             "latitude":"-8.141529",
             "province":"La Libertad",
             "access":"Muy accesible",
             "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "big_image":"images/mochica.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#4F428D",
             "radius":"5"
          },
@@ -1181,17 +1156,19 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Lima",
             "group_id":"6",
+            "name":"Lima",
             "site_name":"Huaca Pucllana",
             "alt_name":" ",
             "longitude":"-77.033539",
             "latitude":"-12.110026",
             "access":"Muy accesible",
             "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "big_image":"images/lima.png",
-            "small_image":"images/patterns.png",
+            "link_wiki":"https://es.wikipedia.org/wiki/Huaca_Pucllana",
+            "link_trip":"https://www.tripadvisor.es/Attraction_Review-g294316-d311722-Reviews-Huaca_Pucllana-Lima_Lima_Region.html",
+            "link_google":"https://www.google.com/maps/embed?pb=!4v1588832787289!6m8!1m7!1sCAoSLEFGMVFpcE5CNUlValFwVmhnai1BM2VkZzVxd0lsaEw5SlhVdkV2YThzNnZN!2m2!1d-12.1106241!2d-77.0334251!3f356.27996337000116!4f-20.546406274334984!5f0.7820865974627469",
+            "big_image":"images/huaca_pucllana.png",
+            "small_image":"images/huaca_pucllana_small.png",
             "color":"#C9AA31",
             "radius":"5"
          },
@@ -1206,16 +1183,17 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Lima",
             "group_id":"6",
+            "name":"Lima",
             "site_name":"Pachacamac",
             "longitude":"-76.899525",
             "latitude":"-12.259386",
             "access":"Muy accesible",
             "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "big_image":"images/lima.png",
-            "small_image":"images/patterns.png",
+            "link_wiki":"https://es.wikipedia.org/wiki/Pachac%C3%A1mac",
+            "link_google":"https://www.google.com/maps/embed?pb=!4v1588833109530!6m8!1m7!1sCAoSLEFGMVFpcE5MYnN3ZWFkbzB6YnlGMEwxTUI1ZFJUTFBRUjdENHNYN1BXZTJi!2m2!1d-12.2554285!2d-76.90770359999999!3f199.90330286140855!4f-13.077323543891708!5f0.7820865974627469",
+            "big_image":"images/pachacamac.png",
+            "small_image":"images/pachacamac_small.png",
             "color":"#C9AA31",
             "radius":"5"
          },
@@ -1230,16 +1208,15 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Cajamarca",
             "group_id":"7",
+            "name":"Cajamarca",
             "site_name":"Collor",
             "longitude":"-78.329757",
             "latitude":"-7.232845",
             "access":"Muy accesible",
             "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "big_image":"images/cajamarca.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#89B22E",
             "radius":"5"
          },
@@ -1254,16 +1231,18 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Cajamarca",
             "group_id":"7",
+            "name":"Cajamarca",
             "site_name":"Ventanillas de Otuzco",
             "longitude":"-78.457626",
             "latitude":"-7.125648",
             "access":"Muy accesible",
             "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "big_image":"images/cajamarca.png",
-            "small_image":"images/patterns.png",
+            "link_wiki":"https://es.wikipedia.org/wiki/Ventanillas_de_Otuzco",
+            "link_trip":"https://www.tripadvisor.com.pe/Attraction_Review-g319821-d4170346-Reviews-Ventanillas_de_Otuzco-Cajamarca_Cajamarca_Region.html",
+            "link_google":"https://www.google.com/maps/embed?pb=!4v1588833280128!6m8!1m7!1sCAoSLEFGMVFpcE1VbUprb2d4MG9iR09zTFB4YkZjdmgycF9RdW11WC1HYUZQQUFS!2m2!1d-7.1259413!2d-78.4577408!3f319.16901224004897!4f9.491992661019339!5f0.7820865974627469",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#89B22E",
             "radius":"5"
          },
@@ -1278,18 +1257,17 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Tiahuanaco",
             "group_id":"8",
+            "name":"Tiahuanaco",
             "site_name":"Tiahuanaco",
             "alt_name":"Tiwanaku",
             "longitude":"-68.673909",
             "latitude":"-16.55535",
             "access":"Muy accesible",
             "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_tiahuanaco",
             "link_google":"https://www.google.com/maps/embed?pb=!4v1588780711087!6m8!1m7!1sCAoSLEFGMVFpcE5DcGlFdTVrSzVhUnhRbHFsQW93WVZUR090WHFNZkpmS0hYTnRy!2m2!1d-16.5548117!2d-68.672816!3f297.0470434413204!4f5.093195945618007!5f0.7820865974627469",
-            "big_image":"images/tiahuanaco.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#8F1313",
             "radius":"5"
          },
@@ -1304,8 +1282,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Tiahuanaco",
             "group_id":"8",
+            "name":"Tiahuanaco",
             "site_name":"Pukara Central",
             "longitude":"-70.372402",
             "latitude":"-15.048851",
@@ -1314,9 +1292,8 @@ cultureSites = {
             "department":"Puno",
             "access":"Muy accesible",
             "type":"Zona Arqueológica Monumental",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_tiahuanaco",
-            "big_image":"images/tiahuanaco.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#8F1313",
             "radius":"5"
          },
@@ -1331,8 +1308,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Tiahuanaco",
             "group_id":"8",
+            "name":"Tiahuanaco",
             "site_name":"Omo",
             "longitude":"-70.974139",
             "latitude":"-17.236837",
@@ -1341,9 +1318,8 @@ cultureSites = {
             "department":"Moquegua",
             "access":"Muy accesible",
             "type":"Zona Arqueológica",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_tiahuanaco",
-            "big_image":"images/tiahuanaco.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#8F1313",
             "radius":"5"
          },
@@ -1358,8 +1334,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Tiahuanaco",
             "group_id":"8",
+            "name":"Tiahuanaco",
             "site_name":"Los Geoglifos de Chen Chen",
             "alt_name":"Chenchen, Chen Chen",
             "longitude":"-70.922834",
@@ -1369,7 +1345,6 @@ cultureSites = {
             "department":"Moquegua",
             "access":"Muy accesible",
             "type":"Zona Arqueológica",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_tiahuanaco",
             "big_image":"images/tiahuanaco.png",
             "small_image":"images/patterns.png",
             "color":"#8F1313",
@@ -1386,15 +1361,12 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Chachapoyas",
             "group_id":"9",
+            "name":"Chachapoyas",
             "site_name":"Kuélap",
             "alt_name":"Cuélap",
             "longitude":"-77.923866",
             "latitude":"-6.416864",
-            "district":"Ayacucho",
-            "province":"Huamanga",
-            "department":"Ayacucho",
             "access":"Muy accesible",
             "type":"Archeological Site",
             "link_wiki":"https://es.wikipedia.org/wiki/Ku%C3%A9lap",
@@ -1416,15 +1388,12 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Chachapoyas",
             "group_id":"9",
+            "name":"Chachapoyas",
             "site_name":"Karajía",
             "alt_name":"Carajía",
             "longitude":"-78.021397",
             "latitude":"-6.162543",
-            "district":"Ayacucho",
-            "province":"Huamanga",
-            "department":"Ayacucho",
             "access":"Muy accesible",
             "type":"Archeological Site",
             "link_wiki":"https://es.wikipedia.org/wiki/Sarc%C3%B3fagos_de_Caraj%C3%ADa",
@@ -1446,15 +1415,12 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Chachapoyas",
             "group_id":"9",
+            "name":"Chachapoyas",
             "site_name":"Gran Vilaya",
             "alt_name":"Vilaya",
             "longitude":"-78.094378",
             "latitude":"-6.293966",
-            "district":"Ayacucho",
-            "province":"Huamanga",
-            "department":"Ayacucho",
             "access":"Muy accesible",
             "type":"Archeological Site",
             "link_wiki":"https://es.wikipedia.org/wiki/Gran_Vilaya",
@@ -1476,14 +1442,11 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Chachapoyas",
             "group_id":"9",
+            "name":"Chachapoyas",
             "site_name":"Revash",
             "longitude":"-77.856202",
             "latitude":"-6.540595",
-            "district":"Ayacucho",
-            "province":"Huamanga",
-            "department":"Ayacucho",
             "access":"Muy accesible",
             "type":"Archeological Site",
             "link_wiki":"https://es.wikipedia.org/wiki/Mausoleos_de_Revash",
@@ -1505,14 +1468,11 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Chachapoyas",
             "group_id":"9",
+            "name":"Chachapoyas",
             "site_name":"Gran Pajatén",
             "longitude":"-77.418637",
             "latitude":"-7.648195",
-            "district":"Ayacucho",
-            "province":"Huamanga",
-            "department":"Ayacucho",
             "access":"Muy accesible",
             "type":"Archeological Site",
             "link_wiki":"https://es.wikipedia.org/wiki/Gran_Pajat%C3%A9n",
@@ -1533,8 +1493,56 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Wari",
+            "group_id":"9",
+            "name":"Chachapoyas",
+            "site_name":"Macro",
+            "longitude":"-77.917158",
+            "latitude":"-6.365329",
+            "access":"Muy accesible",
+            "type":"Archeological Site",
+            "link_wiki":"https://es.wikipedia.org/wiki/Macro_(sitio_arqueol%C3%B3gico)",
+            "big_image":"images/macro.png",
+            "small_image":"images/macro_small.png",
+            "color":"#205D1B",
+            "radius":"5"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -77.917158,
+               -6.365329
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "group_id":"9",
+            "name":"Chachapoyas",
+            "site_name":"Llactacocha",
+            "alt_name":"Laguna de los Condores",
+            "longitude":"-77.698025",
+            "latitude":"-6.847821",
+            "access":"Muy accesible",
+            "type":"Archeological Site",
+            "big_image":"images/chachapoyas.png",
+            "small_image":"images/chachapoyas_small.png",
+            "color":"#205D1B",
+            "radius":"5"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -77.698025,
+               -6.847821
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
             "group_id":"10",
+            "name":"Wari",
             "site_name":"Cerro Amaru",
             "longitude":"-78.068424",
             "latitude":"-7.79845",
@@ -1543,9 +1551,8 @@ cultureSites = {
             "department":"La Libertad",
             "access":"Muy accesible",
             "type":"Sitio Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_wari",
-            "big_image":"images/wari.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#A3A4C7",
             "radius":"5"
          },
@@ -1560,8 +1567,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Wari",
             "group_id":"10",
+            "name":"Wari",
             "site_name":"Yamobamba",
             "longitude":"-78.30089",
             "latitude":"-7.214667",
@@ -1570,9 +1577,8 @@ cultureSites = {
             "department":"Cajamarca",
             "access":"Muy accesible",
             "type":"Sitio Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_wari",
-            "big_image":"images/wari.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#A3A4C7",
             "radius":"5"
          },
@@ -1587,17 +1593,16 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Wari",
             "group_id":"10",
+            "name":"Wari",
             "site_name":"El Suro",
             "alt_name":"Suro",
             "longitude":"-78.187278",
             "latitude":"-7.017559",
             "access":"Muy accesible",
             "type":"Sitio Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_wari",
-            "big_image":"images/wari.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#A3A4C7",
             "radius":"5"
          },
@@ -1612,8 +1617,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Wari",
             "group_id":"10",
+            "name":"Wari",
             "site_name":"Huaca del Loro",
             "longitude":"-74.877459",
             "latitude":"-14.967836",
@@ -1622,9 +1627,8 @@ cultureSites = {
             "department":"Ica",
             "access":"Muy accesible",
             "type":"Sitio Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_wari",
-            "big_image":"images/wari.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#A3A4C7",
             "radius":"5"
          },
@@ -1639,8 +1643,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Wari",
             "group_id":"10",
+            "name":"Wari",
             "site_name":"Atarco",
             "longitude":"-75.202275",
             "latitude":"-14.821787",
@@ -1649,9 +1653,8 @@ cultureSites = {
             "department":"Ica",
             "access":"Muy accesible",
             "type":"Sitio Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_wari",
-            "big_image":"images/wari.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#A3A4C7",
             "radius":"5"
          },
@@ -1666,8 +1669,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Wari",
             "group_id":"10",
+            "name":"Wari",
             "site_name":"Pachacamac",
             "longitude":"-76.905735",
             "latitude":"-12.250538",
@@ -1676,9 +1679,8 @@ cultureSites = {
             "department":"Lima",
             "access":"Muy accesible",
             "type":"Zona Arqueológica Monumental",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_wari",
-            "big_image":"images/wari.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#A3A4C7",
             "radius":"5"
          },
@@ -1693,8 +1695,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Wari",
             "group_id":"10",
+            "name":"Wari",
             "site_name":"Cajamarquilla",
             "longitude":"-76.909334",
             "latitude":"-11.984755",
@@ -1703,9 +1705,8 @@ cultureSites = {
             "department":"Lima",
             "access":"Muy accesible",
             "type":"Monumento Arqueológico Prehispánico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_wari",
-            "big_image":"images/wari.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#A3A4C7",
             "radius":"5"
          },
@@ -1720,8 +1721,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Wari",
             "group_id":"10",
+            "name":"Wari",
             "site_name":"Loma Ancon",
             "alt_name":"Ancón",
             "longitude":"-77.158476",
@@ -1731,9 +1732,8 @@ cultureSites = {
             "department":"Lima",
             "access":"Muy accesible",
             "type":"Sitio Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_wari",
-            "big_image":"images/wari.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#A3A4C7",
             "radius":"5"
          },
@@ -1748,8 +1748,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Wari",
             "group_id":"10",
+            "name":"Wari",
             "site_name":"Chimu Capac",
             "longitude":"-77.718798",
             "latitude":"-10.813559",
@@ -1758,9 +1758,8 @@ cultureSites = {
             "department":"Lima",
             "access":"Muy accesible",
             "type":"Sitio Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_wari",
-            "big_image":"images/wari.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#A3A4C7",
             "radius":"5"
          },
@@ -1775,8 +1774,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Wari",
             "group_id":"10",
+            "name":"Wari",
             "site_name":"Conchopata",
             "longitude":"-74.207203",
             "latitude":"-13.156268",
@@ -1785,9 +1784,8 @@ cultureSites = {
             "department":"Ayacucho",
             "access":"Muy accesible",
             "type":"Sitio Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_wari",
-            "big_image":"images/wari.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#A3A4C7",
             "radius":"5"
          },
@@ -1802,8 +1800,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Wari",
             "group_id":"10",
+            "name":"Wari",
             "site_name":"Wari",
             "alt_name":"Huari",
             "longitude":"-74.184793",
@@ -1813,9 +1811,8 @@ cultureSites = {
             "department":"Ayacucho",
             "access":"Muy accesible",
             "type":"Zona Arqueológica Monumental",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_wari",
-            "big_image":"images/wari.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#A3A4C7",
             "radius":"5"
          },
@@ -1830,17 +1827,16 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Wari",
             "group_id":"10",
+            "name":"Wari",
             "site_name":"Inkaraqay",
             "alt_name":"Incaraqay",
             "longitude":"-73.711109",
             "latitude":"-13.702989",
             "access":"Muy accesible",
             "type":"Sitio Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_wari",
-            "big_image":"images/wari.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#A3A4C7",
             "radius":"5"
          },
@@ -1855,16 +1851,15 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Wari",
             "group_id":"10",
+            "name":"Wari",
             "site_name":"Ayapata",
             "longitude":"-73.509842",
             "latitude":"-13.748939",
             "access":"Muy accesible",
             "type":"Sitio Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_wari",
-            "big_image":"images/wari.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#A3A4C7",
             "radius":"5"
          },
@@ -1879,8 +1874,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Wari",
             "group_id":"10",
+            "name":"Wari",
             "site_name":"Wari Willka",
             "alt_name":"Huarivilca, Huariwilca",
             "longitude":"-75.206148",
@@ -1890,9 +1885,8 @@ cultureSites = {
             "department":"Junin",
             "access":"Muy accesible",
             "type":"Sitio Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_wari",
-            "big_image":"images/wari.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#A3A4C7",
             "radius":"5"
          },
@@ -1907,17 +1901,16 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Wari",
             "group_id":"10",
+            "name":"Wari",
             "site_name":"Pikillaqta",
             "alt_name":"Piquillacta",
             "longitude":"-73.787597",
             "latitude":"-13.813268",
             "access":"Muy accesible",
             "type":"Sitio Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_wari",
-            "big_image":"images/wari.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#A3A4C7",
             "radius":"5"
          },
@@ -1932,8 +1925,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Wari",
             "group_id":"10",
+            "name":"Wari",
             "site_name":"Willcawain",
             "alt_name":"Huilcahuaín, Wilcawaíin",
             "longitude":"-77.511432",
@@ -1943,9 +1936,8 @@ cultureSites = {
             "department":"Ancash",
             "access":"Muy accesible",
             "type":"Sitio Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_wari",
-            "big_image":"images/wari.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#A3A4C7",
             "radius":"5"
          },
@@ -1960,16 +1952,15 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Lambayeque",
             "group_id":"11",
+            "name":"Lambayeque",
             "site_name":"Batán Grande",
             "longitude":"-79.795927",
             "latitude":"-6.469807",
             "access":"Muy accesible",
             "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "big_image":"images/lambayeque.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#4CC8CC",
             "radius":"5"
          },
@@ -1984,16 +1975,17 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Lambayeque",
             "group_id":"11",
-            "site_name":"Complejo Sicán",
+            "name":"Lambayeque",
+            "site_name":"Huaca Rajada",
+            "alt_name":"Sipán",
             "longitude":"-79.790298",
             "latitude":"-6.472203",
             "access":"Muy accesible",
             "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "big_image":"images/lambayeque.png",
-            "small_image":"images/patterns.png",
+            "link_wiki":"https://es.wikipedia.org/wiki/Huaca_Rajada",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#4CC8CC",
             "radius":"5"
          },
@@ -2008,16 +2000,15 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Lambayeque",
             "group_id":"11",
+            "name":"Lambayeque",
             "site_name":"Complejo El Brujo",
             "longitude":"-79.303782",
             "latitude":"-7.914043",
             "access":"Muy accesible",
             "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "big_image":"images/lambayeque.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#4CC8CC",
             "radius":"5"
          },
@@ -2032,8 +2023,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Chimu",
             "group_id":"12",
+            "name":"Chimu",
             "site_name":"Complejo Arqueológico Chan Chan",
             "alt_name":"Chanchán",
             "longitude":"-79.074469",
@@ -2062,8 +2053,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Chimu",
             "group_id":"12",
+            "name":"Chimu",
             "site_name":"Complejo Arqueologico Tucume",
             "alt_name":"Túcume",
             "longitude":"-79.842632",
@@ -2074,7 +2065,7 @@ cultureSites = {
             "access":"Muy accesible",
             "type":"Zona Arqueológica Monumental",
             "link_wiki":"https://es.wikipedia.org/wiki/T%C3%BAcume",
-            "link_trip":"https://www.google.com/maps/embed?pb=!4v1588779451881!6m8!1m7!1sCAoSK0FGMVFpcE1QU0MxbjVwcVVINGtwNlUxak1rckxlRHdKa3V1SEZRdVBmcEU.!2m2!1d-6.5168756!2d-79.84293129999999!3f32.72963613702818!4f-16.16583799503576!5f0.7820865974627469",
+            "link_trip":"https://www.tripadvisor.com.pe/Attraction_Review-g1439308-d3172223-Reviews-Tucume_Pyramids-Tucume_Lambayeque_Region.html",
             "link_google":"https://www.google.com/maps/embed?pb=!4v1588779451881!6m8!1m7!1sCAoSK0FGMVFpcE1QU0MxbjVwcVVINGtwNlUxak1rckxlRHdKa3V1SEZRdVBmcEU.!2m2!1d-6.5168756!2d-79.84293129999999!3f32.72963613702818!4f-16.16583799503576!5f0.7820865974627469",
             "big_image":"images/tucume.png",
             "small_image":"images/tucume_small.png",
@@ -2092,8 +2083,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Chimu",
             "group_id":"12",
+            "name":"Chimu",
             "site_name":"Fortaleza de Paramonga",
             "longitude":"-77.841217",
             "latitude":"-10.653286",
@@ -2102,7 +2093,7 @@ cultureSites = {
             "department":"Lima",
             "access":"Muy accesible",
             "type":"Zona Arqueológica Monumental",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
+            "link_wiki":"https://es.wikipedia.org/wiki/Paramonga",
             "link_trip":"https://www.tripadvisor.com/Attraction_Review-g2336577-d10003436-Reviews-La_Fortaleza_de_Paramonga-Paramonga_Lima_Region.html",
             "big_image":"images/paramonga.png",
             "small_image":"images/paramonga_small.png",
@@ -2120,63 +2111,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Chimu",
             "group_id":"12",
-            "site_name":"Mocupe Huaca",
-            "alt_name":"Mocupe, De La Pampa de San Nicolas",
-            "longitude":"-79.62906",
-            "latitude":"-6.952208",
-            "district":"Lagunas",
-            "province":"Chiclayo",
-            "department":"Lambayeque",
-            "access":"Muy accesible",
-            "type":"Zona Arqueológica Monumental",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
-            "big_image":"images/chimu.png",
-            "small_image":"images/patterns.png",
-            "color":"#248199",
-            "radius":"5"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -79.62906,
-               -6.952208
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
             "name":"Chimu",
-            "group_id":"12",
-            "site_name":"Farfán",
-            "longitude":"-79.481214",
-            "latitude":"-7.281178",
-            "district":"Guadalupe",
-            "province":"Pacasmayo",
-            "department":"La Libertad\t",
-            "access":"Muy accesible",
-            "type":"Sitio Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
-            "big_image":"images/chimu.png",
-            "small_image":"images/patterns.png",
-            "color":"#248199",
-            "radius":"5"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -79.481214,
-               -7.281178
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
-            "name":"Chimu",
-            "group_id":"12",
             "site_name":"Pacatnamu",
             "alt_name":"Pacatnamú",
             "longitude":"-79.572087",
@@ -2186,9 +2122,9 @@ cultureSites = {
             "department":"La Libertad        ",
             "access":"Muy accesible",
             "type":"Zona Arqueológica",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
-            "big_image":"images/chimu.png",
-            "small_image":"images/patterns.png",
+            "link_wiki":"https://es.wikipedia.org/wiki/Pakatnam%C3%BA",
+            "big_image":"images/pacatnamu.png",
+            "small_image":"images/pacatnamu_small.png",
             "color":"#248199",
             "radius":"5"
          },
@@ -2203,8 +2139,61 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Chimu",
             "group_id":"12",
+            "name":"Chimu",
+            "site_name":"Mocupe Huaca",
+            "alt_name":"Mocupe, De La Pampa de San Nicolas",
+            "longitude":"-79.62906",
+            "latitude":"-6.952208",
+            "district":"Lagunas",
+            "province":"Chiclayo",
+            "department":"Lambayeque",
+            "access":"Muy accesible",
+            "type":"Zona Arqueológica Monumental",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
+            "color":"#248199",
+            "radius":"5"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -79.62906,
+               -6.952208
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "group_id":"12",
+            "name":"Chimu",
+            "site_name":"Farfán",
+            "longitude":"-79.481214",
+            "latitude":"-7.281178",
+            "district":"Guadalupe",
+            "province":"Pacasmayo",
+            "department":"La Libertad\t",
+            "access":"Muy accesible",
+            "type":"Sitio Arqueológico",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
+            "color":"#248199",
+            "radius":"5"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -79.481214,
+               -7.281178
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "group_id":"12",
+            "name":"Chimu",
             "site_name":"Manchan",
             "alt_name":"Manchán",
             "longitude":"-78.280059",
@@ -2214,9 +2203,8 @@ cultureSites = {
             "department":"Ancash",
             "access":"Muy accesible",
             "type":"\tSitio Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
-            "big_image":"images/chimu.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#248199",
             "radius":"5"
          },
@@ -2231,16 +2219,15 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Chimu",
             "group_id":"12",
+            "name":"Chimu",
             "site_name":"Pampa Grande",
             "longitude":"-78.51085",
             "latitude":"-6.436968",
             "access":"Muy accesible",
             "type":"\tSitio Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
-            "big_image":"images/chimu.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#248199",
             "radius":"5"
          },
@@ -2255,16 +2242,15 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Chimu",
             "group_id":"12",
+            "name":"Chimu",
             "site_name":"El Milagro",
             "longitude":"-79.382804",
             "latitude":"-7.805888",
             "access":"Muy accesible",
             "type":"\tSitio Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
-            "big_image":"images/chimu.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#248199",
             "radius":"5"
          },
@@ -2279,8 +2265,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Chimu",
             "group_id":"12",
+            "name":"Chimu",
             "site_name":"Chiquitoy Viejo",
             "longitude":"-79.186527",
             "latitude":"-7.918834",
@@ -2289,9 +2275,8 @@ cultureSites = {
             "department":"La Libertad",
             "access":"Muy accesible",
             "type":"Zona Arqueológica Monumental",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
-            "big_image":"images/chimu.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#248199",
             "radius":"5"
          },
@@ -2306,17 +2291,16 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Chimu",
             "group_id":"12",
+            "name":"Chimu",
             "site_name":"Huaca Ongollape",
             "alt_name":"Ongollape / Huaca Vilchez",
             "longitude":"-79.254134",
             "latitude":"-7.842001",
             "access":"Muy accesible",
             "type":"Sitio Arqueologico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
-            "big_image":"images/chimu.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#248199",
             "radius":"5"
          },
@@ -2331,8 +2315,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Chimu",
             "group_id":"12",
+            "name":"Chimu",
             "site_name":"Mocán",
             "longitude":"-79.265526",
             "latitude":"-7.610371",
@@ -2342,9 +2326,8 @@ cultureSites = {
             "access":"Muy accesible",
             "type":"Sitio Arqueologico",
             "comments":"Varios",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
-            "big_image":"images/chimu.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#248199",
             "radius":"5"
          },
@@ -2359,15 +2342,14 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Chimu",
             "group_id":"12",
+            "name":"Chimu",
             "site_name":"Talambo",
             "longitude":"-79.370545",
             "latitude":"-7.311015",
             "access":"Muy accesible",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
-            "big_image":"images/chimu.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#248199",
             "radius":"5"
          },
@@ -2382,8 +2364,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Chimu",
             "group_id":"12",
+            "name":"Chimu",
             "site_name":"El algarrobal de Moro",
             "longitude":"-79.437323",
             "latitude":"-7.173247",
@@ -2393,9 +2375,8 @@ cultureSites = {
             "access":"Muy accesible",
             "type":"Sitio Arqueologico",
             "comments":"Varios",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
-            "big_image":"images/chimu.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#248199",
             "radius":"5"
          },
@@ -2410,8 +2391,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Chimu",
             "group_id":"12",
+            "name":"Chimu",
             "site_name":"El Tigral O La Puntilla",
             "alt_name":"La Puntilla",
             "longitude":"-74.874013",
@@ -2421,9 +2402,8 @@ cultureSites = {
             "department":"Ica",
             "access":"Muy accesible",
             "type":"Sitio Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
-            "big_image":"images/chimu.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#248199",
             "radius":"5"
          },
@@ -2438,17 +2418,16 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Chimu",
             "group_id":"12",
+            "name":"Chimu",
             "site_name":"Patapon",
             "alt_name":"Patapo",
             "longitude":"-79.614902",
             "latitude":"-6.508522",
             "access":"Muy accesible",
             "type":"Sitio Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
-            "big_image":"images/chimu.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#248199",
             "radius":"5"
          },
@@ -2463,16 +2442,15 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Chimu",
             "group_id":"12",
+            "name":"Chimu",
             "site_name":"Huaca Mesones Muro",
             "alt_name":"Mesones Muro",
             "longitude":"-78.785807",
             "latitude":"-5.872751",
             "access":"Muy accesible",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
-            "big_image":"images/chimu.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#248199",
             "radius":"5"
          },
@@ -2487,8 +2465,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Chimu",
             "group_id":"12",
+            "name":"Chimu",
             "site_name":"Saltur",
             "longitude":"-79.645069",
             "latitude":"-6.841526",
@@ -2497,9 +2475,8 @@ cultureSites = {
             "department":"Lambayeque",
             "access":"Muy accesible",
             "type":"Sin Clasificación",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
-            "big_image":"images/chimu.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#248199",
             "radius":"5"
          },
@@ -2514,8 +2491,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Chimu",
             "group_id":"12",
+            "name":"Chimu",
             "site_name":"Complejo Arqueológico de Apurlec",
             "alt_name":"Apurlec",
             "longitude":"-79.702745",
@@ -2525,9 +2502,8 @@ cultureSites = {
             "department":"Lambayeque",
             "access":"Muy accesible",
             "type":"Zona de Reserva Arqueológica",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
-            "big_image":"images/chimu.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#248199",
             "radius":"5"
          },
@@ -2542,8 +2518,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Chimu",
             "group_id":"12",
+            "name":"Chimu",
             "site_name":"Cabeza de Vaca",
             "longitude":"-80.490962",
             "latitude":"-3.60083",
@@ -2552,9 +2528,8 @@ cultureSites = {
             "department":"Tumbes",
             "access":"Muy accesible",
             "type":"Zona Arqueológica",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_chim%C3%BA",
-            "big_image":"images/chimu.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#248199",
             "radius":"5"
          },
@@ -2569,8 +2544,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Chancay",
             "group_id":"13",
+            "name":"Chancay",
             "site_name":"Casa Blanca",
             "longitude":"-77.17468",
             "latitude":"-11.112462",
@@ -2579,9 +2554,8 @@ cultureSites = {
             "department":"Lima",
             "access":"Muy accesible",
             "type":"Sitio Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_Chancay",
-            "big_image":"images/chancay.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#D08A40",
             "radius":"5"
          },
@@ -2596,8 +2570,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Chancay",
             "group_id":"13",
+            "name":"Chancay",
             "site_name":"Lumbra Totoral",
             "longitude":"-76.985312",
             "latitude":"-11.343813",
@@ -2607,9 +2581,8 @@ cultureSites = {
             "access":"Muy accesible",
             "type":"Paisaje Arqueológico",
             "comments":"Camino Prehispánico Huallay-Huaral, Tramo: Acos-Lumbra, Sección Totoral",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_Chancay",
-            "big_image":"images/chancay.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#D08A40",
             "radius":"5"
          },
@@ -2624,8 +2597,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Chancay",
             "group_id":"13",
+            "name":"Chancay",
             "site_name":"Lumbra Huataya",
             "longitude":"-76.958385",
             "latitude":"-11.347217",
@@ -2635,9 +2608,8 @@ cultureSites = {
             "access":"Muy accesible",
             "type":"Paisaje Arqueológico",
             "comments":"Camino Prehispanico Huayllay - Huaral Tramo: Acos - Lumbra Sección Huataya",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_Chancay",
-            "big_image":"images/chancay.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#D08A40",
             "radius":"5"
          },
@@ -2652,8 +2624,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Chancay",
             "group_id":"13",
+            "name":"Chancay",
             "site_name":"Lauri",
             "longitude":"-77.2703",
             "latitude":"-11.511286",
@@ -2662,9 +2634,8 @@ cultureSites = {
             "department":"Lima",
             "access":"Muy accesible",
             "type":"Sitio Arqueológico",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_Chancay",
-            "big_image":"images/chancay.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#D08A40",
             "radius":"5"
          },
@@ -2679,8 +2650,8 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "name":"Chancay",
             "group_id":"13",
+            "name":"Chancay",
             "site_name":"Pisquillo Chico",
             "longitude":"-77.100564",
             "latitude":"-11.481238",
@@ -2689,9 +2660,8 @@ cultureSites = {
             "department":"Lima",
             "access":"Muy accesible",
             "type":"Zona Arqueológica Monumental",
-            "link_wiki":"https://es.wikipedia.org/wiki/Cultura_Chancay",
-            "big_image":"images/chancay.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#D08A40",
             "radius":"5"
          },
