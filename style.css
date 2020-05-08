@@ -222,18 +222,11 @@
 			padding: 20px 22px 0px 22px;
 		}
 
-		#sep-line1 {
-	        margin: 40px 22px 0px 22px;
-    		height: 1px;
-    		background-color: #DEDEDE;
-    		border: none;
-    	}
-
-    	#sep-line2 {
-	        margin: 32px 22px 0px 22px;
-    		height: 1px;
-    		background-color: #DEDEDE;
-    		border: none;
+		hr {
+	        height: 1px;
+	        background-color: #DEDEDE;
+	        border: none;
+	        margin-bottom: 20px;
     	}
 
 		.module-text {
@@ -245,16 +238,10 @@
 			margin: 8px 0px 5px 0px;
 		}
 
-		.legendboldy {
-			font-size: 14px;
-			margin: 8px 0px 5px 0px;
-			font-weight: 600;
-		}
-
 		.module-button{
     		border: 2px solid #4CAF50;
     		border-radius: 5px;
-    		margin: 5px 10px 10px 0px;
+    		margin: 8px -10px 0 22px;
     		color: #4CAF50;
     		padding: 5px 10px 5px 10px;
   			text-align: center;
@@ -272,6 +259,10 @@
 			font-weight: 600;
 		}
 
+		.marg {
+			margin-left:22px;
+		}
+
     	.arrow{
     		position:absolute;
     		left: 22px;
@@ -282,7 +273,7 @@
     	.accordion-button {
     		width: 480px;
 			height: 27px;
-			margin: 25px 0 0 0;
+			margin: 20px 0 3px 0;
 			cursor: pointer;
 			position: relative;
 			color: #48525D;
@@ -343,7 +334,7 @@
 			width:460px;
 			height:265px; 
 			border:0; 
-			margin: 27px 10px 0px 10px;
+			margin:12px 10px 16px 10px;
 
 		}
 /* OTHER STYLES */

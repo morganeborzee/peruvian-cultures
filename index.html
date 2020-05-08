@@ -53,16 +53,18 @@
 			<p id="culture-dates" class="curlylegend"> here dates </p>
 			
 		</div>
-		<hr id="sep-line1">
+
 		<div class="innerboxtext">
+			<hr>
 			<p id="culture-period" class="legend"> Horizonte Tal</p> 
 			<p id="culture-capital" class="legend"> Cahuachi</p> 
 			<p id="culture-influence" class="legend"> Chavin</p>
 			<p id="culture-description" class="module-text"> Aqui toda la descripción correspondiente al sitio arqueológico. </p>
 			<p class="boldy legend"> Explora más en:</p>
-			<button id="culture-button" class="module-button"><a id="culture-link" class="button-link" href=" " target="_blank">Wikipedia
-			</a></button> 
 		</div>
+
+			<button id="culture-button" class="module-button"><a id="culture-link" class="button-link" href=" " target="_blank">Wikipedia
+			</a></button> <br><br>
 
 		<div class="accordion-button">	
 			<img class="arrow" src="images/arrow.svg" width=7px>
@@ -79,10 +81,8 @@
 
 		<div class="content-accordion">
 			<img id="pattern-photo" src="images/patterns.png" width=480px>
-			<div class="innerboxtext">
-				<button class="module-button"><a class="button-link" href="https://marvelapp.com/6353g00" target="_blank">	Ver más patrones
-				</a></button>
-			</div>
+			<button class="module-button"><a class="button-link" href="https://marvelapp.com/6353g00" target="_blank">Ver más patrones
+			</a></button>
 		</div>
 
 		
@@ -107,19 +107,24 @@
 			<p id="archeo-type" class="curlylegend"> here dates </p>
 		</div>
 		<br>
-		<hr id="sep-line2">
-
-		<div class="innerboxtext" id="archeo-text">
+		
+		<div class="innerboxtext">
+			<hr>
+			<p id="archeo-altname" class="legend"> Horizonte Tal</p> 
+			<p id="archeo-address" class="legend"> Cahuachi</p> 
+			<p id="archeo-access" class="legend"> Cahuachi</p> 
+			<p id="archeo-description" class="legend"> Aqui toda la descripción correspondiente al sitio arqueológico. </p> <br>
 		</div>
 
-		<div id=googleframe>
-<!--
 
 			<iframe id="geogoogle" src="https://www.google.com/maps/embed?pb=!4v1588739568153!6m8!1m7!1sCAoSLEFGMVFpcFBiZjFkNEY5MzVNMThzbERhb3VWMVc4aXZvNjJIRmJaRk1DUEo4!2m2!1d-8.1069633!2d-79.07391059999999!3f2.186732364619388!4f-9.870532931935031!5f0.7820865974627469" class="frame" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-			-->
-		</div>
 
-		<div class="innerboxtext" id="archeo-buttons">
+			<p class="boldy legend marg"> Explora más en:</p>
+			<button id="archeo-button" class="module-button"><a id="link-wiki"  class="button-link" href=" " target="_blank">Wikipedia
+			</a></button>
+			<button id="archeo-button-trip" class="module-button"><a id="link-trip" class="button-link" href=" " target="_blank">Tripadvisor
+			</a></button>
+
 		</div>
 		
 	</div>
@@ -167,7 +172,7 @@
 					'circle-color': [
 						'case',
 						['boolean', ['feature-state', 'hover'], false],
-						'#666777',
+						'#666',
 						['get', 'color'],
 					],
 					'circle-opacity': [
@@ -195,7 +200,7 @@
 					'circle-color': [
 						'case',
 						['boolean', ['feature-state', 'hover'], false],
-						'#666777',
+						'#666',
 						['get', 'color'],
 					],
 					'circle-opacity': [
@@ -207,7 +212,6 @@
 				}
 			});
 });
-
 
 
 //DEFINING COLORS
@@ -266,31 +270,15 @@
 				coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
 			}
 
-			popup.setLngLat(coordinates)
-				.setHTML(placeName)
-				.addTo(map);
-		}
-
-
-// NEW POPUP 
-		function drawPopup2(e) {
-
-			let feat = cultureSites.features[e];
-
-			map.getCanvas().style.cursor = 'pointer';
-
-			var coordinates = feat.geometry.coordinates.slice();
-			var placeName = cultureSites.features[e].properties.name;
-
-			while (Math.abs(feat.geometry.coordinates.lng - coordinates[0]) > 180) {
-				coordinates[0] += feat.geometry.coordinates.lng > coordinates[0] ? 360 : -360;
-			}
+/*
+			if not inside a mapbox function then 
+			cultureGeneral.features[activeCulture].geometry.coordinates[0].lngLat.lng ???
+*/
 
 			popup.setLngLat(coordinates)
 				.setHTML(placeName)
 				.addTo(map);
 		}
-
 	
 
 		function removePopup(e) {
@@ -424,7 +412,7 @@
 			var siteType = feature.properties.type;
 
 			var siteDistrict = feature.properties.district;
-			var siteProvince = feature.properties.province;
+			var siteDProvince = feature.properties.province;
 			var siteDepartament = feature.properties.department;
 			var siteAccess = feature.properties.access;
 			var siteDescrip = feature.properties.type;
@@ -440,54 +428,19 @@
 			$('#archeo-name').html(siteName).css("color", activeColor);
 			$('#archeo-type').html(siteType);
 
-			$('#link-wiki').css("color", activeColor);
-			$('#link-trip').css("color", activeColor);
+			$('#archeo-altname').html("<span class='boldy'>Otros Nombres: </span>" + siteAltName);
+			$('#archeo-address').html("<span class='boldy'>Ubicación: </span>" +"Distrito de " + siteDistrict + ", Provincia de " + siteDProvince + ", Departamento de " + siteDepartament);
+
+			$('#archeo-access').html("<span class='boldy'>Accesibilidad Turística: </span>" + siteAccess);
+
+			$('#archeo-description').html("<span class='boldy'>Descripción: </span>" +siteDescrip);
+			$('#link-wiki').attr("href", siteWiki).css("color", activeColor);
+			$('#link-trip').attr("href", siteTrip).css("color", activeColor);
 			$('.module-button').css("border-color", activeColor);
 			$('.button-link').css("color", activeColor);
 		    $('#innerboxsite').css("border-left-color", activeColor);
 		    $('#geogoogle').attr("src", siteGoogle);
-
-		    $('#archeo-text, #googleframe, #explore, #archeo-buttons').empty();
-
-
-
-			if(siteGoogle !== undefined && document.getElementById("geogoogle")== null) {
-
-			    $('#googleframe').append('<iframe id=geogoogle src='+siteGoogle+' class=frame frameborder=0 allowfullscreen= aria-hidden=false tabindex=0></iframe>');
-			}
-
-
-			if(siteAltName !== undefined && document.getElementById("alt-text")== null) {
-
-			    $('#archeo-text').append('<p id=alt-text class=legend><span class=boldy>Otros Nombres: </span>'+siteAltName+'</p>');
-			}
-
-
-			if(siteDistrict !== undefined && document.getElementById("ubi-text")== null) {
-			    $('#archeo-text').append('<p id=ubi-text class=legend><span class=boldy>Ubicación: </span> Distrito de '+siteDistrict+', Provincia de '+siteProvince+', Departamento de '+siteDepartament+'</p>');
-			}
-
-			if(siteAccess !== undefined && document.getElementById("access-text")== null) {
-			    $('#archeo-text').append('<p id=access-text class=legend><span class=boldy>Accesibilidad Turística: </span>'+siteAccess+'</p>');
-			}
-
-			if(siteType !== undefined && document.getElementById("type-text")== null) {
-			    $('#archeo-text').append('<p id=type-text class=legend><span class=boldy>Descripción: </span>'+siteType+'</p>');
-			}
-
-			if((siteWiki || siteTrip == true) && document.getElementById("explore")== null) {
-			    $('#archeo-buttons').append('<p class=legendboldy id=explore> Explora más en:</p>');
-			}
-
-			if(siteWiki !== undefined && document.getElementById("wiki-button")== null) {
-			    $('#archeo-buttons').append('<button id=wiki-button class=module-button><a id=link-wiki class=button-link href='+siteWiki+' target=_blank>Wikipedia</a></button>');
-			}
-
-			if(siteTrip !== undefined && document.getElementById("trip-button")== null) {
-			    $('#archeo-buttons').append('<button id=trip-button class=module-button><a id=link-trip class=button-link href='+siteTrip+' target=_blank>Tripadvisor</a></button>');
-			}
-
-
+	    
 		}
 
 		function flyToCultureMap(e) {
@@ -570,28 +523,26 @@ $(document).ready(function () {
 
 			$('#bottom-initial').append('<div id=culture'+i+' class=cultures> <div id=line class=boxline style=border-left-color:'+activeColor+'> <h3 class=box-title id=cultTitle'+i+' style=color:'+activeColor+'>'+siteCulture+'</h3><p class=box-dates>'+cultureStart+' - '+cultureEnd+'</p><img class=box-image src=' +cultureImage+' ></div></div>');
 
-
-
 		}
 	});
 
 
 // ACCORDION
 
-		var acc = document.getElementsByClassName("accordion-button");
-		var i;
+var acc = document.getElementsByClassName("accordion-button");
+var i;
 
-		for (i = 0; i < acc.length; i++) {
-		  acc[i].addEventListener("click", function() {
-		    this.classList.toggle("active");
-		    var panel = this.nextElementSibling;
-		    if (panel.style.maxHeight) {
-		      panel.style.maxHeight = null;
-		    } else {
-		      panel.style.maxHeight = panel.scrollHeight + "px";
-		    }
-		  });
-		}
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
 
 
 /*
@@ -609,30 +560,29 @@ $('.accordion-button').on("click", function() {
 
 			$(document).ready(function () {
 	
+				//Filters data on map by selected culture
 				$('#culture'+activeCulture).on('click',function() {
 
 					let selectedGroup = cultureGeneral.features[activeCulture].properties.group_id;
-
 					filterDatalayer(selectedGroup);	
+
 					flyToCulture(activeCulture);
 
+					let featpop = cultureGeneral.features[activeCulture];
+					var popName = featpop.properties.name;
+
+
+					//Remove Initial bottom module and replace by bottom module with specific culture
 					$('#culture-content').removeClass( "hidden" );
+		//			$('#bottomInitial').addClass( "hidden" );
 
 					// Loads data for right module depending on selected culture
 			  		let feat = cultureGeneral.features[activeCulture];
 					updateContent(activeCulture,feat);
 
 
-//HERE (ON CLICK) THE POP UP KIND OF WORKS					
-					//drawPopup2(activeCulture);
-				});
 
-				
-//HERE (ON HOVER) THE POP UP DOESN'T WORK	
-				$('#culture'+activeCulture).on('hover',function() {
-					drawPopup2(activeCulture);
 				});
-			
 
 			});
 
