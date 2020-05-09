@@ -155,7 +155,6 @@
 
 /* RIGHT MODULE */
 
-
 		.right-module {
 			position: absolute;
 			right: 0px;
@@ -184,10 +183,8 @@
     		position:absolute;
     		left:10px;
     		top: 12px;
+    		transform: rotate(180deg);
     	}
-
-
-
 
 		.innerbox {
 			padding: 10px 0px 10px 0px;
@@ -253,6 +250,7 @@
 
 		.module-button{
     		border: 2px solid #4CAF50;
+    		background-color: #FFFFFF;
     		border-radius: 5px;
     		margin: 5px 10px 10px 0px;
     		color: #4CAF50;
@@ -276,7 +274,12 @@
     		position:absolute;
     		left: 22px;
     		top: 4px;
-    		transform: scale(-1,1);
+    		transform-origin: 50% 50%;
+    	}
+
+    	.arrowdown{
+    		transform: rotate(90deg);
+    		/*transform-origin: 50% 50%;*/
     	}
 
     	.accordion-button {
@@ -344,13 +347,12 @@
 			height:265px; 
 			border:0; 
 			margin: 27px 10px 0px 10px;
-
 		}
+
 /* OTHER STYLES */
 
 		.hidden {
 			display: none;
-
 		}
 
 		.overlay1 {
