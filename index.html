@@ -373,10 +373,24 @@
 					var siteName = filteredSites[i].properties.site_name;
 					var siteType = filteredSites[i].properties.type;
 					var compImage = filteredSites[i].properties.small_image;
+					let index = cultureSites.features.findIndex(({ properties }) => properties.site_name ==siteName);
 
-			 		$('#sites-accordion').append('<div class=inner-component id=mini-site'+i+'><img class=component-image src='+compImage+'> <div class=component-wrap><p class=component-title>'+siteName+'</p><p class=component-text>'+siteType+'</p></div></div>');	
+			 		$('#sites-accordion').append('<div class=inner-component id=mini-site'+i+'><img class=component-image src='+compImage+'> <div class=component-wrap><p class=component-title id=thisName'+i+'>'+siteName+'</p><p class=component-text>'+siteType+'</p></div></div>');
+
+
+					$('#mini-site'+i).on('click',function() {
+					$('#archeo-sites').show(200);
+
+						console.log(index);
+
+						let feat = cultureSites.features[index];
+						updateArcheoContent(index, feat);
+
+					});	
 				}
 	  		 }
+
+
 		}
 
 
@@ -546,36 +560,22 @@ $(document).ready(function () {
 
 				});
 
- //THIS WEIRDLY WORKS
-				$('#culture'+activeCulture).on( "mouseenter",function() {
-
-//					filterDatalayer(selectedGroup);	
-
+				$('#culture'+activeCulture).on( "mouseenter",function() {	
 					drawPopup2(activeCulture);
 	//				exHover(selectedGroup);
 
 				});
 
 				$('#culture'+activeCulture).on( "mouseleave",function() {
-
-//					filterDatalayer(selectedGroup);	
-
 					removePopup(activeCulture);
-	//				exHover(selectedGroup);
-
 				});				
 			});
 	}
 
 
-
-
-
-
 // TITLE ELEMENT LAYOUT & BUTTONS
 
 		$(document).ready(function () {
-
 
 			$('#archeo-sites').css({
 				display:'none'
