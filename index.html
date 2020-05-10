@@ -8,7 +8,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" href="data:;base64,=">
 	<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.js'></script>
-<!-- 	<script src='https://cdnjs.cloudflare.com/ajax/libs/Turf.js/5.1.5/turf.min.js'></script>-->
 	<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.css' rel='stylesheet' />
 	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -133,9 +132,10 @@
 		});
 
 
-//LOADS THE DATA
+// LOADS THE DATA & STYLE FOR LAYERS	
 
 		map.on('load', function () {
+
 			for (let i = 0; i < cultureGeneral.features.length; i++) {
 				cultureGeneral.features[i]['id'] = i + 1
 			}
@@ -143,9 +143,7 @@
 			for (let i = 0; i < cultureSites.features.length; i++) {
 				cultureSites.features[i]['id'] = i + 1
 			}
-
-			
-//STYLE FOR LAYER			
+				
 			culturelayer = map.addLayer({
 				id: "culturelayer",
 				type: "circle",
@@ -201,19 +199,16 @@
 					]
 				}
 			});
-});
+		});
 
-//DEFINING COLORS
-
+// DEFINING COLORS
 
 		let colors = cultureGeneral.features.map(({ properties }) => properties.color);
 
+// NAVIGATION POPUP & HOVER
 
-//ADD NAVIGATION BAR
 		map.addControl(new mapboxgl.NavigationControl(), 'bottom-left');
 
-
-// CONTROLS THE POPUP
 		var popup = new mapboxgl.Popup({ 
 			closeButton: false, 
 			closeOnClick: false 
@@ -238,9 +233,7 @@
 			}
 			hoverCurrentId = null;
 		}
-
-
-// DECLARING FUNCTION POPUP 
+ 
 
 		function drawPopup(e,n) {
 			map.getCanvas().style.cursor = 'pointer';
@@ -258,9 +251,9 @@
 		}
 
 
-// NEW POPUP 
+// EXTERNAL POPUP AND EXTERNAL HOVER
 
-		function drawPopup2(e) {
+		function drawPopupExternal(e) {
 
 			let feat = cultureGeneral.features[e];
 
@@ -310,24 +303,25 @@
 			});
 
 			map.on('mouseleave', 'siteslayer', function (e) {
-				stopHover(e, 'siteslayer')
  				removePopup(e)
+ 				stopHover(e, 'siteslayer')
+ 				
 			});
 
-// EXTERNAL HOVER
-
-		function exHover(num) {
+// EXTERNAL HOVER & LEAVE
+		
+		function exHover(num, layer, data) {
 
 			if (num) {
-				map.setFeatureState({ source: 'culturelayer', id: num }, { hover: false });
+				map.setFeatureState({ source: layer, id: num }, { hover: false });
 			}
-			hoverCurrentId = num;
-			map.setFeatureState({ source: 'culturelayer', id: hoverCurrentId}, { hover: true });
+			hoverCurrentId = data.features[num].id;
+			map.setFeatureState({ source: layer, id: hoverCurrentId}, { hover: true });
 		}
 
 		function exLeave(num) {
 			if (hoverCurrentId) {
-				map.setFeatureState({ source: 'culturelayer', id: hoverCurrentId }, { hover: false });
+				map.setFeatureState({ source: layer, id: hoverCurrentId }, { hover: false });
 			}
 			hoverCurrentId = null;
 		}
@@ -379,14 +373,22 @@
 
 
 					$('#mini-site'+i).on('click',function() {
-					$('#archeo-sites').show(200);
-
-						console.log(index);
+						$('#archeo-sites').show(200);
 
 						let feat = cultureSites.features[index];
 						updateArcheoContent(index, feat);
 
 					});	
+
+					$('#mini-site'+i).on( "mouseenter",function() {	
+						layer = 'siteslayer';
+						data = cultureSites;
+						exHover(index,layer,data);
+					});
+
+					$('#mini-site'+i).on( "mouseleave",function() {
+						exLeave(index);
+					});		
 				}
 	  		 }
 
@@ -415,16 +417,9 @@
 		    var siteWiki = feat.properties.link_wiki;
 		    var siteTrip = feat.properties.link_trip;
 
+		    let index2 = cultureSites.features.findIndex(({ properties }) => properties.site_name ==siteName);
+
 		    $('.right-module').scrollTop(0);
-
-		    $('#archeo-photo').attr("src", siteImage);
-		    $('#archeo-culture').html("Cultura " + siteCulture).css("color", activeColor);
-			$('#archeo-name').html(siteName).css("color", activeColor);
-			$('#archeo-type').html(siteType);
-			$('#link-trip, .button-link,#link-wiki').css("color", activeColor);
-			$('.module-button, #innerboxsite').css("border-color", activeColor);
-		    $('#geogoogle').attr("src", siteGoogle);
-
 		    $('#archeo-text, #googleframe, #explore, #archeo-buttons').empty();
 
 
@@ -461,6 +456,32 @@
 			if(siteTrip !== undefined && document.getElementById("trip-button")== null) {
 			    $('#archeo-buttons').append('<button id=trip-button class=module-button><a class=button-link href='+siteTrip+' target=_blank>Tripadvisor</a></button>');
 			}
+
+
+		    $('#archeo-photo').attr("src", siteImage);
+		    $('#archeo-culture').html("Cultura " + siteCulture).css("color", activeColor);
+			$('#archeo-name').html(siteName).css("color", activeColor);
+			$('#archeo-type').html(siteType);
+			$('#link-trip, .button-link,#link-wiki').css("color", activeColor);
+			$('.module-button, #innerboxsite').css("border-color", activeColor);
+		    $('#geogoogle').attr("src", siteGoogle);
+
+		    
+
+//ERROR HERE TO FIX
+//ERROR HERE TO FIX
+//ERROR HERE TO FIX
+//ERROR HERE TO FIX
+			$('#archeo-sites').on( "mouseenter",function() {
+					layer = 'siteslayer';
+					data = cultureSites;
+					exHover(index2,layer,data);
+				});
+
+			$('#archeo-sites').on( "mouseleave",function() {
+					exLeave(index2);
+			});	
+		
 		}
 
 
@@ -518,6 +539,7 @@
 				let data = cultureGeneral.features[idGroup];
 				updateArcheoContent(e, feat);
 				updateCultureContent(idGroup,data);
+				//startHover(e, 'siteslayer')
 			});
 
 
@@ -561,13 +583,16 @@ $(document).ready(function () {
 				});
 
 				$('#culture'+activeCulture).on( "mouseenter",function() {	
-					drawPopup2(activeCulture);
-	//				exHover(selectedGroup);
+					drawPopupExternal(activeCulture);
+					layer = 'culturelayer';
+					data = cultureGeneral;
+					exHover(selectedGroup,layer,data);
 
 				});
 
 				$('#culture'+activeCulture).on( "mouseleave",function() {
 					removePopup(activeCulture);
+					exLeave(selectedGroup);
 				});				
 			});
 	}
@@ -581,19 +606,7 @@ $(document).ready(function () {
 				display:'none'
 			});
 
-//#mini-site0 doesn't works
-//#culture-dates works
-			$('#culture-dates').on('click',function() {
-				$('#archeo-sites').show(200);
-				let feat = cultureSites.features[2];
-				updateArcheoContent(2, feat);
-			});
-
-			$('#closeButton').on('click',function() {
-				$('#archeo-sites').hide(200);
-			});
-
-			$('#backtoculture, #archeo-culture').on('click',function() {
+			$('#backtoculture, #archeo-culture, #closeButton').on('click',function() {
 				$('#archeo-sites').hide(200);
 			});
 
