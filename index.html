@@ -253,14 +253,14 @@
 
 // EXTERNAL POPUP AND EXTERNAL HOVER
 
-		function drawPopupExternal(e) {
+		function drawPopupExternal(e,data,tag) {
 
-			let feat = cultureGeneral.features[e];
+			let feat = data.features[e];
 
 			map.getCanvas().style.cursor = 'pointer';
 
 			var coordinates = feat.geometry.coordinates.slice();
-			var placeName = feat.properties.name;
+			var placeName = tag;
 
 			while (Math.abs(feat.geometry.coordinates.lng - coordinates[0]) > 180) {
 				coordinates[0] += feat.geometry.coordinates.lng > coordinates[0] ? 360 : -360;
@@ -383,11 +383,14 @@
 					$('#mini-site'+i).on( "mouseenter",function() {	
 						layer = 'siteslayer';
 						data = cultureSites;
+						tag = cultureSites.features[index].properties.site_name;
 						exHover(index,layer,data);
+						drawPopupExternal(index, data, tag);;
 					});
 
 					$('#mini-site'+i).on( "mouseleave",function() {
 						exLeave(index);
+						removePopup(index);
 					});		
 				}
 	  		 }
@@ -471,7 +474,7 @@
 //ERROR HERE TO FIX
 //ERROR HERE TO FIX
 //ERROR HERE TO FIX
-//ERROR HERE TO FIX
+//ERROR HERE TO FIX breaks after 3 times
 			$('#archeo-sites').on( "mouseenter",function() {
 					layer = 'siteslayer';
 					data = cultureSites;
@@ -537,8 +540,9 @@
 
 				let idGroup = e.features[0].properties.group_id;
 				let data = cultureGeneral.features[idGroup];
+
 				updateArcheoContent(e, feat);
-				updateCultureContent(idGroup,data);
+		//		updateCultureContent(idGroup,data);
 				//startHover(e, 'siteslayer')
 			});
 
@@ -582,11 +586,12 @@ $(document).ready(function () {
 
 				});
 
-				$('#culture'+activeCulture).on( "mouseenter",function() {	
-					drawPopupExternal(activeCulture);
+				$('#culture'+activeCulture).on( "mouseenter",function() {		
 					layer = 'culturelayer';
 					data = cultureGeneral;
+					tag = cultureGeneral.features[activeCulture].properties.name;
 					exHover(selectedGroup,layer,data);
+					drawPopupExternal(activeCulture, data, tag);
 
 				});
 
