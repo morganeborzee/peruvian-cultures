@@ -9,16 +9,20 @@ cultureSites = {
             "site_name":"Caral",
             "longitude":"-77.523208",
             "latitude":"-10.892386",
-            "province":"Lima",
+            "district":"Supe",
+            "province":"Barranca",
+            "department":"Lima",
             "access":"Muy accesible",
             "type":"Archeological Site",
+            "altitude":"350 msnm",
             "link_wiki":"https://es.wikipedia.org/wiki/Caral",
             "link_trip":"https://www.tripadvisor.com/Attraction_Review-g294316-d506824-Reviews-Caral_Peru-Lima_Lima_Region.html",
             "link_google":"https://www.google.com/maps/embed?pb=!4v1588831794301!6m8!1m7!1sCAoSLEFGMVFpcFB0eFhMVjF0eFQyRHFhempmZGFYUl9Qck5BNDJ4VFVmbE15UVJX!2m2!1d-10.8938018!2d-77.52248709999999!3f138.7936347534436!4f-14.884214970473238!5f0.7820865974627469",
-            "big_image":"images/template.png",
-            "small_image":"images/template_small.png",
+            "big_image":"images/caral_site.png",
+            "small_image":"images/caral_site_small.png",
             "color":"#C6658A",
-            "radius":"5"
+            "radius":"5",
+            "link_photo":"https://es.wikipedia.org/wiki/Caral#/media/Archivo:Caralzonas.JPG"
          },
          "geometry":{
             "type":"Point",
@@ -36,21 +40,142 @@ cultureSites = {
             "site_name":"Chavin de Huantar",
             "longitude":"-77.177324",
             "latitude":"-9.592795",
+            "district":"Chavín de Huántar",
+            "province":"Huari",
+            "department":"Áncash",
             "access":"Muy accesible",
             "type":"Archeological Site",
+            "altitude":"3177 m s. n. m",
             "link_wiki":"https://es.wikipedia.org/wiki/Chav%C3%ADn_de_Hu%C3%A1ntar",
             "link_trip":"https://www.tripadvisor.com/Attraction_Review-g2336588-d318894-Reviews-Archaeological_Site_of_Chavin-Chavin_de_Huantar_Ancash_Region.html",
             "link_google":"https://www.google.com/maps/embed?pb=!4v1588832092812!6m8!1m7!1sCAoSLEFGMVFpcE5XTm1lUXJGMTdKckRFMF9iZjlBdlFJd3ZoOXNtMVlxQzhSWmZf!2m2!1d-9.594168347108138!2d-77.17858459800482!3f62.143133406203276!4f13.284668818946116!5f0.7820865974627469",
-            "big_image":"images/template.png",
-            "small_image":"images/template_small.png",
+            "big_image":"images/chavin_de_huantar.png",
+            "small_image":"images/chavin_de_huantar_small.png",
             "color":"#86511F",
-            "radius":"5"
+            "radius":"5",
+            "link_photo":"https://www.flickr.com/photos/98991891@N08/17228916161/in/photolist-sfsGwD-riGWGM-sddPVS-rivyGs-riFKvk-rXVVdN-sfuvpP-rWaHWR-sfuD34-rY3mLP-sfm8Bo-4TtLtg-rWaWh2-sfmxcj-sddqfq-sdcNho-riuesC-sfskor-rWbaCR-LaURSH-rXUiCQ-cZS2K7-23RZcg9-cZSkNy-cZStn9-cZSE3f-cZQtkw-cZRqcu-cZPPZf-cZR7Eq-cZQ5ZQ-cZPGrQ-cZSe9G-cZQyxU-cZQqG3-cZRNxS-cZQw4o-cZRYoE-cZPXjs-cZSMQq-cZQirs-cZPZHN-edmHgP-cZQXxm-cZQRHs-cZQKTf-4VC1tP-cZQfSL-cZPJWQ-edseVq"
          },
          "geometry":{
             "type":"Point",
             "coordinates":[
                -77.177324,
                -9.592795
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "group_id":"1",
+            "name":"Chavin",
+            "site_name":"Kotosh",
+            "longitude":"-76.279443",
+            "latitude":"-9.930747",
+            "district":"Huánuco",
+            "province":"Huánuco",
+            "department":"Huánuco",
+            "access":"Muy accesible",
+            "type":"Archeological Site",
+            "link_wiki":"https://es.wikipedia.org/wiki/Kotosh",
+            "link_trip":"https://www.tripadvisor.com.pe/Attraction_Review-g1391902-d4555931-Reviews-Kotosh-Huanuco_Huanuco_Region.html",
+            "link_google":"https://www.google.com/maps/embed?pb=!4v1589169199406!6m8!1m7!1sCAoSLEFGMVFpcE0xTVc4WmRjd0VOU0MyQk9QbWl5d2EtVU1ISDMtNkNNYU41N1Bn!2m2!1d-9.9310571!2d-76.2794983!3f20.43680975468095!4f-5.789876285641327!5f0.7820865974627469",
+            "big_image":"images/kotosh.png",
+            "small_image":"images/kotosh_small.png",
+            "color":"#86511F",
+            "radius":"5",
+            "link_photo":"https://www.flickr.com/photos/desdegus/1732643818/"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.279443,
+               -9.930747
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "group_id":"1",
+            "name":"Chavin",
+            "site_name":"El Paraiso",
+            "alt_name":"Chuquitanta",
+            "longitude":"-77.118409",
+            "latitude":"-11.953733",
+            "district":"San Martín de Porres",
+            "province":"Lima",
+            "department":"Lima",
+            "access":"Muy accesible",
+            "type":"Archeological Site",
+            "link_wiki":"https://es.wikipedia.org/wiki/Huaca_El_Para%C3%ADso",
+            "link_google":"https://www.google.com/maps/embed?pb=!4v1589169512889!6m8!1m7!1sCAoSLEFGMVFpcFBDTnBlTXFXQ3FSdmt2NXRJM1lOTDYwTFVoNlhDWk1qQ3p3cFFa!2m2!1d-11.95397159137534!2d-77.11875523787262!3f83.69254159014591!4f-0.1332586076494806!5f0.7820865974627469",
+            "big_image":"images/el_paraiso.png",
+            "small_image":"images/el_paraiso_small.png",
+            "color":"#86511F",
+            "radius":"5",
+            "link_photo":"https://es.wikipedia.org/wiki/Huaca_El_Para%C3%ADso#/media/Archivo:Huaca_El_Para%C3%ADso_16.jpg"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -77.118409,
+               -11.953733
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "group_id":"1",
+            "name":"Chavin",
+            "site_name":"Bandurria",
+            "longitude":"-77.587886",
+            "latitude":"-11.186705",
+            "access":"Muy accesible",
+            "type":"Archeological Site",
+            "link_wiki":"https://es.wikipedia.org/wiki/Bandurria_(sitio_arqueol%C3%B3gico)",
+            "link_trip":"https://www.tripadvisor.com/Attraction_Review-g2137057-d9851990-Reviews-Bandurria-Huacho_Lima_Region.html",
+            "link_google":"https://www.google.com/maps/embed?pb=!4v1589179010739!6m8!1m7!1sCAoSLEFGMVFpcE9Uek9IMGg0Sko4VU1QZkdBUnU4djluUXpJbVpaZVgtRndiQ3Nh!2m2!1d-11.1867743!2d-77.5887346!3f352.76135008569054!4f-18.313280390309785!5f0.7820865974627469",
+            "big_image":"images/bandurria.png",
+            "small_image":"images/bandurria_small.png",
+            "color":"#86511F",
+            "radius":"5",
+            "link_photo":"https://es.wikipedia.org/wiki/Bandurria_(sitio_arqueol%C3%B3gico)#/media/Archivo:Bandurria_Templo_Tard%C3%ADo_plaza_circular.JPG"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -77.587886,
+               -11.186705
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "group_id":"1",
+            "name":"Chavin",
+            "site_name":"Las Aldas",
+            "alt_name":"Las Haldas",
+            "longitude":"-78.296674",
+            "latitude":"-9.701645",
+            "province":"Casma",
+            "department":"Ancash",
+            "access":"Muy accesible",
+            "type":"Archeological Site",
+            "link_wiki":"https://es.wikipedia.org/wiki/Las_Haldas",
+            "link_google":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3932.7563503371057!2d-78.29875518520821!3d-9.701824543055965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91aa4aab199f703b%3A0x2103bf720bb58edc!2sComplejo%20Arqueologico%20Las%20Aldas!5e0!3m2!1sen!2spe!4v1589171572283!5m2!1sen!2spe\"",
+            "big_image":"images/las_aldas.png",
+            "small_image":"images/las_aldas_small.png",
+            "color":"#86511F",
+            "radius":"5",
+            "link_photo":"https://es.wikipedia.org/wiki/Las_Haldas#/media/Archivo:Aldas2017.png"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -78.296674,
+               -9.701645
             ]
          }
       },
@@ -81,96 +206,57 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "group_id":"1",
-            "name":"Chavin",
-            "site_name":"Kotosh",
-            "longitude":"-76.279443",
-            "latitude":"-9.930747",
+            "group_id":"2",
+            "name":"Paracas",
+            "site_name":"Tajahuana",
+            "longitude":"-75.745518",
+            "latitude":"-14.177166",
+            "district":"Ica",
+            "province":"Ica",
+            "department":"Ica",
             "access":"Muy accesible",
-            "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Kotosh",
+            "type":"Paisaje Arqueológico",
+            "link_wiki":"https://es.wikipedia.org/wiki/Tajahuana",
+            "link_google":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3856.2484043230634!2d-75.56063308544776!3d-14.867382004796399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9116dc916631f1a1%3A0x1a7d3bd626f9204e!2sTajahuana!5e0!3m2!1sen!2spe!4v1589172183431!5m2!1sen!2spe",
             "big_image":"images/template.png",
             "small_image":"images/template_small.png",
-            "color":"#86511F",
+            "color":"#863589",
             "radius":"5"
          },
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -76.279443,
-               -9.930747
+               -75.745518,
+               -14.177166
             ]
          }
       },
       {
          "type":"Feature",
          "properties":{
-            "group_id":"1",
-            "name":"Chavin",
-            "site_name":"Las Aldas",
-            "longitude":"-78.296674",
-            "latitude":"-9.701645",
+            "group_id":"2",
+            "name":"Paracas",
+            "site_name":"Chichictara (Paracas)",
+            "alt_name":"Chichiktara, Petroglífos de Chichictara",
+            "longitude":"-75.133545",
+            "latitude":"-14.465908",
+            "district":"Palpa",
+            "province":"Palpa",
+            "department":"Ica",
             "access":"Muy accesible",
-            "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Las_Haldas",
+            "type":"Paisaje Arqueológico",
+            "link_trip":"https://www.tripadvisor.com.pe/Attraction_Review-g2050086-d15038135-Reviews-Petroglifos_De_Chichictara-Palpa_Ica_Region.html",
+            "link_google":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20327.985409647037!2d-75.20065982910752!3d-14.52324971567242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1408b02546c47e5c!2sChicchitara%20Petrolgyphs!5e0!3m2!1sen!2spe!4v1589169846558!5m2!1sen!2spe",
             "big_image":"images/template.png",
             "small_image":"images/template_small.png",
-            "color":"#86511F",
+            "color":"#863589",
             "radius":"5"
          },
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -78.296674,
-               -9.701645
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
-            "group_id":"1",
-            "name":"Chavin",
-            "site_name":"Bandurria",
-            "longitude":"-77.587886",
-            "latitude":"-11.186705",
-            "access":"Muy accesible",
-            "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Bandurria_(sitio_arqueol%C3%B3gico)",
-            "big_image":"images/template.png",
-            "small_image":"images/template_small.png",
-            "color":"#86511F",
-            "radius":"5"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -77.587886,
-               -11.186705
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
-            "group_id":"1",
-            "name":"Chavin",
-            "site_name":"El Paraiso",
-            "longitude":"-77.118409",
-            "latitude":"-11.953733",
-            "access":"Muy accesible",
-            "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Huaca_El_Para%C3%ADso",
-            "big_image":"images/template.png",
-            "small_image":"images/template_small.png",
-            "color":"#86511F",
-            "radius":"5"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -77.118409,
-               -11.953733
+               -75.133545,
+               -14.465908
             ]
          }
       },
@@ -522,33 +608,6 @@ cultureSites = {
          "properties":{
             "group_id":"2",
             "name":"Paracas",
-            "site_name":"Chichictara",
-            "alt_name":"Chichiktara, Petroglífos de Chichictara",
-            "longitude":"-75.133545",
-            "latitude":"-14.465908",
-            "district":"Palpa",
-            "province":"Palpa",
-            "department":"Ica",
-            "access":"Muy accesible",
-            "type":"Paisaje Arqueológico",
-            "big_image":"images/template.png",
-            "small_image":"images/template_small.png",
-            "color":"#863589",
-            "radius":"5"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -75.133545,
-               -14.465908
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
-            "group_id":"2",
-            "name":"Paracas",
             "site_name":"Cerro Cutamalla",
             "alt_name":"Cutamalla",
             "longitude":"-74.862275",
@@ -565,32 +624,6 @@ cultureSites = {
             "coordinates":[
                -74.862275,
                -14.318824
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
-            "group_id":"2",
-            "name":"Paracas",
-            "site_name":"Tajahuana",
-            "longitude":"-75.745518",
-            "latitude":"-14.177166",
-            "district":"Ica",
-            "province":"Ica",
-            "department":"Ica",
-            "access":"Muy accesible",
-            "type":"Paisaje Arqueológico",
-            "big_image":"images/template.png",
-            "small_image":"images/template_small.png",
-            "color":"#863589",
-            "radius":"5"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -75.745518,
-               -14.177166
             ]
          }
       },
@@ -652,25 +685,29 @@ cultureSites = {
          "properties":{
             "group_id":"3",
             "name":"Nazca",
-            "site_name":"Petroglífos de Chichictara",
-            "alt_name":"Chichiktara",
-            "longitude":"-75.133545",
-            "latitude":"-14.465908",
-            "district":"Palpa",
-            "province":"Palpa",
+            "site_name":"Cahuachi",
+            "alt_name":"Centro Ceremonial Cahuachi, Ciudad Perdida de Cahuachi",
+            "longitude":"-75.122273",
+            "latitude":"-14.818694",
+            "district":"Nazca",
+            "province":"Nazca",
             "department":"Ica",
             "access":"Muy accesible",
-            "type":"Paisaje Arqueológico",
-            "big_image":"images/template.png",
-            "small_image":"images/template_small.png",
+            "type":"Zona Arqueológica Monumental",
+            "link_wiki":"https://es.wikipedia.org/wiki/Cahuachi",
+            "link_trip":"https://www.tripadvisor.com.pe/Attraction_Review-g304044-d2304229-Reviews-Cahuachi-Nazca_Ica_Region.html",
+            "link_google":"https://www.google.com/maps/embed?pb=!4v1589172032346!6m8!1m7!1sCAoSLEFGMVFpcE5oSmpzM3BTRTRjVXZEOS1uLXZwNEZtbnJ3U0o1LUp6eXJEemVD!2m2!1d-14.8179006!2d-75.116357!3f211.22712417233507!4f11.167553814803682!5f0.7820865974627469",
+            "big_image":"images/cahuachi.png",
+            "small_image":"images/cahuachi_small.png",
             "color":"#BA95AA",
-            "radius":"5"
+            "radius":"5",
+            "link_photo":"https://es.wikipedia.org/wiki/Cahuachi#/media/Archivo:Cahuachi_14.jpg"
          },
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -75.133545,
-               -14.465908
+               -75.122273,
+               -14.818694
             ]
          }
       },
@@ -688,11 +725,13 @@ cultureSites = {
             "department":"Ica",
             "access":"Muy accesible",
             "link_wiki":"https://es.wikipedia.org/wiki/Acueductos_de_Cantalloc",
+            "link_trip":"https://www.tripadvisor.com.pe/Attraction_Review-g304044-d319284-Reviews-Cantalloc_Aqueduct-Nazca_Ica_Region.html",
             "link_google":"https://www.google.com/maps/embed?pb=!4v1588832265241!6m8!1m7!1sCAoSLEFGMVFpcFAwLTQwMWFaTWI3SldyUXctTURiNzdRS1c5a1FZYlc1ZkZqOTBC!2m2!1d-14.8264!2d-74.9096!3f108.98121883776197!4f-15.679193887924612!5f0.7820865974627469",
-            "big_image":"images/template.png",
-            "small_image":"images/template_small.png",
+            "big_image":"images/cantalloc.png",
+            "small_image":"images/cantalloc_small.png",
             "color":"#BA95AA",
-            "radius":"5"
+            "radius":"5",
+            "link_photo":"https://www.flickr.com/photos/diego_delso/22629147181/"
          },
          "geometry":{
             "type":"Point",
@@ -707,15 +746,48 @@ cultureSites = {
          "properties":{
             "group_id":"3",
             "name":"Nazca",
-            "site_name":"Cahuachi",
-            "alt_name":"Centro Ceremonial Cahuachi",
-            "longitude":"-75.122273",
-            "latitude":"-14.818694",
+            "site_name":"Lineas de Nazca",
+            "alt_name":"Lineas de Nasca",
+            "longitude":"-75.134767",
+            "latitude":"-14.705824",
             "district":"Nazca",
             "province":"Nazca",
             "department":"Ica",
             "access":"Muy accesible",
-            "type":"Zona Arqueológica Monumental",
+            "type":"Archeological Site",
+            "link_wiki":"https://es.wikipedia.org/wiki/L%C3%ADneas_de_Nazca",
+            "link_trip":"https://www.tripadvisor.es/ShowUserReviews-g304044-d311724-r188870816-Nasca_Lines-Nazca_Ica_Region.html",
+            "link_google":"https://www.google.com/maps/embed?pb=!4v1589170540709!6m8!1m7!1sCAoSLEFGMVFpcE51aXVCckZtTkZaNkR1M3JlN2VIUjJMSE55dFkzUHpSbEtlWW1f!2m2!1d-14.7316341!2d-75.08794019999999!3f163.97933158250413!4f-50.49095531658818!5f0.7820865974627469",
+            "big_image":"images/lineas_de_nazca.png",
+            "small_image":"images/lineas_de_nazca_small.png",
+            "color":"#BA95AA",
+            "radius":"5",
+            "link_photo":"https://www.flickr.com/photos/diego_delso/22617186495/in/photolist-9gJHXA-4hkKuK-4hpSjw-AtALrp-fanSk-AsAZzi-zvHdhP-zvHXc6-xrsi9-xroc5-6xHMjU-6xDCaH-6xHMQj-6xDC3p-6xDCor-6xHMHh-xrqam-xrjZe-6xDCq2-xro1y-6xDCei-6xHMEq-xrnFp-xriQC-xrpxi-xrqsb-xrpSd-xrq23-xrnQy-xrssD-xrqiW-xrkYE-xrpHr-xrsY7-xrkNs-xrrwo-xrm9s-xrmjw-xriBb-xrsNm-xrrm5-xrpdU-bVcTht"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -75.134767,
+               -14.705824
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "group_id":"3",
+            "name":"Nazca",
+            "site_name":"Chichictara (Nazca)",
+            "alt_name":"Chichiktara, Petroglífos de Chichictara",
+            "longitude":"-75.133545",
+            "latitude":"-14.465908",
+            "district":"Palpa",
+            "province":"Palpa",
+            "department":"Ica",
+            "access":"Muy accesible",
+            "type":"Paisaje Arqueológico",
+            "link_trip":"https://www.tripadvisor.com.pe/Attraction_Review-g2050086-d15038135-Reviews-Petroglifos_De_Chichictara-Palpa_Ica_Region.html",
+            "link_google":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20327.985409647037!2d-75.20065982910752!3d-14.52324971567242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1408b02546c47e5c!2sChicchitara%20Petrolgyphs!5e0!3m2!1sen!2spe!4v1589169846558!5m2!1sen!2spe",
             "big_image":"images/template.png",
             "small_image":"images/template_small.png",
             "color":"#BA95AA",
@@ -724,8 +796,8 @@ cultureSites = {
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -75.122273,
-               -14.818694
+               -75.133545,
+               -14.465908
             ]
          }
       },
@@ -889,44 +961,25 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "group_id":"3",
-            "name":"Nazca",
-            "site_name":"Lineas de Nasca",
-            "longitude":"-75.134767",
-            "latitude":"-14.705824",
-            "access":"Muy accesible",
-            "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/L%C3%ADneas_de_Nazca",
-            "link_trip":"https://www.tripadvisor.es/ShowUserReviews-g304044-d311724-r188870816-Nasca_Lines-Nazca_Ica_Region.html",
-            "big_image":"images/template.png",
-            "small_image":"images/template_small.png",
-            "color":"#BA95AA",
-            "radius":"5"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -75.134767,
-               -14.705824
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
             "group_id":"4",
             "name":"Recuay",
             "site_name":"Huilcahuaín",
-            "alt_name":"Wilkawain",
+            "alt_name":"Wilkawain, Wilkahuain, Wilcahuaín",
             "longitude":"-77.511507",
             "latitude":"-9.483099",
+            "district":"Independencia",
+            "province":"Huaraz",
+            "department":"Ancash",
             "access":"Muy accesible",
             "type":"Archeological Site",
+            "link_wiki":"https://es.wikipedia.org/wiki/Huilcahua%C3%ADn",
+            "link_trip":"https://www.tripadvisor.com.pe/Attraction_Review-g304039-d554856-Reviews-Monumento_Nacional_Wilcahuain_Ruin-Huaraz_Ancash_Region.html",
             "link_google":"https://www.google.com/maps/embed?pb=!4v1588832365763!6m8!1m7!1sCAoSLEFGMVFpcE12ZGgxcjMxa2R6dHB5czhmT0JZUWxMVEVfWnY1QzFIOUV6eWpz!2m2!1d-9.4830551!2d-77.5111084!3f2.150802324647972!4f-17.839045305407495!5f0.7820865974627469",
-            "big_image":"images/template.png",
-            "small_image":"images/template_small.png",
+            "big_image":"images/huilcahuain.png",
+            "small_image":"images/huilcahuain_small.png",
             "color":"#B4A178",
-            "radius":"5"
+            "radius":"5",
+            "link_photo":"https://es.wikipedia.org/wiki/Huilcahua%C3%ADn#/media/Archivo:Sitio_arqueol%C3%B3gico_Ichic_Willkahua%C3%ADn_Huaraz,_Per%C3%BA_7.jpg"
          },
          "geometry":{
             "type":"Point",
@@ -942,14 +995,21 @@ cultureSites = {
             "group_id":"4",
             "name":"Recuay",
             "site_name":"Yayno",
+            "alt_name":"Yaino, Fortaleza de Yaino",
             "longitude":"-77.4557",
             "latitude":"-8.885541",
+            "district":"Huayllán",
+            "province":"Pomabamba",
+            "department":"Ancash",
             "access":"Muy accesible",
             "type":"Archeological Site",
-            "big_image":"images/template.png",
-            "small_image":"images/template_small.png",
+            "link_wiki":"https://es.wikipedia.org/wiki/Fortaleza_de_Yaino",
+            "link_google":"https://www.google.com/maps/embed?pb=!4v1589167150768!6m8!1m7!1sCAoSLEFGMVFpcFAzakRXOF9RempzNWlzT0VkSDFSMVdxejhfRUZUT3hQc2xPLVJD!2m2!1d-8.8872369!2d-77.4563963!3f32.67957907221226!4f31.653036794431685!5f0.7820865974627469",
+            "big_image":"images/yayno.png",
+            "small_image":"images/yayno_small.png",
             "color":"#B4A178",
-            "radius":"5"
+            "radius":"5",
+            "link_photo":"https://es.wikipedia.org/wiki/Fortaleza_de_Yaino#/media/Archivo:04YAYNO.jpg"
          },
          "geometry":{
             "type":"Point",
@@ -967,8 +1027,14 @@ cultureSites = {
             "site_name":"Tinyash",
             "longitude":"-77.000163",
             "latitude":"-8.945565",
+            "district":"Pinra",
+            "province":"Huacaybamba",
+            "department":"Huánuco",
             "access":"Muy accesible",
             "type":"Archeological Site",
+            "altitude":"4170 m.s.n.m.",
+            "link_wiki":"https://es.wikipedia.org/wiki/Tinyash",
+            "link_google":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17385.36294176393!2d-77.00577435942064!3d-8.947784239826158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91af2d7cf6d0347f%3A0xb4caa8d94d551ff0!2sComplejo%20Arqueol%C3%B3gico%20de%20Tinyash!5e0!3m2!1sen!2spe!4v1589167341521!5m2!1sen!2spe",
             "big_image":"images/template.png",
             "small_image":"images/template_small.png",
             "color":"#B4A178",
@@ -990,14 +1056,20 @@ cultureSites = {
             "site_name":"Huaca Cao Viejo",
             "longitude":"-79.303447",
             "latitude":"-7.915156",
-            "province":"La Libertad",
+            "district":"Magdalena de Cao",
+            "province":"Ascope",
+            "department":"La Libertad",
             "access":"Muy accesible",
             "type":"Archeological Site",
+            "description":"Forma parte del Complejo Arqueológico El Brujo, al que también pertenecen la Huaca Prieta y la Huaca Cortada",
             "link_wiki":"https://es.wikipedia.org/wiki/Huaca_Cao_Viejo",
-            "big_image":"images/template.png",
-            "small_image":"images/template_small.png",
+            "link_trip":"https://www.tripadvisor.com.pe/Attraction_Review-g15511689-d18961198-Reviews-Huaca_Cao_Viejo-Magdalena_de_Cao_La_Libertad_Region.html#REVIEWS",
+            "link_google":"https://www.google.com/maps/embed?pb=!4v1589071406061!6m8!1m7!1sCAoSLEFGMVFpcFAxVTBkUFZGMTJkLXhBN1BGd1BjU2lQTWdFaWxwaUthZzl3N1Zs!2m2!1d-7.914637399999999!2d-79.30315379999999!3f199.17588955178945!4f9.514663342970607!5f0.7820865974627469",
+            "big_image":"images/cao_viejo.png",
+            "small_image":"images/cao_viejo_small.png",
             "color":"#4F428D",
-            "radius":"5"
+            "radius":"5",
+            "link_photo":"https://www.flickr.com/photos/41497284@N00/887685752"
          },
          "geometry":{
             "type":"Point",
@@ -1012,11 +1084,64 @@ cultureSites = {
          "properties":{
             "group_id":"5",
             "name":"Mochica",
+            "site_name":"Huaca el brujo",
+            "longitude":"-79.304007",
+            "latitude":"-7.911842",
+            "province":"La Libertad",
+            "access":"Muy accesible",
+            "type":"Archeological Site",
+            "big_image":"images/el_brujo.png",
+            "small_image":"images/el_brujo_small.png",
+            "color":"#4F428D",
+            "radius":"5"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -79.304007,
+               -7.911842
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "group_id":"5",
+            "name":"Mochica",
+            "site_name":"Pacatnamu (Mochica)",
+            "alt_name":"Pacatnamú",
+            "longitude":"-79.572087",
+            "latitude":"-7.300176",
+            "district":"Guadalupe",
+            "province":"Pacasmayo",
+            "department":"La Libertad        ",
+            "access":"Muy accesible",
+            "type":"Zona Arqueológica",
+            "link_wiki":"https://es.wikipedia.org/wiki/Pakatnam%C3%BA",
+            "link_google":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.317800837979!2d-79.58650588555139!3d-7.318152773990995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x904d478a953fddc5%3A0x3c2934b18293f247!2sPacatnamu!5e0!3m2!1sen!2spe!4v1589170784247!5m2!1sen!2spe",
+            "big_image":"images/pacatnamu.png",
+            "small_image":"images/pacatnamu_small.png",
+            "color":"#4F428D",
+            "radius":"5",
+            "link_photo":"https://en.wikipedia.org/wiki/Pacatnamu#/media/File:Pacatnamu_walls.jpg"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -79.572087,
+               -7.300176
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "group_id":"5",
+            "name":"Mochica",
             "site_name":"Huaca Rajada",
             "alt_name":"Sipán",
             "longitude":"-79.600219",
             "latitude":"-6.798751",
-            "province":"La Libertad",
             "access":"Muy accesible",
             "type":"Archeological Site",
             "link_wiki":"https://es.wikipedia.org/wiki/Huaca_Rajada",
@@ -1086,54 +1211,6 @@ cultureSites = {
          "properties":{
             "group_id":"5",
             "name":"Mochica",
-            "site_name":"Pacatnamú",
-            "longitude":"-79.584324",
-            "latitude":"-7.317887",
-            "province":"La Libertad",
-            "access":"Muy accesible",
-            "type":"Archeological Site",
-            "big_image":"images/template.png",
-            "small_image":"images/template_small.png",
-            "color":"#4F428D",
-            "radius":"5"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -79.584324,
-               -7.317887
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
-            "group_id":"5",
-            "name":"Mochica",
-            "site_name":"Huaca el brujo",
-            "longitude":"-79.304007",
-            "latitude":"-7.911842",
-            "province":"La Libertad",
-            "access":"Muy accesible",
-            "type":"Archeological Site",
-            "big_image":"images/template.png",
-            "small_image":"images/template_small.png",
-            "color":"#4F428D",
-            "radius":"5"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -79.304007,
-               -7.911842
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
-            "group_id":"5",
-            "name":"Mochica",
             "site_name":"Pirámides de Moche",
             "longitude":"-78.998264",
             "latitude":"-8.141529",
@@ -1159,9 +1236,12 @@ cultureSites = {
             "group_id":"6",
             "name":"Lima",
             "site_name":"Huaca Pucllana",
-            "alt_name":" ",
+            "alt_name":" Huaca Pukllana",
             "longitude":"-77.033539",
             "latitude":"-12.110026",
+            "district":"Miraflores",
+            "province":"Lima",
+            "department":"Lima",
             "access":"Muy accesible",
             "type":"Archeological Site",
             "link_wiki":"https://es.wikipedia.org/wiki/Huaca_Pucllana",
@@ -1186,11 +1266,16 @@ cultureSites = {
             "group_id":"6",
             "name":"Lima",
             "site_name":"Pachacamac",
+            "alt_name":"Pachacámac",
             "longitude":"-76.899525",
             "latitude":"-12.259386",
+            "district":"Lurín",
+            "province":"Lima",
+            "department":"Lima",
             "access":"Muy accesible",
             "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Pachac%C3%A1mac",
+            "link_wiki":"https://es.wikipedia.org/wiki/Pachac%C3%A1mac_(sitio_arqueol%C3%B3gico)",
+            "link_trip":"https://www.tripadvisor.com.pe/Attraction_Review-g294316-d312033-Reviews-Pachacamac-Lima_Lima_Region.html",
             "link_google":"https://www.google.com/maps/embed?pb=!4v1588833109530!6m8!1m7!1sCAoSLEFGMVFpcE5MYnN3ZWFkbzB6YnlGMEwxTUI1ZFJUTFBRUjdENHNYN1BXZTJi!2m2!1d-12.2554285!2d-76.90770359999999!3f199.90330286140855!4f-13.077323543891708!5f0.7820865974627469",
             "big_image":"images/pachacamac.png",
             "small_image":"images/pachacamac_small.png",
@@ -1210,11 +1295,48 @@ cultureSites = {
          "properties":{
             "group_id":"7",
             "name":"Cajamarca",
-            "site_name":"Collor",
-            "longitude":"-78.329757",
-            "latitude":"-7.232845",
+            "site_name":"Ventanillas de Otuzco",
+            "longitude":"-78.457626",
+            "latitude":"-7.125648",
+            "district":"Baños del Inca",
+            "province":"Cajamarca",
+            "department":"Cajamarca",
             "access":"Muy accesible",
             "type":"Archeological Site",
+            "link_wiki":"https://es.wikipedia.org/wiki/Ventanillas_de_Otuzco",
+            "link_trip":"https://www.tripadvisor.com.pe/Attraction_Review-g319821-d4170346-Reviews-Ventanillas_de_Otuzco-Cajamarca_Cajamarca_Region.html",
+            "link_google":"https://www.google.com/maps/embed?pb=!4v1588833280128!6m8!1m7!1sCAoSLEFGMVFpcE1VbUprb2d4MG9iR09zTFB4YkZjdmgycF9RdW11WC1HYUZQQUFS!2m2!1d-7.1259413!2d-78.4577408!3f319.16901224004897!4f9.491992661019339!5f0.7820865974627469",
+            "big_image":"images/otuzco.png",
+            "small_image":"images/otuzco_small.png",
+            "color":"#89B22E",
+            "radius":"5",
+            "link_photo":"https://www.flickr.com/photos/morrissey/3377919684/in/photolist-68dnt6-69uHQy-68hz3s-2kzdjD"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -78.457626,
+               -7.125648
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "group_id":"7",
+            "name":"Cajamarca",
+            "site_name":"Collor",
+            "alt_name":"Coyor",
+            "longitude":"-78.329757",
+            "latitude":"-7.232845",
+            "district":"Namora",
+            "province":"Cajamarca",
+            "department":"Cajamarca",
+            "access":"Muy accesible",
+            "type":"Archeological Site",
+            "altitude":"2.970 msnm",
+            "link_wiki":"https://es.wikipedia.org/wiki/Collor",
+            "link_google":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14652.183156089384!2d-78.33621687034581!3d-7.234493973322186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91b240faddce5423%3A0x117bc481416d31e8!2sCollor!5e0!3m2!1sen!2spe!4v1589168690460!5m2!1sen!2spe",
             "big_image":"images/template.png",
             "small_image":"images/template_small.png",
             "color":"#89B22E",
@@ -1231,43 +1353,20 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "group_id":"7",
-            "name":"Cajamarca",
-            "site_name":"Ventanillas de Otuzco",
-            "longitude":"-78.457626",
-            "latitude":"-7.125648",
-            "access":"Muy accesible",
-            "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Ventanillas_de_Otuzco",
-            "link_trip":"https://www.tripadvisor.com.pe/Attraction_Review-g319821-d4170346-Reviews-Ventanillas_de_Otuzco-Cajamarca_Cajamarca_Region.html",
-            "link_google":"https://www.google.com/maps/embed?pb=!4v1588833280128!6m8!1m7!1sCAoSLEFGMVFpcE1VbUprb2d4MG9iR09zTFB4YkZjdmgycF9RdW11WC1HYUZQQUFS!2m2!1d-7.1259413!2d-78.4577408!3f319.16901224004897!4f9.491992661019339!5f0.7820865974627469",
-            "big_image":"images/template.png",
-            "small_image":"images/template_small.png",
-            "color":"#89B22E",
-            "radius":"5"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -78.457626,
-               -7.125648
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
             "group_id":"8",
             "name":"Tiahuanaco",
             "site_name":"Tiahuanaco",
             "alt_name":"Tiwanaku",
             "longitude":"-68.673909",
             "latitude":"-16.55535",
+            "department":"La Paz",
             "access":"Muy accesible",
             "type":"Archeological Site",
+            "link_wiki":"https://es.wikipedia.org/wiki/Tiahuanaco",
+            "link_trip":"https://www.tripadvisor.com.mx/Attraction_Review-g294072-d554769-Reviews-Tiwanaku-La_Paz_La_Paz_Department.html",
             "link_google":"https://www.google.com/maps/embed?pb=!4v1588780711087!6m8!1m7!1sCAoSLEFGMVFpcE5DcGlFdTVrSzVhUnhRbHFsQW93WVZUR090WHFNZkpmS0hYTnRy!2m2!1d-16.5548117!2d-68.672816!3f297.0470434413204!4f5.093195945618007!5f0.7820865974627469",
-            "big_image":"images/template.png",
-            "small_image":"images/template_small.png",
+            "big_image":"images/tiahuanaco_site.png",
+            "small_image":"images/tiahuanaco_site_small.png",
             "color":"#8F1313",
             "radius":"5"
          },
@@ -1345,8 +1444,8 @@ cultureSites = {
             "department":"Moquegua",
             "access":"Muy accesible",
             "type":"Zona Arqueológica",
-            "big_image":"images/tiahuanaco.png",
-            "small_image":"images/patterns.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#8F1313",
             "radius":"5"
          },
@@ -1367,6 +1466,9 @@ cultureSites = {
             "alt_name":"Cuélap",
             "longitude":"-77.923866",
             "latitude":"-6.416864",
+            "district":"Leimebamba",
+            "province":"Luya",
+            "department":"Amazonas",
             "access":"Muy accesible",
             "type":"Archeological Site",
             "link_wiki":"https://es.wikipedia.org/wiki/Ku%C3%A9lap",
@@ -1391,9 +1493,12 @@ cultureSites = {
             "group_id":"9",
             "name":"Chachapoyas",
             "site_name":"Karajía",
-            "alt_name":"Carajía",
+            "alt_name":"Carajía,  Sarcófagos de Karajía",
             "longitude":"-78.021397",
             "latitude":"-6.162543",
+            "district":"Luya",
+            "province":"Luya",
+            "department":"Amazonas",
             "access":"Muy accesible",
             "type":"Archeological Site",
             "link_wiki":"https://es.wikipedia.org/wiki/Sarc%C3%B3fagos_de_Caraj%C3%ADa",
@@ -1409,6 +1514,36 @@ cultureSites = {
             "coordinates":[
                -78.021397,
                -6.162543
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "group_id":"9",
+            "name":"Chachapoyas",
+            "site_name":"Revash",
+            "alt_name":"Mausoleos de Revash",
+            "longitude":"-77.856202",
+            "latitude":"-6.540595",
+            "district":"Santo Tomás",
+            "province":"Luya",
+            "department":"Amazonas",
+            "access":"Muy accesible",
+            "type":"Archeological Site",
+            "link_wiki":"https://es.wikipedia.org/wiki/Mausoleos_de_Revash",
+            "link_trip":"https://www.tripadvisor.com/Attraction_Review-g799618-d3239594-Reviews-Revash_Mausoleo_de_los_Chachapoyas-Chachapoyas_Amazonas_Region.html",
+            "link_google":"https://www.google.com/maps/embed?pb=!4v1588801073203!6m8!1m7!1sCAoSLEFGMVFpcFAzcmVtdXhiUWxTRWtrZm1mZktlYTJKYlhKTkhWMHdxYmNKSEcw!2m2!1d-6.54074405!2d-77.85617263!3f281.79750926741326!4f6.559135230094057!5f0.7820865974627469",
+            "big_image":"images/revash.png",
+            "small_image":"images/revash_small.png",
+            "color":"#205D1B",
+            "radius":"5"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -77.856202,
+               -6.540595
             ]
          }
       },
@@ -1436,32 +1571,6 @@ cultureSites = {
             "coordinates":[
                -78.094378,
                -6.293966
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
-            "group_id":"9",
-            "name":"Chachapoyas",
-            "site_name":"Revash",
-            "longitude":"-77.856202",
-            "latitude":"-6.540595",
-            "access":"Muy accesible",
-            "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Mausoleos_de_Revash",
-            "link_trip":"https://www.tripadvisor.com/Attraction_Review-g799618-d3239594-Reviews-Revash_Mausoleo_de_los_Chachapoyas-Chachapoyas_Amazonas_Region.html",
-            "link_google":"https://www.google.com/maps/embed?pb=!4v1588801073203!6m8!1m7!1sCAoSLEFGMVFpcFAzcmVtdXhiUWxTRWtrZm1mZktlYTJKYlhKTkhWMHdxYmNKSEcw!2m2!1d-6.54074405!2d-77.85617263!3f281.79750926741326!4f6.559135230094057!5f0.7820865974627469",
-            "big_image":"images/revash.png",
-            "small_image":"images/revash_small.png",
-            "color":"#205D1B",
-            "radius":"5"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -77.856202,
-               -6.540595
             ]
          }
       },
@@ -1535,6 +1644,98 @@ cultureSites = {
             "coordinates":[
                -77.698025,
                -6.847821
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "group_id":"10",
+            "name":"Wari",
+            "site_name":"Complejo Wari",
+            "alt_name":"Huari",
+            "longitude":"-74.184793",
+            "latitude":"-13.071518",
+            "district":"Pacaycasa",
+            "province":"Huamanga",
+            "department":"Ayacucho",
+            "access":"Muy accesible",
+            "type":"Zona Arqueológica Monumental",
+            "link_wiki":"https://es.wikipedia.org/wiki/Complejo_Arqueol%C3%B3gico_Wari",
+            "link_trip":"https://www.tripadvisor.com.pe/Attraction_Review-g316041-d5483571-Reviews-Complejo_Arqueologico_Wari-Ayacucho_Ayacucho_Region.html",
+            "link_google":"https://www.google.com/maps/embed?pb=!4v1589177514770!6m8!1m7!1sCAoSLEFGMVFpcE5EanVlT1FueEl1MjFEN01BYThESWJQM05qQ3FacW9IZ2gxYUNE!2m2!1d-13.061482!2d-74.19785379999999!3f152.14692760582787!4f-22.122781591939315!5f0.7820865974627469",
+            "big_image":"images/wari_site.png",
+            "small_image":"images/wari_site_small.png",
+            "color":"#A3A4C7",
+            "radius":"5",
+            "link_photo":"https://es.wikipedia.org/wiki/Complejo_Arqueol%C3%B3gico_Wari#/media/Archivo:Tomb_at_Wari_ruins_near_Ayacucho.jpg"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -74.184793,
+               -13.071518
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "group_id":"10",
+            "name":"Wari",
+            "site_name":"Huilcahuaín (Wari)",
+            "alt_name":"Wilkawain, Wilkahuain, Wilcahuaín",
+            "longitude":"-77.511507",
+            "latitude":"-9.483099",
+            "district":"Independencia",
+            "province":"Huaraz",
+            "department":"Ancash",
+            "access":"Muy accesible",
+            "type":"Archeological Site",
+            "link_wiki":"https://es.wikipedia.org/wiki/Huilcahua%C3%ADn",
+            "link_trip":"https://www.tripadvisor.com.pe/Attraction_Review-g304039-d554856-Reviews-Monumento_Nacional_Wilcahuain_Ruin-Huaraz_Ancash_Region.html",
+            "link_google":"https://www.google.com/maps/embed?pb=!4v1588832365763!6m8!1m7!1sCAoSLEFGMVFpcE12ZGgxcjMxa2R6dHB5czhmT0JZUWxMVEVfWnY1QzFIOUV6eWpz!2m2!1d-9.4830551!2d-77.5111084!3f2.150802324647972!4f-17.839045305407495!5f0.7820865974627469",
+            "big_image":"images/huilcahuain.png",
+            "small_image":"images/huilcahuain_small.png",
+            "color":"#A3A4C7",
+            "radius":"5",
+            "link_photo":"https://es.wikipedia.org/wiki/Huilcahua%C3%ADn#/media/Archivo:Sitio_arqueol%C3%B3gico_Ichic_Willkahua%C3%ADn_Huaraz,_Per%C3%BA_7.jpg"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -77.511507,
+               -9.483099
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "group_id":"10",
+            "name":"Wari",
+            "site_name":"Pachacamac (Wari)",
+            "alt_name":"Pachacámac",
+            "longitude":"-76.899525",
+            "latitude":"-12.259386",
+            "district":"Lurín",
+            "province":"Lima",
+            "department":"Lima",
+            "access":"Muy accesible",
+            "type":"Archeological Site",
+            "link_wiki":"https://es.wikipedia.org/wiki/Pachac%C3%A1mac_(sitio_arqueol%C3%B3gico)",
+            "link_trip":"https://www.tripadvisor.com.pe/Attraction_Review-g294316-d312033-Reviews-Pachacamac-Lima_Lima_Region.html",
+            "link_google":"https://www.google.com/maps/embed?pb=!4v1588833109530!6m8!1m7!1sCAoSLEFGMVFpcE5MYnN3ZWFkbzB6YnlGMEwxTUI1ZFJUTFBRUjdENHNYN1BXZTJi!2m2!1d-12.2554285!2d-76.90770359999999!3f199.90330286140855!4f-13.077323543891708!5f0.7820865974627469",
+            "big_image":"images/pachacamac.png",
+            "small_image":"images/pachacamac_small.png",
+            "color":"#A3A4C7",
+            "radius":"5"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.899525,
+               -12.259386
             ]
          }
       },
@@ -1671,32 +1872,6 @@ cultureSites = {
          "properties":{
             "group_id":"10",
             "name":"Wari",
-            "site_name":"Pachacamac",
-            "longitude":"-76.905735",
-            "latitude":"-12.250538",
-            "district":"Lurin",
-            "province":"Lima",
-            "department":"Lima",
-            "access":"Muy accesible",
-            "type":"Zona Arqueológica Monumental",
-            "big_image":"images/template.png",
-            "small_image":"images/template_small.png",
-            "color":"#A3A4C7",
-            "radius":"5"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -76.905735,
-               -12.250538
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
-            "group_id":"10",
-            "name":"Wari",
             "site_name":"Cajamarquilla",
             "longitude":"-76.909334",
             "latitude":"-11.984755",
@@ -1802,33 +1977,6 @@ cultureSites = {
          "properties":{
             "group_id":"10",
             "name":"Wari",
-            "site_name":"Wari",
-            "alt_name":"Huari",
-            "longitude":"-74.184793",
-            "latitude":"-13.071518",
-            "district":"Pacaycasa",
-            "province":"Huamanga",
-            "department":"Ayacucho",
-            "access":"Muy accesible",
-            "type":"Zona Arqueológica Monumental",
-            "big_image":"images/template.png",
-            "small_image":"images/template_small.png",
-            "color":"#A3A4C7",
-            "radius":"5"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -74.184793,
-               -13.071518
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
-            "group_id":"10",
-            "name":"Wari",
             "site_name":"Inkaraqay",
             "alt_name":"Incaraqay",
             "longitude":"-73.711109",
@@ -1925,44 +2073,25 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "group_id":"10",
-            "name":"Wari",
-            "site_name":"Willcawain",
-            "alt_name":"Huilcahuaín, Wilcawaíin",
-            "longitude":"-77.511432",
-            "latitude":"-9.483313",
-            "district":"Independencia",
-            "province":"Huaraz",
-            "department":"Ancash",
-            "access":"Muy accesible",
-            "type":"Sitio Arqueológico",
-            "big_image":"images/template.png",
-            "small_image":"images/template_small.png",
-            "color":"#A3A4C7",
-            "radius":"5"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -77.511432,
-               -9.483313
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
             "group_id":"11",
             "name":"Lambayeque",
-            "site_name":"Batán Grande",
+            "site_name":"Sicán",
+            "alt_name":"Batán Grande",
             "longitude":"-79.795927",
             "latitude":"-6.469807",
+            "district":"Pítipo",
+            "province":"Ferreñafe",
+            "department":"Lambayeque",
             "access":"Muy accesible",
-            "type":"Archeological Site",
-            "big_image":"images/template.png",
-            "small_image":"images/template_small.png",
+            "type":"Zona Arqueológica Monumental ",
+            "link_wiki":"https://es.wikipedia.org/wiki/Bat%C3%A1n_Grande",
+            "link_trip":"https://www.tripadvisor.es/Attraction_Review-g298439-d2514197-Reviews-or10-Batan_Grande-Chiclayo_Lambayeque_Region.html",
+            "link_google":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31715.110806050398!2d-79.7909775!3d-6.4723301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x904c99d0aacf81fb%3A0xc6e6edd697d28f4c!2sBat%C3%A1n%20Grande!5e0!3m2!1sen!2spe!4v1589073610352!5m2!1sen!2spe",
+            "big_image":"images/batan_grande.png",
+            "small_image":"images/batan_grande_small.png",
             "color":"#4CC8CC",
-            "radius":"5"
+            "radius":"5",
+            "link_photo":"https://es.wikipedia.org/wiki/Bat%C3%A1n_Grande#/media/Archivo:Huaca_El_Loro_(El_Oro).jpg"
          },
          "geometry":{
             "type":"Point",
@@ -1977,17 +2106,23 @@ cultureSites = {
          "properties":{
             "group_id":"11",
             "name":"Lambayeque",
-            "site_name":"Huaca Rajada",
-            "alt_name":"Sipán",
+            "site_name":"Sipán",
+            "alt_name":"Huaca Rajada",
             "longitude":"-79.790298",
             "latitude":"-6.472203",
+            "district":"Pítipo",
+            "province":"Ferreñafe",
+            "department":"Lambayeque",
             "access":"Muy accesible",
             "type":"Archeological Site",
             "link_wiki":"https://es.wikipedia.org/wiki/Huaca_Rajada",
-            "big_image":"images/template.png",
-            "small_image":"images/template_small.png",
+            "link_trip":"https://www.tripadvisor.com.pe/Attraction_Review-g2586653-d2542995-Reviews-Huaca_Rajada-Sipan_Lambayeque_Region.html",
+            "link_google":"https://www.google.com/maps/embed?pb=!4v1589074651006!6m8!1m7!1sCAoSLEFGMVFpcE56SjN3N2FhTnd4RFhkbUxqc0tGb0FZSjRoellJbVN6aUlrSGhl!2m2!1d-6.8018731!2d-79.60029!3f184.40525782513313!4f-54.61831757250157!5f0.7820865974627469",
+            "big_image":"images/huaca_rajada.png",
+            "small_image":"images/huaca_rajada_small.png",
             "color":"#4CC8CC",
-            "radius":"5"
+            "radius":"5",
+            "link_photo":"https://www.flickr.com/photos/brunogirin/66141228/in/photolist-2hDDtCW-2hCo2A1-2hCo75X-2hDHhMP-2hDDt9E-2hCqX5z-2hG3Z4A-2hFZg4A-2hG2Waq-2hFnuMy-gRLVpB-2hFiM38-2hFJxAY-6QZu1-2hCo2by-2hGPf86-6QZtN-2hFmrrM-jiVHgF-2hGSXeH-jiZXzJ-gRL9Z6-gRLbJj-gRL797-gRLUA2-gRM2E2-gRL6za-gRLZGK-gRLSWk-gRLaWX-gRM1yz-gRL4Hd-2hG41WD-gRLeS1-gRM6W8-gRLjWu-gRM4CR-gRLmgK-gRLgGU-gRMaJi-jiX9M6-jj15Bj-jiVPWz-czYpJ5-jiXyjN-jj12nU-jiXGnm-jj114G-gRLjrT-r5Whes"
          },
          "geometry":{
             "type":"Point",
@@ -2002,15 +2137,22 @@ cultureSites = {
          "properties":{
             "group_id":"11",
             "name":"Lambayeque",
-            "site_name":"Complejo El Brujo",
+            "site_name":"El Brujo",
             "longitude":"-79.303782",
             "latitude":"-7.914043",
+            "district":"Magdalena de Cao",
+            "province":"Ascope",
+            "department":"La Libertad",
             "access":"Muy accesible",
             "type":"Archeological Site",
-            "big_image":"images/template.png",
-            "small_image":"images/template_small.png",
+            "link_wiki":"https://es.wikipedia.org/wiki/El_Brujo_(sitio_arqueol%C3%B3gico)",
+            "link_trip":"https://www.tripadvisor.co/Attraction_Review-g298444-d4463413-Reviews-El_Brujo_Museo_Cao-Trujillo_La_Libertad_Region.html",
+            "link_google":"https://www.google.com/maps/embed?pb=!4v1589074400638!6m8!1m7!1sCAoSLEFGMVFpcE5xNkswTEpTbzdaTVdEU1dtNTlUTHRnbUltMG0zVy1oZTdmSElx!2m2!1d-7.915470399999999!2d-79.3033147!3f267.4007761655575!4f-15.583012492277845!5f0.7820865974627469",
+            "big_image":"images/el_brujo.png",
+            "small_image":"images/el_brujo_small.png",
             "color":"#4CC8CC",
-            "radius":"5"
+            "radius":"5",
+            "link_photo":"https://www.flickr.com/photos/debord/879220750/in/photolist-2mrDHq-2mniN4-2mnjzT-2mnkwR-2mrBR1-2kGeGs-Bs5we-2mrFzA-czYpP1-2hSqVoF-57ZGcA-2hSqUKB-2mrESm-2mnmBZ-2hSnmKX-2hSqU3p-2mnmJP-57VuiX-2mrFNd-2mnmXc-57ZDwb-2mrDpQ-2mrEg5-2mnjj8-2mrDyj-2mrCFs-2mrC9Q-2mnjqx-2hZs5rw-2mrCnS-2mnkpD-2mnitF-2mrE5j-2mnj36-2mnifZ-2mrEmW-57ZJfW-2mnm92-9h1h2a-2mrEGA-Bs5y1-57ZGH7-czYpTu-57ZHXh-57ZNZ3-57VqFV-57ZH9E-57ZEQ9-57VtM2-57ZEAu/"
          },
          "geometry":{
             "type":"Point",
@@ -2033,7 +2175,7 @@ cultureSites = {
             "province":"Trujillo",
             "department":"La Libertad",
             "access":"Muy accesible",
-            "type":"\tZona Arqueológica",
+            "type":"Zona Arqueológica",
             "link_wiki":"https://es.wikipedia.org/wiki/Chan_Chan",
             "link_trip":"https://www.tripadvisor.com/Attraction_Review-g298444-d311730-Reviews-Chan_Chan-Trujillo_La_Libertad_Region.html",
             "link_google":"https://www.google.com/maps/embed?pb=!4v1588745793446!6m8!1m7!1sCAoSLEFGMVFpcFBiZjFkNEY5MzVNMThzbERhb3VWMVc4aXZvNjJIRmJaRk1DUEo4!2m2!1d-8.1069633!2d-79.07391059999999!3f7.8692335597940755!4f-11.817079203590737!5f0.7820865974627469",
@@ -2098,7 +2240,8 @@ cultureSites = {
             "big_image":"images/paramonga.png",
             "small_image":"images/paramonga_small.png",
             "color":"#248199",
-            "radius":"5"
+            "radius":"5",
+            "link_photo":"https://www.flickr.com/photos/sophs74/8430026272/"
          },
          "geometry":{
             "type":"Point",
@@ -2113,7 +2256,7 @@ cultureSites = {
          "properties":{
             "group_id":"12",
             "name":"Chimu",
-            "site_name":"Pacatnamu",
+            "site_name":"Pacatnamu (Chimu)",
             "alt_name":"Pacatnamú",
             "longitude":"-79.572087",
             "latitude":"-7.300176",
@@ -2123,10 +2266,12 @@ cultureSites = {
             "access":"Muy accesible",
             "type":"Zona Arqueológica",
             "link_wiki":"https://es.wikipedia.org/wiki/Pakatnam%C3%BA",
+            "link_google":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.317800837979!2d-79.58650588555139!3d-7.318152773990995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x904d478a953fddc5%3A0x3c2934b18293f247!2sPacatnamu!5e0!3m2!1sen!2spe!4v1589170784247!5m2!1sen!2spe",
             "big_image":"images/pacatnamu.png",
             "small_image":"images/pacatnamu_small.png",
             "color":"#248199",
-            "radius":"5"
+            "radius":"5",
+            "link_photo":"https://en.wikipedia.org/wiki/Pacatnamu#/media/File:Pacatnamu_walls.jpg"
          },
          "geometry":{
             "type":"Point",
