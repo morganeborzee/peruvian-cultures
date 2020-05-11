@@ -22,13 +22,44 @@ cultureSites = {
             "small_image":"images/caral_site_small.png",
             "color":"#C6658A",
             "radius":"5",
-            "link_photo":"https://es.wikipedia.org/wiki/Caral#/media/Archivo:Caralzonas.JPG"
+            "link_photo":"https://commons.wikimedia.org/wiki/File:PeruCaral17.jpg"
          },
          "geometry":{
             "type":"Point",
             "coordinates":[
                -77.523208,
                -10.892386
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "group_id":"0",
+            "name":"Caral",
+            "site_name":"Bandurria",
+            "longitude":"-77.587886",
+            "latitude":"-11.186705",
+            "district":"Huacho",
+            "province":"Huaura",
+            "department":"Lima",
+            "access":"Muy accesible",
+            "type":"Archeological Site",
+            "altitude":"28",
+            "link_wiki":"https://es.wikipedia.org/wiki/Bandurria_(sitio_arqueol%C3%B3gico)",
+            "link_trip":"https://www.tripadvisor.com/Attraction_Review-g2137057-d9851990-Reviews-Bandurria-Huacho_Lima_Region.html",
+            "link_google":"https://www.google.com/maps/embed?pb=!4v1589179010739!6m8!1m7!1sCAoSLEFGMVFpcE9Uek9IMGg0Sko4VU1QZkdBUnU4djluUXpJbVpaZVgtRndiQ3Nh!2m2!1d-11.1867743!2d-77.5887346!3f352.76135008569054!4f-18.313280390309785!5f0.7820865974627469",
+            "big_image":"images/bandurria.png",
+            "small_image":"images/bandurria_small.png",
+            "color":"#C6658A",
+            "radius":"5",
+            "link_photo":"https://es.wikipedia.org/wiki/Bandurria_(sitio_arqueol%C3%B3gico)#/media/Archivo:Bandurria_Templo_Tard%C3%ADo_plaza_circular.JPG"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -77.587886,
+               -11.186705
             ]
          }
       },
@@ -120,33 +151,6 @@ cultureSites = {
             "coordinates":[
                -77.118409,
                -11.953733
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
-            "group_id":"1",
-            "name":"Chavin",
-            "site_name":"Bandurria",
-            "longitude":"-77.587886",
-            "latitude":"-11.186705",
-            "access":"Muy accesible",
-            "type":"Archeological Site",
-            "link_wiki":"https://es.wikipedia.org/wiki/Bandurria_(sitio_arqueol%C3%B3gico)",
-            "link_trip":"https://www.tripadvisor.com/Attraction_Review-g2137057-d9851990-Reviews-Bandurria-Huacho_Lima_Region.html",
-            "link_google":"https://www.google.com/maps/embed?pb=!4v1589179010739!6m8!1m7!1sCAoSLEFGMVFpcE9Uek9IMGg0Sko4VU1QZkdBUnU4djluUXpJbVpaZVgtRndiQ3Nh!2m2!1d-11.1867743!2d-77.5887346!3f352.76135008569054!4f-18.313280390309785!5f0.7820865974627469",
-            "big_image":"images/bandurria.png",
-            "small_image":"images/bandurria_small.png",
-            "color":"#86511F",
-            "radius":"5",
-            "link_photo":"https://es.wikipedia.org/wiki/Bandurria_(sitio_arqueol%C3%B3gico)#/media/Archivo:Bandurria_Templo_Tard%C3%ADo_plaza_circular.JPG"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -77.587886,
-               -11.186705
             ]
          }
       },
@@ -555,7 +559,7 @@ cultureSites = {
          "properties":{
             "group_id":"2",
             "name":"Paracas",
-            "site_name":"Pernil Alto",
+            "site_name":"Pernil Alto (Paracas)",
             "longitude":"-75.203926",
             "latitude":"-14.47987",
             "district":"Rio Grande",
@@ -806,7 +810,36 @@ cultureSites = {
          "properties":{
             "group_id":"3",
             "name":"Nazca",
-            "site_name":"Pernil Alto",
+            "site_name":"Huayuri",
+            "alt_name":"Ciudad Perdida de Huayurí",
+            "longitude":"-75.290675",
+            "latitude":"-14.542244",
+            "district":"Rio Grande",
+            "province":"Palpa",
+            "department":"Ica",
+            "access":"Muy accesible",
+            "type":"Sitio Arqueologico",
+            "link_wiki":"https://es.wikipedia.org/wiki/Huayuri",
+            "link_google":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8863.99138469612!2d-75.29297890009133!3d-14.538286253218134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91114ae1567b71ad%3A0xed2ec8e153f0c331!2sHuayuri%2011300!5e0!3m2!1sen!2spe!4v1589217789222!5m2!1sen!2spe",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
+            "color":"#BA95AA",
+            "radius":"5"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -75.290675,
+               -14.542244
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "group_id":"3",
+            "name":"Nazca",
+            "site_name":"Pernil Alto (Nazca)",
             "longitude":"-75.203926",
             "latitude":"-14.47987",
             "district":"Rio Grande",
@@ -910,33 +943,6 @@ cultureSites = {
          "properties":{
             "group_id":"3",
             "name":"Nazca",
-            "site_name":"Huayuri",
-            "alt_name":"Ciudad Perdida de Huayurí",
-            "longitude":"-75.290675",
-            "latitude":"-14.542244",
-            "district":"Rio Grande",
-            "province":"Palpa",
-            "department":"Ica",
-            "access":"Muy accesible",
-            "type":"Sitio Arqueologico",
-            "big_image":"images/template.png",
-            "small_image":"images/template_small.png",
-            "color":"#BA95AA",
-            "radius":"5"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -75.290675,
-               -14.542244
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
-            "group_id":"3",
-            "name":"Nazca",
             "site_name":"Tambo Viejo",
             "longitude":"-74.617091",
             "latitude":"-15.446578",
@@ -963,8 +969,8 @@ cultureSites = {
          "properties":{
             "group_id":"4",
             "name":"Recuay",
-            "site_name":"Huilcahuaín",
-            "alt_name":"Wilkawain, Wilkahuain, Wilcahuaín",
+            "site_name":"Huilcahuaín (Recuay)",
+            "alt_name":"Wilkawain, Wilkahuain, Wilcahuaín, Huilcahuain",
             "longitude":"-77.511507",
             "latitude":"-9.483099",
             "district":"Independencia",
@@ -1053,6 +1059,35 @@ cultureSites = {
          "properties":{
             "group_id":"5",
             "name":"Mochica",
+            "site_name":"Huaca del Dragón",
+            "alt_name":"Huaca del Arco Iris, Huaca Arcoiris",
+            "longitude":"-79.048814",
+            "latitude":"-8.076165",
+            "access":"Muy accesible",
+            "type":"Archeological Site",
+            "description":"Mochica o Chimu",
+            "link_wiki":"https://es.wikipedia.org/wiki/Huaca_del_Drag%C3%B3n",
+            "link_trip":"https://www.tripadvisor.com/Attraction_Review-g298444-d3177253-Reviews-Huaca_Arco_Iris_or_Huaca_El_Dragon-Trujillo_La_Libertad_Region.html",
+            "link_google":"https://www.google.com/maps/embed?pb=!4v1589219177753!6m8!1m7!1sCAoSLEFGMVFpcE0zQmtzSWVIWkg0U195ME9XRmdYVzdJdm5BeFJfUy11WlJJdEZO!2m2!1d-8.0764382!2d-79.049145!3f108.84516533403074!4f8.415620726699089!5f0.7820865974627469",
+            "big_image":"images/huaca_del_dragon.png",
+            "small_image":"images/huaca_del_dragon_small.png",
+            "color":"#4F428D",
+            "radius":"5",
+            "link_photo":"https://commons.wikimedia.org/wiki/Category:Huaca_Arco_Iris#/media/File:Huaca_del_Drag%C3%B3n.jpg"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -79.048814,
+               -8.076165
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "group_id":"5",
+            "name":"Mochica",
             "site_name":"Huaca Cao Viejo",
             "longitude":"-79.303447",
             "latitude":"-7.915156",
@@ -1084,22 +1119,28 @@ cultureSites = {
          "properties":{
             "group_id":"5",
             "name":"Mochica",
-            "site_name":"Huaca el brujo",
-            "longitude":"-79.304007",
-            "latitude":"-7.911842",
-            "province":"La Libertad",
+            "site_name":"El Brujo (Mochica)",
+            "longitude":"-79.303782",
+            "latitude":"-7.914043",
+            "district":"Magdalena de Cao",
+            "province":"Ascope",
+            "department":"La Libertad",
             "access":"Muy accesible",
             "type":"Archeological Site",
+            "link_wiki":"https://es.wikipedia.org/wiki/El_Brujo_(sitio_arqueol%C3%B3gico)",
+            "link_trip":"https://www.tripadvisor.co/Attraction_Review-g298444-d4463413-Reviews-El_Brujo_Museo_Cao-Trujillo_La_Libertad_Region.html",
+            "link_google":"https://www.google.com/maps/embed?pb=!4v1589074400638!6m8!1m7!1sCAoSLEFGMVFpcE5xNkswTEpTbzdaTVdEU1dtNTlUTHRnbUltMG0zVy1oZTdmSElx!2m2!1d-7.915470399999999!2d-79.3033147!3f267.4007761655575!4f-15.583012492277845!5f0.7820865974627469",
             "big_image":"images/el_brujo.png",
             "small_image":"images/el_brujo_small.png",
             "color":"#4F428D",
-            "radius":"5"
+            "radius":"5",
+            "link_photo":"https://www.flickr.com/photos/debord/879220750/in/photolist-2mrDHq-2mniN4-2mnjzT-2mnkwR-2mrBR1-2kGeGs-Bs5we-2mrFzA-czYpP1-2hSqVoF-57ZGcA-2hSqUKB-2mrESm-2mnmBZ-2hSnmKX-2hSqU3p-2mnmJP-57VuiX-2mrFNd-2mnmXc-57ZDwb-2mrDpQ-2mrEg5-2mnjj8-2mrDyj-2mrCFs-2mrC9Q-2mnjqx-2hZs5rw-2mrCnS-2mnkpD-2mnitF-2mrE5j-2mnj36-2mnifZ-2mrEmW-57ZJfW-2mnm92-9h1h2a-2mrEGA-Bs5y1-57ZGH7-czYpTu-57ZHXh-57ZNZ3-57VqFV-57ZH9E-57ZEQ9-57VtM2-57ZEAu/"
          },
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -79.304007,
-               -7.911842
+               -79.303782,
+               -7.914043
             ]
          }
       },
@@ -1138,23 +1179,29 @@ cultureSites = {
          "properties":{
             "group_id":"5",
             "name":"Mochica",
-            "site_name":"Huaca Rajada",
-            "alt_name":"Sipán",
-            "longitude":"-79.600219",
-            "latitude":"-6.798751",
+            "site_name":"Sipán (Mochica)",
+            "alt_name":"Huaca Rajada",
+            "longitude":"-79.790298",
+            "latitude":"-6.472203",
+            "district":"Pítipo",
+            "province":"Ferreñafe",
+            "department":"Lambayeque",
             "access":"Muy accesible",
             "type":"Archeological Site",
             "link_wiki":"https://es.wikipedia.org/wiki/Huaca_Rajada",
-            "big_image":"images/template.png",
-            "small_image":"images/template_small.png",
+            "link_trip":"https://www.tripadvisor.com.pe/Attraction_Review-g2586653-d2542995-Reviews-Huaca_Rajada-Sipan_Lambayeque_Region.html",
+            "link_google":"https://www.google.com/maps/embed?pb=!4v1589074651006!6m8!1m7!1sCAoSLEFGMVFpcE56SjN3N2FhTnd4RFhkbUxqc0tGb0FZSjRoellJbVN6aUlrSGhl!2m2!1d-6.8018731!2d-79.60029!3f184.40525782513313!4f-54.61831757250157!5f0.7820865974627469",
+            "big_image":"images/huaca_rajada.png",
+            "small_image":"images/huaca_rajada_small.png",
             "color":"#4F428D",
-            "radius":"5"
+            "radius":"5",
+            "link_photo":"https://www.flickr.com/photos/brunogirin/66141228/in/photolist-2hDDtCW-2hCo2A1-2hCo75X-2hDHhMP-2hDDt9E-2hCqX5z-2hG3Z4A-2hFZg4A-2hG2Waq-2hFnuMy-gRLVpB-2hFiM38-2hFJxAY-6QZu1-2hCo2by-2hGPf86-6QZtN-2hFmrrM-jiVHgF-2hGSXeH-jiZXzJ-gRL9Z6-gRLbJj-gRL797-gRLUA2-gRM2E2-gRL6za-gRLZGK-gRLSWk-gRLaWX-gRM1yz-gRL4Hd-2hG41WD-gRLeS1-gRM6W8-gRLjWu-gRM4CR-gRLmgK-gRLgGU-gRMaJi-jiX9M6-jj15Bj-jiVPWz-czYpJ5-jiXyjN-jj12nU-jiXGnm-jj114G-gRLjrT-r5Whes"
          },
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -79.600219,
-               -6.798751
+               -79.790298,
+               -6.472203
             ]
          }
       },
@@ -1163,12 +1210,49 @@ cultureSites = {
          "properties":{
             "group_id":"5",
             "name":"Mochica",
-            "site_name":"Pampa Grande",
+            "site_name":"Huacas del Sol y de la Luna",
+            "alt_name":"Pirámides de Moche",
+            "longitude":"-78.998264",
+            "latitude":"-8.141529",
+            "district":"Moche",
+            "province":"Trujillo",
+            "department":"La Libertad",
+            "access":"Muy accesible",
+            "type":"Complejo Arqueológico",
+            "link_wiki":"https://es.wikipedia.org/wiki/Huacas_del_Sol_y_de_la_Luna",
+            "link_trip":"https://www.tripadvisor.com.pe/Attraction_Review-g4601181-d547645-Reviews-La_Huaca_del_Sol-Moche_La_Libertad_Region.html",
+            "link_google":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4399.489231931118!2d-79.01256834291976!3d-8.153339613180956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad17fa26e41a8d%3A0xa60812d7e1a6f02d!2sHuaca%20Del%20Sol%20Y%20La%20Luna!5e0!3m2!1sen!2spe!4v1589216593658!5m2!1sen!2spe",
+            "big_image":"images/sol_y_luna.png",
+            "small_image":"images/sol_y_luna_small.png",
+            "color":"#4F428D",
+            "radius":"5",
+            "link_photo":"https://www.flickr.com/photos/131531085@N04/16480966499/"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -78.998264,
+               -8.141529
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "group_id":"5",
+            "name":"Mochica",
+            "site_name":"Pampa Grande (Mochica)",
+            "alt_name":"Pampagrande",
             "longitude":"-79.474219",
             "latitude":"-6.762238",
-            "province":"La Libertad",
+            "district":"Chongoyape",
+            "province":"Chiclayo",
+            "department":"Lambayeque",
             "access":"Muy accesible",
             "type":"Archeological Site",
+            "description":"Tambien Cuspinique y Chavin",
+            "link_wiki":"https://es.wikipedia.org/wiki/Pampa_Grande",
+            "link_google":"https://www.google.com/maps/embed?pb=!4v1589218052802!6m8!1m7!1sCAoSLEFGMVFpcE55NHkxSXZJSHBmZTliVURvV1doSFNqZVpxckJRd0FzSVZXSFZw!2m2!1d-6.761564099999999!2d-79.4746913!3f169.50256285850705!4f11.335994973827937!5f0.7820865974627469",
             "big_image":"images/template.png",
             "small_image":"images/template_small.png",
             "color":"#4F428D",
@@ -1190,9 +1274,12 @@ cultureSites = {
             "site_name":"San José de Moro",
             "longitude":"-79.438684",
             "latitude":"-7.181054",
-            "province":"La Libertad",
+            "district":"Pacanga",
+            "province":"Chepén",
+            "department":"La Libertad",
             "access":"Muy accesible",
             "type":"Archeological Site",
+            "link_wiki":"https://es.wikipedia.org/wiki/Complejo_arqueol%C3%B3gico_San_Jos%C3%A9_de_Moro",
             "big_image":"images/template.png",
             "small_image":"images/template_small.png",
             "color":"#4F428D",
@@ -1203,30 +1290,6 @@ cultureSites = {
             "coordinates":[
                -79.438684,
                -7.181054
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
-            "group_id":"5",
-            "name":"Mochica",
-            "site_name":"Pirámides de Moche",
-            "longitude":"-78.998264",
-            "latitude":"-8.141529",
-            "province":"La Libertad",
-            "access":"Muy accesible",
-            "type":"Archeological Site",
-            "big_image":"images/template.png",
-            "small_image":"images/template_small.png",
-            "color":"#4F428D",
-            "radius":"5"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -78.998264,
-               -8.141529
             ]
          }
       },
@@ -1265,7 +1328,7 @@ cultureSites = {
          "properties":{
             "group_id":"6",
             "name":"Lima",
-            "site_name":"Pachacamac",
+            "site_name":"Pachacamac (Lima)",
             "alt_name":"Pachacámac",
             "longitude":"-76.899525",
             "latitude":"-12.259386",
@@ -1287,6 +1350,36 @@ cultureSites = {
             "coordinates":[
                -76.899525,
                -12.259386
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "group_id":"6",
+            "name":"Lima",
+            "site_name":"Cajamarquilla",
+            "longitude":"-76.909334",
+            "latitude":"-11.984755",
+            "district":"Lurigancho",
+            "province":"Lima",
+            "department":"Lima",
+            "access":"Muy accesible",
+            "type":"Monumento Arqueológico Prehispánico",
+            "description":"tambien cultura Ychsma",
+            "link_wiki":"https://es.wikipedia.org/wiki/Cajamarquilla",
+            "link_google":"https://www.google.com/maps/embed?pb=!4v1589222973473!6m8!1m7!1sCAoSLEFGMVFpcFBGZy1ZNk03N251aDdUbVdMR1o3Z1VQQVhFd0NZNUQ5QXZFX202!2m2!1d-11.9853229!2d-76.9072613!3f296.33284236349925!4f-19.91252522039271!5f0.7820865974627469",
+            "big_image":"images/cajamarquilla.png",
+            "small_image":"images/cajamarquilla_small.png",
+            "color":"#C9AA31",
+            "radius":"5",
+            "link_photo":"https://www.flickr.com/photos/134894678@N07/20733493128/in/photolist-SYCgTZ-UdbPuX-U9CnDG-TYi8Pb-UdbPC2-TCgXn9-U9CnRA-TCgXzy-TCgXK3-TYi8Vy-U9Co1o-U9Co6d-SYCgdR-U9CocL-TYi8YE-TYi92W-U1CJVT-TCgXbY-SYCgAK-U1CJXB-SYCgGX-TYi91J-SYCgFz-U9Coi7-U1CK2e-TCgYP7-SYCgRz-SYCgLp-TCgYwU-SYCgPF-rPfLi1-rwMvk1-xA9zas-TnZUWt"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -76.909334,
+               -11.984755
             ]
          }
       },
@@ -1368,7 +1461,8 @@ cultureSites = {
             "big_image":"images/tiahuanaco_site.png",
             "small_image":"images/tiahuanaco_site_small.png",
             "color":"#8F1313",
-            "radius":"5"
+            "radius":"5",
+            "link_photo":"https://www.flickr.com/photos/galeria_miradas/6020378763/in/photolist-ab11RR-fHPCDy-fHwY7r-ecJEUs-9jRk91-GCTZa-Hs4aN-Hs7Ka-Hs782-Hs3xC-7z4Zwp-cZypYL-7z4Y9H-7z8H6E-7z8Jtu-7z8Fuu-7z8LT7-7z8Ghj-7z8F23-7z8HpJ-9X8rRG-7z8K2C-7z8GsQ-7z8Kq7-7z4Zc8-7z8GMA-rX52xm-7z4Vjt-9X8txQ-X3xCMM-wEpC6H-dAqw6C-QKkFoY-Y4CRr8-QKkCt9-QKkBmj-X3xrCT-X3xrVB-2buoMEr-QKkECQ-YgYqqi-QKkCeS-2a7yEhL-2buoMt4-QKkB9W-2a7yJ9J-X3xCFK-2buoN7i-2buoLAT-2a7yExq"
          },
          "geometry":{
             "type":"Point",
@@ -1383,7 +1477,8 @@ cultureSites = {
          "properties":{
             "group_id":"8",
             "name":"Tiahuanaco",
-            "site_name":"Pukara Central",
+            "site_name":"Pukara",
+            "alt_name":"Kalasaya",
             "longitude":"-70.372402",
             "latitude":"-15.048851",
             "district":"Pucara",
@@ -1391,42 +1486,20 @@ cultureSites = {
             "department":"Puno",
             "access":"Muy accesible",
             "type":"Zona Arqueológica Monumental",
-            "big_image":"images/template.png",
-            "small_image":"images/template_small.png",
+            "link_wiki":"https://es.wikipedia.org/wiki/Pucar%C3%A1_(sitio_arqueol%C3%B3gico)",
+            "link_trip":"https://www.tripadvisor.com.pe/Attraction_Review-g13007116-d5878275-Reviews-Pukara_Archaeological_Site-Pucara_Puno_Region.html",
+            "link_google":"https://www.google.com/maps/embed?pb=!4v1589220207259!6m8!1m7!1sCAoSLEFGMVFpcE1JdjlCNVk4aGdYR1FUWGxRMF9PTWdYa2N4VDd2NUFVY0p4NjR6!2m2!1d-15.0460585!2d-70.3717746!3f17.972219659813724!4f16.634121204069928!5f0.7820865974627469",
+            "big_image":"images/pukara.png",
+            "small_image":"images/pukara_small.png",
             "color":"#8F1313",
-            "radius":"5"
+            "radius":"5",
+            "link_photo":"https://es.wikipedia.org/wiki/Pucar%C3%A1_(sitio_arqueol%C3%B3gico)#/media/Archivo:The_approach_to_Pukara.jpg"
          },
          "geometry":{
             "type":"Point",
             "coordinates":[
                -70.372402,
                -15.048851
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
-            "group_id":"8",
-            "name":"Tiahuanaco",
-            "site_name":"Omo",
-            "longitude":"-70.974139",
-            "latitude":"-17.236837",
-            "district":"Moquegua",
-            "province":"Mariscal Nieto",
-            "department":"Moquegua",
-            "access":"Muy accesible",
-            "type":"Zona Arqueológica",
-            "big_image":"images/template.png",
-            "small_image":"images/template_small.png",
-            "color":"#8F1313",
-            "radius":"5"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -70.974139,
-               -17.236837
             ]
          }
       },
@@ -1444,6 +1517,9 @@ cultureSites = {
             "department":"Moquegua",
             "access":"Muy accesible",
             "type":"Zona Arqueológica",
+            "link_wiki":"https://es.wikipedia.org/wiki/Geoglifos_de_Chen_Chen",
+            "link_trip":"https://www.tripadvisor.com/Attraction_Review-g1597583-d3373843-Reviews-Geoglifos_de_Chen_Chen-Moquegua_Moquegua_Region.html",
+            "link_google":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3810.943760677351!2d-70.92656796418026!3d-17.22151737452014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x21079f3ae1c34200!2sGeoglifos%20de%20Chen%20Chen!5e0!3m2!1sen!2spe!4v1589219685039!5m2!1sen!2spe",
             "big_image":"images/template.png",
             "small_image":"images/template_small.png",
             "color":"#8F1313",
@@ -1454,6 +1530,34 @@ cultureSites = {
             "coordinates":[
                -70.922834,
                -17.222439
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "group_id":"8",
+            "name":"Tiahuanaco",
+            "site_name":"Omo",
+            "alt_name":"Los Geoglifos de Omo",
+            "longitude":"-70.974139",
+            "latitude":"-17.236837",
+            "district":"Moquegua",
+            "province":"Mariscal Nieto",
+            "department":"Moquegua",
+            "access":"Muy accesible",
+            "type":"Zona Arqueológica",
+            "link_wiki":"https://es.wikipedia.org/wiki/Omo_(sitio_arqueol%C3%B3gico)",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
+            "color":"#8F1313",
+            "radius":"5"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -70.974139,
+               -17.236837
             ]
          }
       },
@@ -1634,8 +1738,8 @@ cultureSites = {
             "latitude":"-6.847821",
             "access":"Muy accesible",
             "type":"Archeological Site",
-            "big_image":"images/chachapoyas.png",
-            "small_image":"images/chachapoyas_small.png",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
             "color":"#205D1B",
             "radius":"5"
          },
@@ -1675,6 +1779,37 @@ cultureSites = {
             "coordinates":[
                -74.184793,
                -13.071518
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "group_id":"10",
+            "name":"Wari",
+            "site_name":"Pikillaqta",
+            "alt_name":"Piquillacta, Pikillaqta, Pikillacta, Piquillakta",
+            "longitude":"-73.787597",
+            "latitude":"-13.813268",
+            "district":"Lucre",
+            "province":"Quispicanchi",
+            "department":"Cusco",
+            "access":"Muy accesible",
+            "type":"Sitio Arqueológico",
+            "link_wiki":"https://es.wikipedia.org/wiki/Piquillacta",
+            "link_trip":"https://www.tripadvisor.com.pe/Attraction_Review-g12585315-d3576075-Reviews-Piquillacta-Huarcapay_Cusco_Region.html",
+            "link_google":"https://www.google.com/maps/embed?pb=!4v1589222663315!6m8!1m7!1sCAoSLEFGMVFpcE11cTRIaUFoNVZuRGxXRVVlWVRwNkhGN1h2Q1ZjYVp3M2tRX2pF!2m2!1d-13.6129761!2d-71.716362!3f226.5137878965057!4f12.75687267834833!5f0.7820865974627469",
+            "big_image":"images/piquillacta.png",
+            "small_image":"images/piquillacta_small.png",
+            "color":"#A3A4C7",
+            "radius":"5",
+            "link_photo":"https://commons.wikimedia.org/wiki/File:Piquillacta_Archaeological_site_-_street.jpg"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -73.787597,
+               -13.813268
             ]
          }
       },
@@ -1736,6 +1871,65 @@ cultureSites = {
             "coordinates":[
                -76.899525,
                -12.259386
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "group_id":"10",
+            "name":"Wari",
+            "site_name":"Wari Willka",
+            "alt_name":"Huarivilca, Huariwilca, Huarihuilca, Wari-Willka",
+            "longitude":"-75.206148",
+            "latitude":"-12.117801",
+            "district":"Huancan",
+            "province":"Huancayo",
+            "department":"Junin",
+            "access":"Muy accesible",
+            "type":"Sitio Arqueológico",
+            "link_wiki":"https://es.wikipedia.org/wiki/Huarihuilca",
+            "link_trip":"https://www.tripadvisor.co/Attraction_Review-g616333-d4546934-Reviews-Huarihuilca-Huancayo_Junin_Region.html",
+            "link_google":"https://www.google.com/maps/embed?pb=!4v1589220887549!6m8!1m7!1sCAoSLEFGMVFpcFBGOGhRS09xVU9pdjJGcmxEVWdrbDVOXzhSQ0pHR012RFBIME5o!2m2!1d-12.1175822!2d-75.2061119!3f191.49324299266502!4f-2.153984507613359!5f0.7820865974627469",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
+            "color":"#A3A4C7",
+            "radius":"5"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -75.206148,
+               -12.117801
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "group_id":"10",
+            "name":"Wari",
+            "site_name":"Conchopata",
+            "alt_name":"Qonchopata, Qunchupata",
+            "longitude":"-74.207203",
+            "latitude":"-13.156268",
+            "district":"Ayacucho",
+            "province":"Huamanga",
+            "department":"Ayacucho",
+            "access":"Muy accesible",
+            "type":"Sitio Arqueológico",
+            "link_wiki":"https://es.wikipedia.org/wiki/Conchopata",
+            "link_google":"https://www.google.com/maps/embed?pb=!4v1589223486505!6m8!1m7!1sfESl6oImuRQBOP8BZqNrqQ!2m2!1d-13.16207672280679!2d-74.21879922513516!3f293.8783844336394!4f11.083153287988878!5f0.7820865974627469",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
+            "color":"#A3A4C7",
+            "radius":"5"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -74.207203,
+               -13.156268
             ]
          }
       },
@@ -1872,32 +2066,6 @@ cultureSites = {
          "properties":{
             "group_id":"10",
             "name":"Wari",
-            "site_name":"Cajamarquilla",
-            "longitude":"-76.909334",
-            "latitude":"-11.984755",
-            "district":"Lurigancho",
-            "province":"Lima",
-            "department":"Lima",
-            "access":"Muy accesible",
-            "type":"Monumento Arqueológico Prehispánico",
-            "big_image":"images/template.png",
-            "small_image":"images/template_small.png",
-            "color":"#A3A4C7",
-            "radius":"5"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -76.909334,
-               -11.984755
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
-            "group_id":"10",
-            "name":"Wari",
             "site_name":"Loma Ancon",
             "alt_name":"Ancón",
             "longitude":"-77.158476",
@@ -1951,32 +2119,6 @@ cultureSites = {
          "properties":{
             "group_id":"10",
             "name":"Wari",
-            "site_name":"Conchopata",
-            "longitude":"-74.207203",
-            "latitude":"-13.156268",
-            "district":"Ayacucho",
-            "province":"Huamanga",
-            "department":"Ayacucho",
-            "access":"Muy accesible",
-            "type":"Sitio Arqueológico",
-            "big_image":"images/template.png",
-            "small_image":"images/template_small.png",
-            "color":"#A3A4C7",
-            "radius":"5"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -74.207203,
-               -13.156268
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
-            "group_id":"10",
-            "name":"Wari",
             "site_name":"Inkaraqay",
             "alt_name":"Incaraqay",
             "longitude":"-73.711109",
@@ -2022,57 +2164,6 @@ cultureSites = {
       {
          "type":"Feature",
          "properties":{
-            "group_id":"10",
-            "name":"Wari",
-            "site_name":"Wari Willka",
-            "alt_name":"Huarivilca, Huariwilca",
-            "longitude":"-75.206148",
-            "latitude":"-12.117801",
-            "district":"Huancan",
-            "province":"Huancayo",
-            "department":"Junin",
-            "access":"Muy accesible",
-            "type":"Sitio Arqueológico",
-            "big_image":"images/template.png",
-            "small_image":"images/template_small.png",
-            "color":"#A3A4C7",
-            "radius":"5"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -75.206148,
-               -12.117801
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
-            "group_id":"10",
-            "name":"Wari",
-            "site_name":"Pikillaqta",
-            "alt_name":"Piquillacta",
-            "longitude":"-73.787597",
-            "latitude":"-13.813268",
-            "access":"Muy accesible",
-            "type":"Sitio Arqueológico",
-            "big_image":"images/template.png",
-            "small_image":"images/template_small.png",
-            "color":"#A3A4C7",
-            "radius":"5"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -73.787597,
-               -13.813268
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
             "group_id":"11",
             "name":"Lambayeque",
             "site_name":"Sicán",
@@ -2106,7 +2197,7 @@ cultureSites = {
          "properties":{
             "group_id":"11",
             "name":"Lambayeque",
-            "site_name":"Sipán",
+            "site_name":"Sipán (Lambayeque)",
             "alt_name":"Huaca Rajada",
             "longitude":"-79.790298",
             "latitude":"-6.472203",
@@ -2137,7 +2228,7 @@ cultureSites = {
          "properties":{
             "group_id":"11",
             "name":"Lambayeque",
-            "site_name":"El Brujo",
+            "site_name":"El Brujo (Lambayeque)",
             "longitude":"-79.303782",
             "latitude":"-7.914043",
             "district":"Magdalena de Cao",
@@ -2286,6 +2377,89 @@ cultureSites = {
          "properties":{
             "group_id":"12",
             "name":"Chimu",
+            "site_name":"Huaca del Dragón",
+            "alt_name":"Huaca del Arco Iris, Huaca Arcoiris",
+            "longitude":"-79.048814",
+            "latitude":"-8.076165",
+            "access":"Muy accesible",
+            "type":"Archeological Site",
+            "description":"Mochica o Chimu",
+            "link_wiki":"https://es.wikipedia.org/wiki/Huaca_del_Drag%C3%B3n",
+            "link_trip":"https://www.tripadvisor.com/Attraction_Review-g298444-d3177253-Reviews-Huaca_Arco_Iris_or_Huaca_El_Dragon-Trujillo_La_Libertad_Region.html",
+            "link_google":"https://www.google.com/maps/embed?pb=!4v1589219177753!6m8!1m7!1sCAoSLEFGMVFpcE0zQmtzSWVIWkg0U195ME9XRmdYVzdJdm5BeFJfUy11WlJJdEZO!2m2!1d-8.0764382!2d-79.049145!3f108.84516533403074!4f8.415620726699089!5f0.7820865974627469",
+            "big_image":"images/huaca_del_dragon.png",
+            "small_image":"images/huaca_del_dragon_small.png",
+            "color":"#248199",
+            "radius":"5",
+            "link_photo":"https://commons.wikimedia.org/wiki/Category:Huaca_Arco_Iris#/media/File:Huaca_del_Drag%C3%B3n.jpg"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -79.048814,
+               -8.076165
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "group_id":"12",
+            "name":"Chimu",
+            "site_name":"Huaca Esmeralda",
+            "longitude":"-79.0441534",
+            "latitude":"-8.104501",
+            "type":"Sitio Arqueológico",
+            "link_wiki":"https://es.wikipedia.org/wiki/Huaca_Esmeralda",
+            "link_trip":"https://www.tripadvisor.com.pe/Attraction_Review-g298444-d13508466-Reviews-Huaca_Esmeralda-Trujillo_La_Libertad_Region.html",
+            "link_google":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1886.5962537497653!2d-79.04588541147952!3d-8.104637953459399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad3dbcdc1c984f%3A0x52c3db751df06685!2sHuaca%20Esmeralda!5e0!3m2!1sen!2spe!4v1589224004353!5m2!1sen!2spe",
+            "big_image":"images/huaca_esmeralda.png",
+            "small_image":"images/huaca_esmeralda_small.png",
+            "color":"#248199",
+            "radius":"5",
+            "link_photo":"https://www.flickr.com/photos/brunogirin/66145206/in/photolist-6R1EA-rdi7Zq-rdheR1-rsyNTW-rsyYQu-rbxdrt-ruL8NS-qxRVWL-rdhen5-rbxk5i-rdpNA6-rdq3T4-rbxd3x-qxSsos-rdhzEQ-ruKN2M-6R1EJ-ruLykC-rbxFvt-rdiHDW-rdhjbJ-qy5BwT-qy4Fze-rdimhY-rsyZ8U-ruJW1K-ruKmKK-qxRYCY-rbxNce-qxSBmN-ruS72X-qxSqw1-ruKJmR-rdivcw-rdqaBz-rdpVeg-rdpM4D-ruKCZj-rdpsic-rdpUuF-rdiEKj-ruKLNK-ruS896-ruKU46-ruS6bt-qy5msK-rdiKNW-qy5BKD-rszwdu-ruL3NF"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -79.044153,
+               -8.104501
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "group_id":"12",
+            "name":"Chimu",
+            "site_name":"Huaca Takaynamo",
+            "longitude":"-79.0478154",
+            "latitude":"-8.0798899",
+            "district":"La Esperanza",
+            "province":"Trujillo",
+            "department":"La Libertad\t",
+            "access":"Muy accesible",
+            "type":"Sitio Arqueológico",
+            "link_wiki":"https://es.wikipedia.org/wiki/Huaca_Takaynamo",
+            "link_google":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1975.1057454655145!2d-79.04584971779417!3d-8.0799008956642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6dcfc662e83e1815!2sHuaca%20Takaynamo!5e0!3m2!1sen!2spe!4v1589223953988!5m2!1sen!2spe",
+            "big_image":"images/template.png",
+            "small_image":"images/template_small.png",
+            "color":"#248199",
+            "radius":"5"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -79.047815,
+               -8.07989
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "group_id":"12",
+            "name":"Chimu",
             "site_name":"Mocupe Huaca",
             "alt_name":"Mocupe, De La Pampa de San Nicolas",
             "longitude":"-79.62906",
@@ -2347,7 +2521,7 @@ cultureSites = {
             "province":"Casma",
             "department":"Ancash",
             "access":"Muy accesible",
-            "type":"\tSitio Arqueológico",
+            "type":"Sitio Arqueológico",
             "big_image":"images/template.png",
             "small_image":"images/template_small.png",
             "color":"#248199",
@@ -2370,7 +2544,7 @@ cultureSites = {
             "longitude":"-78.51085",
             "latitude":"-6.436968",
             "access":"Muy accesible",
-            "type":"\tSitio Arqueológico",
+            "type":"Sitio Arqueológico",
             "big_image":"images/template.png",
             "small_image":"images/template_small.png",
             "color":"#248199",
@@ -2393,7 +2567,7 @@ cultureSites = {
             "longitude":"-79.382804",
             "latitude":"-7.805888",
             "access":"Muy accesible",
-            "type":"\tSitio Arqueológico",
+            "type":"Sitio Arqueológico",
             "big_image":"images/template.png",
             "small_image":"images/template_small.png",
             "color":"#248199",
